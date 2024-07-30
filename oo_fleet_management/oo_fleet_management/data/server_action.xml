@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <record id="oo_fleet_trip_entries_action_server" model="ir.actions.server">
+        <field name="name">Create &amp; Post Invoices</field>
+        <field name="model_id" ref="model_fleet_trip"/>
+        <field name="binding_model_id" ref="model_fleet_trip"/>
+        <field name="state">code</field>
+        <field name="code">records.action_finalize_trip()</field>
+    </record>
+
+    <record id="oo_batch_fleet_trip_entries_action_server" model="ir.actions.server">
+        <field name="name">Batch Trips Invoice</field>
+        <field name="model_id" ref="model_fleet_trip"/>
+        <field name="binding_model_id" ref="model_fleet_trip"/>
+        <field name="state">code</field>
+        <field name="code">records.action_batch_invoice_trips()</field>
+    </record>
+</odoo>

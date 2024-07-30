@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- product.template inherit form view -->
+    <record id="oo_fleet_product_template_form_view" model="ir.ui.view">
+        <field name="name">product.template.inherit.view.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="product.product_template_form_view" />
+        <field name="arch" type="xml">
+
+            <xpath expr="//div[@name='options']" position="inside">
+                <span class="d-inline-block">
+                    <field name="is_fleet_product" />
+                    <label for="is_fleet_product" />
+                </span>
+            </xpath>
+
+            <xpath expr="//field[@name='uom_po_id']" position="after">
+                <field name="truck_type" attrs="{'invisible': [('is_fleet_product', '=', False)], 'required': [('is_fleet_product', '=', True)]}" />
+                <field name="allowed_shortage" attrs="{'invisible': [('is_fleet_product', '=', False)]}" />
+            </xpath>
+        </field>
+    </record>
+
+    <record id="oo_contractor_product_template_form_view" model="ir.ui.view">
+        <field name="name">product.template.inherit.view.form</field>
+        <field name="model">product.template</field>
+        <field name="inherit_id" ref="account.product_template_form_view" />
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='property_account_expense_id']" position="after">
+                <field name="property_contractor_account_expense_id"/>
+                <field name="fleet_prepaid_account_expense_id"/>
+
+            </xpath>
+        </field>
+    </record>
+
+    <record id="product_product_expense_form_view_fleet" model="ir.ui.view">
+        <field name="name">product.product.inherit.view.form</field>
+        <field name="model">product.product</field>
+        <field name="inherit_id" ref="hr_expense.product_product_expense_form_view"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='property_account_expense_id']" position="after">
+                <field name="property_contractor_account_expense_id"/>
+                <field name="fleet_prepaid_account_expense_id"/>
+
+            </xpath>
+
+            <xpath expr="//field[@name='company_id']" position="after">
+                <field name="has_driver_recoverable"/>
+                <field name="expense_type" attrs="{'invisible': [('can_be_expensed', '=', False)], 'required': [('can_be_expensed', '=', True)]}"/>
+            </xpath>
+
+        </field>
+    </record>
+
+    <!-- purchase.order inherit form view -->
+    <record id="purchase_order_form" model="ir.ui.view">
+        <field name="name">purchase.order.inherit.view.form</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//form[1]/sheet[1]/notebook[1]/page[@name='products']/field[@name='order_line']/form[1]/group[1]/group[2]/field[@name='account_analytic_id']" position="attributes">
+                <attribute name="string">Truck</attribute>
+            </xpath>
+
+            <xpath expr="//form[1]/sheet[1]/notebook[1]/page[@name='products']/field[@name='order_line']/form[1]/group[1]/group[2]/field[@name='analytic_tag_ids']" position="attributes">
+                <attribute name="string">Trips</attribute>
+            </xpath>
+
+            <xpath expr="//form[1]/sheet[1]/notebook[1]/page[@name='products']/field[@name='order_line']/tree[1]/field[@name='account_analytic_id']" position="attributes">
+                <attribute name="string">Truck</attribute>
+                <attribute name="optional">show</attribute>
+            </xpath>
+
+            <xpath expr="//form[1]/sheet[1]/notebook[1]/page[@name='products']/field[@name='order_line']/tree[1]/field[@name='analytic_tag_ids']" position="after">
+                <field name="company_id" invisible="1"/>
+                <field name="truck_id" invisible="1"/>
+            </xpath>
+
+            <xpath expr="//form[1]/sheet[1]/notebook[1]/page[@name='products']/field[@name='order_line']/tree[1]/field[@name='analytic_tag_ids']" position="attributes">
+                <attribute name="string">Trips</attribute>
+                <attribute name="optional">show</attribute>
+                <attribute name="domain">[('truck_id', '=', truck_id), ('is_closed', '=', False), ('company_id', 'in', (company_id, False))]</attribute>
+            </xpath>
+        </field>
+    </record>
+
+
+    <record id="expense_account_product_category_form" model="ir.ui.view">
+        <field name="name">expense.account.product.category.form</field>
+        <field name="model">product.category</field>
+        <field name="inherit_id" ref="product.product_category_form_view" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='property_account_expense_categ_id']" position="after">
+                <field name="fleet_prepaid_account_expense_id"/>
+            </xpath>
+        </field>
+    </record>    
+</odoo>

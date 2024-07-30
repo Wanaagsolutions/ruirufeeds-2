@@ -1,0 +1,1495 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_mx_edi_tms_waybill
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-02 00:48+0000\n"
+"PO-Revision-Date: 2022-02-01 18:50-0600\n"
+"Last-Translator: Jesús Alan Ramos Rodríguez <alan.ramos@jarsa.com.mx>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 3.0.1\n"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.tms_transportable_tree_view
+msgid "30/40/30cm"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__active
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__active
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__active
+msgid "Active"
+msgstr "Activo"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_arrival_port_type__altura
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_departure_port_type__altura
+msgid "Altura"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.tms_waybill_form
+msgid "Arrival"
+msgstr "Llegada"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_arrival_date
+msgid "Arrival Date"
+msgstr "Día de llegada"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_arrival_port_type
+msgid "Arrival Port Type"
+msgstr "Tipo de puerto de llegada"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_arrival_station_id
+msgid "Arrival Station"
+msgstr "Estación de llegada"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_arrival_station_ids
+msgid "Arrival Stations"
+msgstr "Estaciones de llegada"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf19
+msgid ""
+"Autorización expresa para circular en los caminos y puentes de jurisdicción "
+"federal con configuraciones de tractocamión doblemente articulado."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_transport_type__01
+msgid "Autotransporte Federal"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf11
+msgid ""
+"Autotransporte Federal de Carga Especializada cuyo ámbito de aplicación "
+"comprende la franja fronteriza con Estados Unidos."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf20
+msgid "Autotransporte Federal de Carga Especializada de fondos y valores."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf03
+msgid ""
+"Autotransporte Federal de Carga Especializada de materiales y residuos "
+"peligrosos."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf10
+msgid ""
+"Autotransporte Federal de Carga General cuyo ámbito de aplicación comprende "
+"la franja fronteriza con Estados Unidos."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf01
+msgid "Autotransporte Federal de carga general."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf08
+msgid "Autotransporte internacional de carga de largo recorrido."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf09
+msgid ""
+"Autotransporte internacional de carga especializada de materiales y "
+"residuos peligrosos de largo recorrido."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr001
+msgid "Caballete"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_arrival_port_type__cabotaje
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_departure_port_type__cabotaje
+msgid "Cabotaje"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr002
+msgid "Caja"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr003
+msgid "Caja Abierta"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr004
+msgid "Caja Cerrada"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr005
+msgid "Caja De Recolección Con Cargador Frontal"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr006
+msgid "Caja Refrigerada"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr007
+msgid "Caja Seca"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr008
+msgid "Caja Transferencia"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr009
+msgid "Cama Baja o Cuello Ganso"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__c2
+msgid ""
+"Camión Unitario (2 llantas en el eje delantero y 4 llantas en el eje "
+"trasero)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__c3
+msgid ""
+"Camión Unitario (2 llantas en el eje delantero y 6 o 8 llantas en los dos "
+"ejes traseros)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__c3r3
+msgid "Camión-Remolque (10 llantas en el camión y 12 llantas en remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__c3r2
+msgid "Camión-Remolque (10 llantas en el camión y 8 llantas en remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__c2r3
+msgid "Camión-Remolque (6 llantas en el camión y 12 llantas en remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__c2r2
+msgid "Camión-Remolque (6 llantas en el camión y 8 llantas en remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Cargo Fee"
+msgstr "Prima Seguro"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_cargo_insurance_partner_id
+msgid "Cargo Insurance Partner"
+msgstr "Aseguradora de carga"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_cargo_insurance_policy
+msgid "Cargo Insurance Policy"
+msgstr "Póliza de seguro de carga"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Cargo Insurer"
+msgstr "Aseguradora de carga"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Cargo Policy"
+msgstr "Póliza de Carga"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr010
+msgid "Chasis Portacontenedor"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "City"
+msgstr "Ciudad"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Civil Liability Insurer"
+msgstr "Aseguradora de Responsabilidad Civil"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Civil Liability Policy"
+msgstr "Póliza de responsabilidad civil"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__code
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__code
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__code
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__code
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__code
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__code
+msgid "Code defined in the SAT to this record."
+msgstr "Código definido en el SAT para este registro."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Colony"
+msgstr "Colonia"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_res_company
+msgid "Companies"
+msgstr "Empresas"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpta01
+msgid ""
+"Concesión y/o autorización para el servicio regular nacional y/o "
+"internacional para empresas mexicanas"
+msgstr ""
+"Concesión y / o autorización para el servicio regular nacional y / o "
+"internacional para empresas mexicanas"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_arrival_port_type
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_departure_port_type
+msgid ""
+"Conditional attribute to register the type of port by which they are "
+"documented the goods or merchandise by sea."
+msgstr ""
+"Atributo condicional para registrar el tipo de puerto por el cual se "
+"documentan las mercancías o mercancías por vía marítima."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_travel__l10n_mx_edi_configuration
+msgid "Configuration"
+msgstr "Configuración"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr011
+msgid "Convencional De Chasis"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__country_id
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Country"
+msgstr "País"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__create_uid
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__create_uid
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__create_uid
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__create_date
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__create_date
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__create_date
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill_transportable_line__currency_id
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: l10n_mx_edi_tms_waybill
+#: code:addons/l10n_mx_edi_tms_waybill/models/tms_waybill_transportable_line.py:0
+#, python-format
+msgid ""
+"Custom numbers set on transportable lines are invalid and should have a "
+"pattern like: 15  48  3009  0001234:\n"
+"%(invalid_message)s"
+msgstr ""
+"Los números de pedimento establecidos en líneas transportables no son "
+"válidos y deben tener un patrón como: 15  48  3009  0001234:\n"
+"%(invalid_message)s"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Customs Number"
+msgstr "Número de Pedimiento"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill_transportable_line__l10n_mx_edi_customs_number
+msgid "Customs number"
+msgstr "Número de Pedimiento"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_dangerous_material_id
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__product_unspsc_code__l10n_mx_edi_waybill_type__1
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Dangerous Material"
+msgstr "Material peligroso"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Dangerous Material Code"
+msgstr "Código de material peligroso"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Date (Departure/Arrival)"
+msgstr "Fecha (salida / llegada)"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_res_partner__l10n_mx_edi_station_ids
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_res_users__l10n_mx_edi_station_ids
+msgid "Define stations depending on transport type of this partner."
+msgstr "Defina las estaciones según el tipo de transporte de este socio."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.tms_waybill_form
+msgid "Departure"
+msgstr "Salida"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_departure_date
+msgid "Departure Date"
+msgstr "Fecha de salida"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_departure_port_type
+msgid "Departure Port Type"
+msgstr "Tipo de puerto de salida"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_departure_station_id
+msgid "Departure Station"
+msgstr "Estación de salida"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_departure_station_ids
+msgid "Departure Stations"
+msgstr "Estaciones de salida"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Description"
+msgstr "Descripción"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_station_type__03
+msgid "Destino Final Nacional"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_dimensions
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Dimensions"
+msgstr "Dimensiones"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__display_name
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__display_name
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__display_name
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Distance"
+msgstr "Distancia"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_transport_type__05
+msgid "Ducto"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_account_edi_format
+msgid "EDI format"
+msgstr "Formato EDI"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf18
+msgid "Empresas fabricantes o distribuidoras de vehículos nuevos."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf17
+msgid "Empresas trasladistas de vehículos nuevos."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_international_type__entrada
+msgid "Entrada"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_fleet_vehicle__l10n_mx_edi_environment_insurance_id
+msgid "Environment Insurance"
+msgstr "Seguro Medioambiental"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_fleet_vehicle__l10n_mx_edi_environment_insurance_policy
+msgid "Environment Insurance Policy Number"
+msgstr "Número de Póliza de Seguro Medioambiental"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr012
+msgid "Equipo Especial"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__otroevgp
+msgid "Especializado de carga Voluminosa y/o Gran Peso"
+msgstr "Especializado de carga Voluminosa y / o Gran Peso"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr013
+msgid "Estacas"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Ext Number"
+msgstr "Número Exterior"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "External Trade UUID"
+msgstr "UUID de comercio exterior"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_weight_factor
+msgid ""
+"Factor to convert quantity to Kg (e.g. 1.0 for 1 Kg, 0.5 for 500 g, etc.)"
+msgstr ""
+"Factor para convertir la cantidad a kg (por ejemplo, 1.0 para 1 kg, 0.5 "
+"para 500 g, etc.)"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_product_unspsc_code__l10n_mx_edi_waybill_type
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_waybill_type
+msgid "Field to indicate if the product is dangerous material"
+msgstr "Campo para indicar si el producto es un material peligroso"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Figure Type"
+msgstr "Tipo de figura"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Fiscal ID"
+msgstr "Identificación fiscal"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_foreign_country_id
+msgid "Foreign Country"
+msgstr "País extranjero"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr016
+msgid "Grúa"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr015
+msgid "Grúa Industrial"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__gplata
+msgid "Grúa de Plataforma Tipo A"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__gplatb
+msgid "Grúa de Plataforma Tipo B"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__gplatc
+msgid "Grúa de Plataforma Tipo C"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__gplatd
+msgid "Grúa de Plataforma Tipo D"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__gpluta
+msgid "Grúa de Pluma Tipo A"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__gplutb
+msgid "Grúa de Pluma Tipo B"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__gplutc
+msgid "Grúa de Pluma Tipo C"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__gplutd
+msgid "Grúa de Pluma Tipo D"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr014
+msgid "Góndola Madrina"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__id
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__id
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__id
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__id
+msgid "ID"
+msgstr "ID (Identificador)"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__active
+msgid ""
+"If the material has expired it could be disabled to do not allow select the "
+"record."
+msgstr ""
+"Si el material ha caducado, podría desactivarse para no permitir "
+"seleccionar el registro."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__active
+msgid ""
+"If the packaging has expired it could be disabled to do not allow select "
+"the record."
+msgstr ""
+"Si el paquete ha caducado, podría desactivarse para no permitir seleccionar "
+"el registro."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__active
+msgid ""
+"If the station has expired it could be disabled to do not allow select the "
+"record."
+msgstr ""
+"Si la estación ha caducado, podría desactivarse para no permitir "
+"seleccionar el registro."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_insurance_fee
+msgid "Insurance Fee"
+msgstr "Prima de Seguro"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.tms_waybill_form
+msgid "Insurance Information"
+msgstr "Información del seguro"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Int Number"
+msgstr "Número Int"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr017
+msgid "Integral"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_station_type__02
+msgid "Intermedia"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_international
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "International"
+msgstr "Internacional"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_international_type
+msgid "International Type"
+msgstr "Tipo internacional"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_tariff_fraction_id
+msgid ""
+"It is used to express the key of the tariff fraction corresponding to the "
+"description of the product to export."
+msgstr ""
+"Se utiliza para expresar la clave de la fracción arancelaria "
+"correspondiente a la descripción del producto a exportar."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr018
+msgid "Jaula"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_account_move
+msgid "Journal Entry"
+msgstr "Asiento contable"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material____last_update
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging____last_update
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station____last_update
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__write_uid
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__write_uid
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__write_uid
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__write_date
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__write_date
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__write_date
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Licence Plate"
+msgstr "Placa"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "License Number"
+msgstr "Número de licencia"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "License Plate"
+msgstr "Placa"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Locality"
+msgstr "Localidad"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Location ID"
+msgstr "ID. de ubicación"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Location Type"
+msgstr "Tipo de ubicación"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr019
+msgid "Media Redila"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Merchandise"
+msgstr "Mercancía"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Merchandise Entry/Exit"
+msgstr "Entrada / Salida de Mercancía"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill_transportable_line__l10n_mx_edi_merchandise_value
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Merchandise Value"
+msgstr "Valor de la mercancía"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_l10n_mx_edi_dangerous_material
+msgid "Mexican EDI Dangerous Materials"
+msgstr "Materiales peligrosos de EDI mexicano"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.tms_waybill_form
+msgid "Mexican EDI Fields"
+msgstr "Campos de EDI mexicanos"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_l10n_mx_edi_packaging
+msgid "Mexican EDI Packaging"
+msgstr "Embalaje EDI mexicano"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_l10n_mx_edi_station
+msgid "Mexican EDI Station"
+msgstr "Estación de EDI mexicana"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__name
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__name
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__name
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Name"
+msgstr "Nombre"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_dangerous_material__name
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_packaging__name
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__name
+msgid "Name defined in the SAT catalog to this record."
+msgstr "Nombre definido en el catálogo SAT de este registro."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_international__no
+msgid "No"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__product_unspsc_code__l10n_mx_edi_waybill_type__0
+msgid "No Dangerous Material"
+msgstr "Ningún material peligroso"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__product_unspsc_code__l10n_mx_edi_waybill_type__0,1
+msgid "Optional Dangerous Material"
+msgstr "Material peligroso opcional"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_dimensions
+msgid ""
+"Optional attribute to express the measures of the packaging of the goods "
+"and / or merchandise that are moved in the different means of transport. "
+"The length, height and width must be recorded in centimeters or in inches, "
+"these values separated by a diagonal, i.e. 30/40 / 30cm."
+msgstr ""
+"Atributo opcional para expresar las medidas del embalaje de las mercancías "
+"y / o mercancías que se mueven en los diferentes medios de transporte. El "
+"largo, alto y ancho deben registrarse en centímetros o pulgadas, estos "
+"valores separados por una diagonal, es decir 30/40/ 30cm."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill_transportable_line__l10n_mx_edi_customs_number
+msgid ""
+"Optional field for entering the customs information in the case of first-"
+"hand sales of imported goods or in the case of foreign trade operations "
+"with goods or services.\n"
+"The format must be:\n"
+" - 2 digits of the year of validation followed by two spaces.\n"
+" - 2 digits of customs clearance followed by two spaces.\n"
+" - 4 digits of the serial number followed by two spaces.\n"
+" - 1 digit corresponding to the last digit of the current year, except in "
+"case of a consolidated customs initiated in the previous year of the "
+"original request for a rectification.\n"
+" - 6 digits of the progressive numbering of the custom."
+msgstr ""
+"Campo opcional para ingresar la información aduanera en el caso de ventas "
+"de primera mano de bienes importados o en el caso de operaciones de "
+"comercio exterior con bienes o servicios.\n"
+"El formato debe ser:\n"
+" - 2 dígitos del año de validación seguidos de dos espacios.\n"
+" - 2 dígitos del despacho de aduana seguidos de dos espacios.\n"
+" - 4 dígitos del número de serie seguidos de dos espacios.\n"
+" - 1 dígito correspondiente al último dígito del año en curso, excepto en "
+"el caso de una aduana consolidada iniciada en el año anterior a la "
+"solicitud original de rectificación.\n"
+" - 6 dígitos de la numeración progresiva del pedimento."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_station_type__01
+msgid "Origen Nacional"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Origin/Destination Country"
+msgstr "País de origen / destino"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_packaging_id
+msgid "Packaging"
+msgstr "Embalaje"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Packaging Description"
+msgstr "Descripción de empaque"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Packaging Type"
+msgstr "Tipo de embalaje"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr020
+msgid "Pallet o Celdillas"
+msgstr "Palet o Celdillas"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Part"
+msgstr "Parte"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__partner_id
+msgid "Partner"
+msgstr "Cliente"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpxx00
+msgid "Permiso no contemplado en el catálogo."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpta02
+msgid "Permiso para el servicio aéreo regular de empresas extranjeras"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpta03
+msgid ""
+"Permiso para el servicio nacional e internacional no regular de fletamento"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpta04
+msgid ""
+"Permiso para el servicio nacional e internacional no regular de taxi aéreo"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tptm01
+msgid "Permiso temporal para navegación de cabotaje"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr021
+msgid "Plataforma"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr022
+msgid "Plataforma Con Grúa"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr023
+msgid "Plataforma Encortinada"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Product Code"
+msgstr "Código de Producto"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_product_unspsc_code
+msgid "Product and UOM Codes from UNSPSC"
+msgstr ""
+"Códigos de producto y unidad de medida provienen del Código de Productos y "
+"Servicios Estándar de las Naciones Unidas (UNSPSC)"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr024
+msgid "Redilas"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr025
+msgid "Refrigerador"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Related CFDI"
+msgstr "CFDI relacionados"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr026
+msgid "Revolvedora"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "SCT Permit"
+msgstr "Permiso SCT"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_fleet_vehicle__l10n_mx_edi_sct_permit_number
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "SCT Permit Number"
+msgstr "Número de permiso SCT"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_fleet_vehicle__l10n_mx_edi_sct_permit_type
+msgid "SCT Permit Type"
+msgstr "Tipo de permiso SCT"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "STCC Code"
+msgstr "Código STCC"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_international_type__salida
+msgid "Salida"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_arrival_station_id
+msgid "Select the Arrival Station"
+msgstr "Seleccione la estación de llegada"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_departure_station_id
+msgid "Select the Departure Station"
+msgstr "Seleccione la estación de salida"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_station_type
+msgid "Select the station type if a freight is by ship, plane or train."
+msgstr ""
+"Seleccione el tipo de estación si una carga es por barco, avión o tren."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_transport_type
+msgid "Select the transport type if a freight is international."
+msgstr "Seleccione el tipo de transporte si un flete es internacional."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr027
+msgid "Semicaja"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Senders and recipients"
+msgstr "Remitentes y destinatarios"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf12
+msgid "Servicio auxiliar de arrastre en las vías generales de comunicación."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf13
+msgid ""
+"Servicio auxiliar de servicios de arrastre, arrastre y salvamento, y "
+"depósito de vehículos en las vías generales de comunicación."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__otrosg
+msgid "Servicio de Grúas"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf14
+msgid ""
+"Servicio de paquetería y mensajería en las vías generales de comunicación."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf16
+msgid "Servicio federal para empresas arrendadoras servicio público federal."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_tms_waybill_transportable_line
+msgid "Shipped Product"
+msgstr "Producto enviado"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "State"
+msgstr "Estado"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__l10n_mx_edi_station_id
+msgid "Station"
+msgstr "Estación"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_station_type
+msgid "Station Type"
+msgstr "Tipo de estación"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner__l10n_mx_edi_station_ids
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_users__l10n_mx_edi_station_ids
+msgid "Stations"
+msgstr "Estaciones"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_res_partner_l10n_mx_edi_station
+msgid "Stations related to partner by transport type."
+msgstr "Estaciones relacionadas con el socio por tipo de transporte."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Street"
+msgstr "Calle"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_international__sí
+msgid "Sí"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr028
+msgid "Tanque"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill_transportable_line__l10n_mx_edi_tare
+msgid "Tare(Kg)"
+msgstr "Tara (Kg)"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_tariff_fraction_id
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Tariff Fraction"
+msgstr "Fracción arancelaria"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_international_type
+msgid ""
+"Technical field used to define if an international freight is an import or "
+"an export"
+msgstr ""
+"Campo técnico utilizado para definir si un flete internacional es una "
+"importación o una exportación"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_international
+msgid ""
+"Technical field used to define if the waybill is national or international."
+msgstr ""
+"Campo técnico utilizado para definir si la carta de porte es nacional o "
+"internacional."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_foreign_country_id
+msgid "Technical field used to define the foreign country of the waybill."
+msgstr ""
+"Campo técnico utilizado para definir el país extranjero de la carta de "
+"porte."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_arrival_station_ids
+msgid "Technical field used to get the allowed stations for arrival"
+msgstr ""
+"Campo técnico utilizado para obtener las estaciones permitidas para la "
+"llegada"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,help:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_departure_station_ids
+msgid "Technical field used to get the allowed stations for departure"
+msgstr ""
+"Campo técnico utilizado para obtener las estaciones permitidas para la "
+"salida"
+
+#. module: l10n_mx_edi_tms_waybill
+#: code:addons/l10n_mx_edi_tms_waybill/models/tms_transportable.py:0
+#, python-format
+msgid "The dimensions must be in the format: 999/999/999cm or 999/999/999plg"
+msgstr ""
+"Las dimensiones deben estar en el formato: 999/999/999cm o 999/999/999plg"
+
+#. module: l10n_mx_edi_tms_waybill
+#: code:addons/l10n_mx_edi_tms_waybill/models/account_edi_format.py:0
+#, python-format
+msgid "The travel dates are not set."
+msgstr "Las fechas de viaje no están establecidas."
+
+#. module: l10n_mx_edi_tms_waybill
+#: code:addons/l10n_mx_edi_tms_waybill/models/account_edi_format.py:0
+#, python-format
+msgid "The travel distance is not set."
+msgstr "La distancia de viaje no está establecida."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr029
+msgid "Tolva"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Total Distance"
+msgstr "Distancia total"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s3
+msgid ""
+"Tractocamión Articulado (10 llantas en el tractocamión, 12 llantas en el "
+"semirremolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s1
+msgid ""
+"Tractocamión Articulado (10 llantas en el tractocamión, 4 llantas en el "
+"semirremolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s2
+msgid ""
+"Tractocamión Articulado (10 llantas en el tractocamión, 8 llantas en el "
+"semirremolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t2s3
+msgid ""
+"Tractocamión Articulado (6 llantas en el tractocamión, 12 llantas en el "
+"semirremolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t2s1
+msgid ""
+"Tractocamión Articulado (6 llantas en el tractocamión, 4 llantas en el "
+"semirremolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t2s2
+msgid ""
+"Tractocamión Articulado (6 llantas en el tractocamión, 8 llantas en el "
+"semirremolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s1r3
+msgid ""
+"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 "
+"llantas en el semirremolque y 12 llantas en el remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s1r2
+msgid ""
+"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 4 "
+"llantas en el semirremolque y 8 llantas en el remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s2r3
+msgid ""
+"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 "
+"llantas en el semirremolque y 12 llantas en el remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s2r4
+msgid ""
+"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 "
+"llantas en el semirremolque y 16 llantas en el remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s2r2
+msgid ""
+"Tractocamión Semirremolque-Remolque (10 llantas en el tractocamión, 8 "
+"llantas en el semirremolque y 8 llantas en el remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t2s1r3
+msgid ""
+"Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 "
+"llantas en el semirremolque y 12 llantas en el remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t2s1r2
+msgid ""
+"Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 4 "
+"llantas en el semirremolque y 8 llantas en el remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t2s2r2
+msgid ""
+"Tractocamión Semirremolque-Remolque (6 llantas en el tractocamión, 8 "
+"llantas en el semirremolque y 8 llantas en el remolque)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s3s2
+msgid ""
+"Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 12 "
+"llantas en el semirremolque delantero y 8 llantas en el semirremolque "
+"trasero)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t3s2s2
+msgid ""
+"Tractocamión Semirremolque-Semirremolque (10 llantas en el tractocamión, 8 "
+"llantas en el semirremolque delantero y 8 llantas en el semirremolque "
+"trasero)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__t2s2s2
+msgid ""
+"Tractocamión Semirremolque-Semirremolque (6 llantas en el tractocamión, 8 "
+"llantas en el semirremolque delantero y 8 llantas en el semirremolque "
+"trasero)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Trailer Information"
+msgstr "Información del Remolque"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Trailer Subtype"
+msgstr "Subtipo de remolque"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_fleet_vehicle__l10n_mx_edi_trailer_type
+msgid "Trailer Type For Waybill"
+msgstr "Tipo de remolque para Carta Porte"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Transport Figure"
+msgstr "Figura de transporte"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_l10n_mx_edi_station__l10n_mx_edi_transport_type
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_res_partner_l10n_mx_edi_station__l10n_mx_edi_transport_type
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill__l10n_mx_edi_transport_type
+msgid "Transport Type"
+msgstr "Tipo de transporte"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_tms_transportable
+msgid "Transportable Product"
+msgstr "Producto Transporte"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__l10n_mx_edi_station__l10n_mx_edi_transport_type__03
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__res_partner_l10n_mx_edi_station__l10n_mx_edi_transport_type__03
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_transport_type__03
+msgid "Transporte Aéreo"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__l10n_mx_edi_station__l10n_mx_edi_transport_type__04
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__res_partner_l10n_mx_edi_station__l10n_mx_edi_transport_type__04
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_transport_type__04
+msgid "Transporte Ferroviario"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__l10n_mx_edi_station__l10n_mx_edi_transport_type__02
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__res_partner_l10n_mx_edi_station__l10n_mx_edi_transport_type__02
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_waybill__l10n_mx_edi_transport_type__02
+msgid "Transporte Marítimo"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf07
+msgid "Transporte Privado de materiales y residuos peligrosos."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf04
+msgid "Transporte de automóviles sin rodar en vehículo tipo góndola."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf05
+msgid "Transporte de carga de gran peso y/o volumen de hasta 90 toneladas."
+msgstr "Transporte de carga de gran peso y / o volumen de hasta 90 toneladas."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf06
+msgid ""
+"Transporte de carga especializada de gran peso y/o volumen de más 90 "
+"toneladas."
+msgstr ""
+"Transporte de carga especializada de gran peso y / o volumen de más 90 "
+"toneladas."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf15
+msgid ""
+"Transporte especial para el tránsito de grúas industriales con peso máximo "
+"de 90 toneladas."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_sct_permit_type__tpaf02
+msgid "Transporte privado de carga."
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_tms_travel
+msgid "Travel"
+msgstr "Viaje"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_product_unspsc_code__l10n_mx_edi_waybill_type
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_waybill_type
+msgid "Type of Code"
+msgstr "Tipo de codigo"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_transportable__unspsc_code_id
+msgid "UNSPSC Code"
+msgstr "Código UNSPSC"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_waybill_transportable_line__l10n_mx_edi_uuid
+msgid "UUID"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__product_unspsc_code__l10n_mx_edi_waybill_type__uom
+msgid "Unit of Measure"
+msgstr "Unidad de medida"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "UoM"
+msgstr "UdM"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "UoM Code"
+msgstr "Código Udm"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "VAT"
+msgstr "RFC"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_fleet_vehicle
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Vehicle Configuration"
+msgstr "Configuración del vehículo"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Vehicle Information"
+msgstr "Información del vehículo"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__tms_travel__l10n_mx_edi_configuration__vl
+msgid ""
+"Vehículo ligero de carga (2 llantas en el eje delantero y 2 llantas en el "
+"eje trasero)"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr031
+msgid "Volteo"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields.selection,name:l10n_mx_edi_tms_waybill.selection__fleet_vehicle__l10n_mx_edi_trailer_type__ctr032
+msgid "Volteo Desmontable"
+msgstr ""
+
+#. module: l10n_mx_edi_tms_waybill
+#: code:addons/l10n_mx_edi_tms_waybill/models/tms_waybill.py:0
+#, python-format
+msgid "Warning"
+msgstr "Advertencia"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model,name:l10n_mx_edi_tms_waybill.model_tms_waybill
+msgid "Waybills"
+msgstr "Carta Porte"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model:ir.model.fields,field_description:l10n_mx_edi_tms_waybill.field_tms_transportable__l10n_mx_edi_weight_factor
+msgid "Weight Factor (Kg)"
+msgstr "Factor de peso (kg)"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Weight in Kilograms"
+msgstr "Peso en kilogramos"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Year"
+msgstr "Año"
+
+#. module: l10n_mx_edi_tms_waybill
+#: code:addons/l10n_mx_edi_tms_waybill/models/tms_waybill.py:0
+#, python-format
+msgid "You need to define the Station in the Arrival Address."
+msgstr "Debe definir la estación en la dirección de llegada."
+
+#. module: l10n_mx_edi_tms_waybill
+#: code:addons/l10n_mx_edi_tms_waybill/models/tms_waybill.py:0
+#, python-format
+msgid "You need to define the Station in the Departure Address."
+msgstr "Debe definir la estación en la dirección de salida."
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.report_invoice_waybill
+msgid "Zip"
+msgstr "CP"
+
+#. module: l10n_mx_edi_tms_waybill
+#: model_terms:ir.ui.view,arch_db:l10n_mx_edi_tms_waybill.tms_transportable_tree_view
+msgid "[('l10n_mx_edi_waybill_type', '=', 'uom')]"
+msgstr ""

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <!-- Overtime  messaging / Chatter -->
+        <record id="ke_overtime_approval" model="mail.message.subtype">
+            <field name="name">ke.approval</field>
+            <field name="res_model">ke.overtime</field>
+            <field name="description">Overtime request submitted for approval</field>
+        </record>
+        <record id="ke_overtime_approved" model="mail.message.subtype">
+            <field name="name">ke.approved</field>
+            <field name="res_model">ke.overtime</field>
+            <field name="description">Overtime request approved!</field>
+        </record>
+        <record id="ke_overtime_disapproved" model="mail.message.subtype">
+            <field name="name">ke.disapproved</field>
+            <field name="res_model">ke.overtime</field>
+            <field name="description">Overtime request disapproved!</field>
+        </record>
+        <record id="ke_overtime_draft" model="mail.message.subtype">
+            <field name="name">ke.draft</field>
+            <field name="res_model">ke.overtime</field>
+            <field name="description">Overtime request has been set to draft state</field>
+        </record>
+        <record id="ke_overtime_default" model="mail.message.subtype">
+            <field name="name">ke.default</field>
+            <field name="res_model">ke.overtime</field>
+	     <field name="default" eval="True"/>
+            <field name="description">New Overtime Request</field>
+        </record>
+
+    </data>
+</odoo>

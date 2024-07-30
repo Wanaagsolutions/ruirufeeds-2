@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="nomination_paperformat" model="report.paperformat">
+        <field name="name">Custom Paperformat for Fleet Nomination Docs</field>
+        <field name="default" eval="False"/>
+        <field name="disable_shrinking" eval="True"/>
+        <field name="format">A4</field>
+        <field name="page_height">0</field>
+        <field name="page_width">0</field>
+        <field name="orientation">Landscape</field>
+        <field name="margin_top">40</field>
+        <field name="margin_bottom">30</field>
+        <field name="margin_left">7</field>
+        <field name="margin_right">7</field>
+        <field name="dpi">96</field>
+    </record>
+
+    <record id="report_nomination" model="ir.actions.report">
+        <field name="name">Nomination Report</field>
+        <field name="model">fleet.order</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_file">oo_fleet_management.nomination_template</field>
+        <field name="report_name">oo_fleet_management.nomination_template</field>
+        <field name="binding_type">report</field>
+        <field name="paperformat_id" ref="nomination_paperformat"/>
+    </record>
+
+    <template id="nomination_template">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-call="web.external_layout">
+                    <div class="page">
+                        <table class="table main-table table-bordered w-100" name="nomination_table">
+                            <thead>
+                                <tr>
+                                    <th>
+                                        <span>SR No</span>
+                                    </th>
+                                    <th>
+                                        <span>Truck Reg</span>
+                                    </th>
+                                    <th>
+                                        <span>Transporter</span>
+                                    </th>
+                                    <th>
+                                        <span>Driver Name</span>
+                                    </th>
+                                    <th>
+                                        <span>Driver License No</span>
+                                    </th>
+                                    <th>
+                                        <span>National ID</span>
+                                    </th>
+                                    <th>
+                                        <span>Passport No</span>
+                                    </th>
+                                    <th>
+                                        <span>Cargo</span>
+                                    </th>
+                                    <th>
+                                        <span>Truck Capacity</span>
+                                    </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <t t-set="lines" t-value="o.nomination_docs_ids.filtered(lambda n: not n.trip_id)" />
+                                <t t-set="i" t-value="1" />
+                                <tr t-foreach="lines" t-as="m">
+                                    <td>
+                                        <span t-esc="i" />
+                                        <t t-set="i" t-value="i+1" />
+                                    </td>
+                                    <td>
+                                        <span t-field="m.truck_id" />
+                                    </td>
+                                    <td>
+                                        <span t-field="m.order_id.company_id" />
+                                    </td>
+                                    <td>
+                                        <span t-field="m.driver_id" />
+                                    </td>
+                                    <td>
+                                        <span t-field="m.driver_id.licence_no" />
+                                    </td>
+                                    <td>
+                                        <span t-field="m.driver_id.national_no" />
+                                    </td>
+                                    <td>
+                                        <span t-field="m.driver_id.passport_no" />
+                                    </td>
+                                    <td>
+                                        <span t-field="o.product_id" />
+                                    </td>
+                                    <td>
+                                        <span t-field="m.truck_capacity" />
+                                        <span t-field="m.uom_id" />
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </t>
+            </t>
+        </t>
+    </template>
+</odoo>

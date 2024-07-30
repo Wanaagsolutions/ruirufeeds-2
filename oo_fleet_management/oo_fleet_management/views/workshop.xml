@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- fleet.workshop tree view -->
+    <record id="fleet_workshop_view_tree" model="ir.ui.view">
+        <field name="name">fleet.workshop.view.tree</field>
+        <field name="model">fleet.workshop</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="truck_id"/>
+                <field name="location_id"/>
+                <field name="date"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- fleet.workshop search view -->
+    <record id="fleet_workshop_view_search" model="ir.ui.view">
+        <field name="name">fleet.workshop.view.search</field>
+        <field name="model">fleet.workshop</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="truck_id"/>
+                <field name="date"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- fleet.workshop form view -->
+    <record id="fleet_workshop_view_form" model="ir.ui.view">
+        <field name="name">fleet.workshop.view.form</field>
+        <field name="model">fleet.workshop</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button string="Start" name="action_start" type="object" class="oe_highlight" states='draft'/>
+                    <button string="Cancel" name="action_cancel" states='draft,in_progress'/>
+                    <button string="Complete" name="action_complete" type="object" class="oe_highlight" states='in_progress'/>
+                    <button string="Reset to Draft" name="action_draft" type="object" states='in_progress,cancel'/>
+                    <field name="state" widget="statusbar" />
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" name="action_get_stock_move_lines" string="Product Moves" type="object" icon="fa-exchange" attrs="{'invisible': [('stock_move_ids', '=', [])]}"/>
+                        <button class="oe_stat_button" name="action_get_account_moves" string="Journal Entries" type="object" icon="fa-usd" attrs="{'invisible': [('move_ids', '=', [])]}"/>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="stock_move_ids" invisible="1"/>
+                            <field name="move_ids" invisible="1"/>
+                            <field name="truck_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="analytic_account_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                        </group>
+                        <group>
+                            <field name="date" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="analytic_tag_id" domain="[('truck_id', '=', truck_id), ('is_closed', '=', False), ('company_id', 'in', (company_id, False))]" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="location_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="company_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                        </group>
+                        <group string="Materials" colspan="2">
+                            <field name="scrap_ids" nolabel="1" attrs="{'readonly': [('state', '!=', 'draft')]}">
+                                <tree editable="bottom">
+                                    <field name="product_id"/>
+                                    <field name="scrap_qty"/>
+                                    <field name="product_uom_id"/>
+                                    <field name="location_id" invisible="1"/>
+                                    <field name="state" invisible="1"/>
+                                    <field name="product_uom_category_id" invisible="1"/>
+                                    <field name="scrap_location_id" invisible="1"/>
+                                    <field name="company_id" invisible="1"/>
+                                    <field name="workshop_id" invisible="1"/>
+                                    <field name="name" optional="hide" />
+                                </tree>
+                            </field>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

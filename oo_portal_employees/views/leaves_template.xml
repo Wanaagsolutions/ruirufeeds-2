@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <template id="portal_my_home_menu_leaves" name="Portal layout : leave menu entries" inherit_id="portal.portal_breadcrumbs" priority="30">
+        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+            <li t-if="page_name == 'leave'" t-attf-class="breadcrumb-item #{'active ' if not leave else ''}">
+                <a t-attf-href="/my/leaves?{{ keep_query() }}">My leaves</a>
+            </li>
+
+            <li t-if="leave" class="breadcrumb-item active">
+                <t t-esc="leave.display_name" t-if="leave.display_name"/>
+            </li>
+
+            <li t-if="page_name == 'leave' and not is_readonly" class="breadcrumb-item active">
+                <t>New Request</t>
+            </li>
+        </xpath>
+    </template>
+
+    <template id="portal_my_home_leaves" name="Show My Leaves" inherit_id="portal.portal_my_home" customize_show="True" priority="40">
+        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+            <t t-call="portal.portal_docs_entry">
+                <t t-set="title">My Leaves</t>
+                <t t-set="url" t-value="'/my/leaves'"/>
+                <t t-set="placeholder_count" t-value="'leave_count'"/>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="portal_my_leaves_display">
+        <div class="row mt4">
+            <t t-foreach="leave_types" t-as="leave_type">
+                <div class="col-xl-3 col-sm-6 col-12">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-body">
+                                <div class="media d-flex justify-content-around">
+                                    <div class="align-self-center">
+                                        <img t-attf-src="{{leave_type[1]['icon']}}" style="width: 3.5rem;"/>
+                                    </div>
+                                    <div class="media-body text-primary" style="flex: 1; text-align: right;">
+                                        <h3 class="text-right">
+                                            <b t-out="leave_type[1]['remaining_leaves']"/>
+/                                            <b t-out="leave_type[1]['max_leaves']"/>
+                                        </h3>
+                                        <span t-out="leave_type[0]"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </div>
+        <div class="row mt8">
+            <div class="col-12">
+                <a role="button" class="btn btn-primary" href="/my/leaves/0">Make New Request</a>
+            </div>
+        </div>
+    </template>
+
+
+    <template id="portal_my_leaves" name="My Leaves">
+        <t t-call="portal.portal_layout">
+            <t t-call="oo_portal_employees.portal_my_leaves_display"/>
+            <t t-set="breadcrumbs_searchbar" t-value="True"/>
+
+            <t t-call="portal.portal_searchbar">
+                <t t-set="title">My Leaves</t>
+            </t>
+            <t t-if="not leaves">
+                <p>You have no requested leaves.</p>
+            </t>
+            <t t-if="leaves" t-call="portal.portal_table">
+                <thead>
+                    <tr class="active">
+                        <th>Name</th>
+                        <th>Leave Type</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>Duration</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <t t-foreach="leaves" t-as="leave">
+                        <tr>
+                            <td>
+                                <a t-attf-href="/my/leaves/#{leave.id}?{{ keep_query() }}" t-att-title="leave.display_name">
+                                    <t t-esc="leave.display_name"/>
+                                </a>
+                            </td>
+                            <td>
+                                <span t-field="leave.holiday_status_id"/>
+                            </td>
+                            <td>
+                                <span t-field="leave.date_from"/>
+                            </td>
+                            <td>
+                                <span t-field="leave.date_to"/>
+                            </td>
+                            <td>
+                                <span t-field="leave.duration_display"/>
+                            </td>
+                            <td>
+                                <span t-if="leave.state == 'confirm'" class="px-2 badge rounded-pill text-bg-info" t-field="leave.state"/>
+                                <span t-if="leave.state in ['validate', 'validate1']" class="px-2 badge rounded-pill text-bg-success" t-field="leave.state"/>
+                                <span t-if="leave.state == 'to_approve'" class="px-2 badge rounded-pill text-bg-info" t-field="leave.state"/>
+                                <span t-if="leave.state == 'refuse'" class="px-2 badge rounded-pill text-bg-warning" t-field="leave.state"/>
+                            </td>
+                        </tr>
+                    </t>
+                </tbody>
+            </t>
+        </t>
+    </template>
+
+    <template id="portal_leave_page" name="My Leave" inherit_id="portal.portal_sidebar" primary="True">
+        <xpath expr="//div[hasclass('o_portal_sidebar')]" position="inside">
+            <t t-call="portal.portal_record_layout">
+                <t t-set="card_body">
+                    <div class="card">
+                        <form action="/my/leaves/new">
+                            <div class="card-header d-flex align-items-center justify-content-between">
+                                <div class="header-btns">
+                                    <button role="btn" class="btn btn-small btn-primary mr4" type="submit" t-if="not is_readonly">Confirm Request</button>
+                                    <a role="btn" class="btn btn-small btn-warning mr4" t-attf-href="/leaves/{{leave.id}}/refuse" t-if="is_readonly and can_refuse">Refuse Request</a>
+                                    <a role="btn" class="btn btn-small btn-primary mr4" t-attf-href="/leaves/{{leave.id}}/approve" t-if="is_readonly and can_approve">Approve Request</a>
+                                </div>
+                                <div class="header-right">
+                                    <span t-if="leave.state == 'confirm'" class="px-4 py-2 badge rounded-pill text-bg-info">
+                                        Status: <span t-field="leave.state"/>
+                                    </span>
+                                    <span t-if="leave.state in ['validate', 'validate1']" class="px-4 py-2 badge rounded-pill text-bg-success">
+                                        Status: <span t-field="leave.state"/>
+                                    </span>
+                                    <span t-if="leave.state == 'to_approve'" class="px-4 py-2 badge rounded-pill text-bg-info">
+                                        Status: <span t-field="leave.state"/>
+                                    </span>
+                                    <span t-if="leave.state == 'refuse'" class="px-4 py-2 badge rounded-pill text-bg-warning">
+                                        Status: <span t-field="leave.state"/>
+                                    </span>
+                                </div>
+                            </div>
+
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="form-group col-6">
+                                        <label for="date_from">Date From</label>
+                                        <input type="datetime-local" class="form-control" id="date_from" name="date_from" aria-describedby="date_from" placeholder="Date From" t-att-value="leave.date_from" t-attf-style="pointer-events: #{'none' if is_readonly else 'all'};" required="1"/>
+                                    </div>
+                                    <div class="form-group col-6">
+                                        <label for="date_to">Date To</label>
+                                        <input type="datetime-local" class="form-control" id="date_to" name="date_to" aria-describedby="date_to" placeholder="Date To" t-att-value="leave.date_from" t-attf-style="pointer-events: #{'none' if is_readonly else 'all'};" required="1"/>
+                                    </div>
+                                    <div class="form-group col-md-6 mt8" required="1">
+                                        <label for="holiday_status_id">Leave Type</label>
+                                        <select id="holiday_status_id" name="holiday_status_id" class="form-control" aria-describedby="holiday_status_id" t-att-value="leave.holiday_status_id" t-attf-style="pointer-events: #{'none' if is_readonly else 'all'};">
+                                            <option value="false" selected="1">
+                                            Choose...
+                                            </option>
+                                            <t t-foreach="leave_types" t-as="leave_type">
+                                                <option t-att-value="leave_type[3]" t-att-selected="leave_type[3] == leave.holiday_status_id.id">
+                                                    <t t-esc="leave_type[0]" />
+                                                </option>
+                                            </t>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-6 mt8">
+                                        <label for="date_to">Duration</label>
+                                        <input type="text" class="form-control" id="duration_display" aria-describedby="duration_display" placeholder="Duration" t-att-value="leave.duration_display" t-attf-style="pointer-events: #{'none' if is_readonly else 'all'};"/>
+                                    </div>
+                                    <div class="form-group col-12 mt8">
+                                        <label for="name">Description</label>
+                                        <textarea class="form-control" rows="3" name="name" aria-describedby="description" t-raw="leave.name or ''" t-attf-style="pointer-events: #{'none' if is_readonly else 'all'};"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- chatter -->
+                    <div id="leaves_communication" class="mt-4" t-if="is_readonly">
+                        <h2>History</h2>
+                        <t t-call="portal.message_thread">
+                            <t t-set="object" t-value="leave"/>
+                        </t>
+                    </div>
+                </t>
+            </t>
+        </xpath>
+    </template>
+
+</odoo>

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <!-- FLEET.TRIP -->
+
+    <!-- fleet.trip search view -->
+    <record id="fleet_trip_view_search" model="ir.ui.view">
+        <field name="name">fleet.trip.view.search</field>
+        <field name="model">fleet.trip</field>
+        <field name="arch" type="xml">
+            <search string="Search Trips">
+                <field name="name"/>
+                <field name="partner_id"/>
+                <field name="truck_id"/>
+                <field name="pod_number"/>
+
+                <filter name="trip_preparation" string="Preparation" domain="[('state', '=', 'draft')]" />
+                <filter name="trip_in_progress" string="In Progress" domain="[('state', '=', 'in_progress')]" />
+                <filter name="trip_completed" string="Completed" domain="[('state', '=', 'completed')]" />
+                <filter name="trip_cancelled" string="Cancelled" domain="[('state', '=', 'cancelled')]" />
+
+                <group expand="0" string="Group By">
+                    <filter string="Customer" name="trip_partner_id" context="{'group_by':'partner_id'}"/>
+                    <filter string="Order" name="trip_order_id" context="{'group_by':'order_id'}"/>
+                    <filter string="Truck" name="trip_truck_id" context="{'group_by':'truck_id'}"/>
+                    <filter string="Status" name="trip_state" context="{'group_by':'state'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- fleet.trip tree view -->
+    <record id="fleet_trip_view_tree" model="ir.ui.view">
+        <field name="name">fleet.trip.view.tree</field>
+        <field name="model">fleet.trip</field>
+        <field name="arch" type="xml">
+
+            <tree string="Trips">
+                <field name="name" decoration-bf="1" />
+                <field name="date" />
+                <field name="partner_id" />
+                <field name="pod_number"/>
+                <field name="truck_id" />
+                <field name="driver_id" />
+                <field name="route_id" />
+                <field name="truck_capacity"/>
+                <field name="product_uom_id"/>
+                <field name="pickup_location" />
+                <field name="drop_location" />
+                <field name="ap_rate"/>
+                <field name="currency_id" invisible="1"/>
+                <field name="state" widget="badge" decoration-info="state == 'in_progress'" decoration-danger="state == 'cancelled'" decoration-primary="state == 'completed'" decoration-success="state == 'invoiced'" />
+            </tree>
+
+        </field>
+    </record>
+
+    <!-- fleet.trip form view -->
+    <record id="fleet_trip_view_form" model="ir.ui.view">
+        <field name="name">fleet.trip.view.form</field>
+        <field name="model">fleet.trip</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <header>
+                    <button string="Start Trip" name="action_start_trip" type="object" class="oe_highlight" states="draft"/>
+                    <button string="Mark Loaded" name="action_mark_loaded" type="object" class="oe_highlight" states="loading"/>
+                    <button string="Complete Trip" name="action_complete_trip" type="object" class="oe_highlight" states="in_progress"/>
+                    <button string="Reset Back" name="action_reset_to_progress" type="object" states="completed"/>
+                    <button string="Close &amp; Invoice Trip" name="action_finalize_trip" type="object" class="oe_highlight" states="completed" groups="oo_fleet_management.group_fleet_management_account"/>
+                    <button string="Cancel Trip" name="action_cancel_trip" type="object" class="oe_secondary" states="draft,in_progress"/>
+                    <field name="state" widget="statusbar"/>
+                </header>
+                <sheet>
+                    <div name="button_box" class="oe_button_box" groups="oo_fleet_management.group_fleet_management_account">
+                        <button name="action_trip_revenue" string="Trip Revenue" icon="fa-usd" class="oe_stat_button" attrs="{'invisible': [('analytic_tag_id', '=', False)]}" type="object"/>
+                    </div>
+                    <group>
+                        <sheet>
+
+                            <group>
+                                <group id="header_left_group">
+                                    <field name="name" />
+                                    <field name="truck_id" />
+                                    <field name="truck_ownership" invisible="1"/>
+                                    <field name="driver_id" />
+                                    <field name="date" />
+                                    <field name="end_date" attrs="{'readonly': [('state', '=' , 'invoiced')], 'required': [('state', '=', 'completed')]}"/>
+                                </group>
+                                <group id="header_right_group">
+                                    <field name="order_id" />
+                                    <field name="partner_id" />
+                                    <field name="product_id" />
+                                    <field name="currency_id" />
+                                    <field name="shortage_rate" />
+                                    <field name="company_id"/>
+                                </group>
+                            </group>
+                            <separator />
+                            <group>
+                                <group id="header_left_group">
+                                    <field name="yard_location" attrs="{'readonly': [('state', '!=' , 'draft')], 'required': [('state', '=', 'draft')]}"/>
+                                    <field name="route_id" attrs="{'readonly': [('state', 'in' , ('completed', 'invoiced', 'cancelled'))], 'required': [('state', '!=', 'draft')]}"/>
+                                    <field name="distance" />
+                                    <field name="pickup_location" />
+                                    <field name="pickup_city" />
+
+                                </group>
+                                <group id="header_right_group">
+                                    <field name="pod_number" attrs="{'readonly': [('state', '=' , 'invoiced')], 'required': [('state', '=', 'in_progress')], 'invisible': [('state', 'in', ('draft', 'loading'))]}"/>
+                                    <field name="drop_location" />
+                                    <field name="drop_city" />
+                                    <field name="pickup_country_id" />
+                                    <field name="drop_country_id" />
+                                </group>
+                            </group>
+                            <separator />
+                            <group>
+                                <group id="header_left_group">
+                                    <field name="start_odoometer" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))], 'required': [('state', '=', 'draft')]}"/>
+                                    <field name="end_odoometer" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))], 'required': [('state', '=', 'in_progress')], 'invisible': [('state', 'in', ('draft', 'loading'))]}"/>
+                                    
+                                    <div name="ap_rate_div" class="d-flex" attrs="{'invisible': [('truck_ownership', '=', 'company')]}">
+                                        <label for="ap_rate" />
+                                        <field name="ap_rate" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))], 'required': ['|', ('state', '!=', 'draft'), ('truck_ownership', '!=', 'company')]}"/>
+                                        <span class="oe_inline o_form_label mx-3"></span>
+                                        <field name="ap_type" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))], 'required': ['|', ('state', '!=', 'draft'), ('truck_ownership', '!=', 'company')]}"/>
+                                    </div>
+
+                                    <field name="loading_date" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))], 'required': [('state', '!=', 'draft')], 'invisible': [('state', '=', 'draft')]}"/>
+                                    <label for="loaded_qty" attrs="{'invisible': [('state', '=', 'draft')]}"/>
+                                    <div name="loaded_qty_div" class="d-flex" attrs="{'invisible': [('state', '=', 'draft')]}">
+                                        <field name="loaded_qty" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))], 'required': [('state', '!=', 'draft')]}"/>
+                                        <span class="oe_inline o_form_label mx-3"></span>
+                                        <field name="product_uom_id" />
+                                    </div>
+                                    <field name="loaded_qty_20" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))], 'invisible': ['|', ('state', '=', 'draft'), ('cargo_truck_type', '=', 'trailer')]}"/>
+                                    <field name="analytic_tag_id" invisible="1" />
+                                </group>
+                                <group id="header_right_group">
+                                    <field name="truck_capacity"/>
+                                    <field name="offloading_date" attrs="{'readonly': [('state', 'in' , ('completed', 'invoiced', 'cancelled'))], 'required': [('state', '=', 'in_progress')], 'invisible': [('state', 'in', ('draft', 'loading'))]}"/>
+                                    <field name="offloaded_qty" attrs="{'readonly': [('state', 'in' , ('completed', 'invoiced', 'cancelled'))], 'required': [('state', '=', 'in_progress')], 'invisible': [('state', 'in', ('draft', 'loading'))]}"/>
+                                    <field name="offloaded_qty_20" attrs="{'readonly': [('state', 'in' , ('completed', 'invoiced', 'cancelled'))], 'required': [('state', '=', 'in_progress')], 'invisible': ['|', ('state', 'in', ('draft', 'loading')), ('cargo_truck_type', '=', 'trailer')]}"/>
+                                    <field name="allowable_shortage" attrs="{'invisible': [('cargo_truck_type', '=', 'tanker'), ('state', 'in', ('draft', 'loading', 'in_progress'))]}"/>
+                                    <field name="short_qty" attrs="{'invisible': [('cargo_truck_type', '=', 'tanker'), ('state', 'in', ('draft', 'loading', 'in_progress'))]}"/>
+                                    <field name="cargo_truck_type" invisible="1" />
+                                </group>
+                            </group>
+
+                            <notebook>
+                                <page string="Cargo Seals" name="cargo_seals" attrs="{'invisible': [('cargo_truck_type', '!=', 'tanker')]}">
+                                    <field name="cargo_seal_ids" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))]}">
+                                        <tree editable="bottom">
+                                            <field name="compartment" />
+                                            <field name="top_seal" />
+                                            <field name="bottom_seal" />
+                                        </tree>
+                                    </field>
+                                </page>
+
+                                <page string="Trip Documents">
+                                    <field name="trip_document_ids" attrs="{'readonly': [('state', 'in' , ('completed', 'cancelled'))]}">
+                                        <tree editable="bottom">
+                                            <field name="document_id" />
+                                            <field name="document_ids" widget="many2many_binary" />
+                                        </tree>
+                                    </field>
+                                </page>
+                            </notebook>
+                        </sheet>
+                    </group>
+                </sheet>
+                <!-- Chatter -->
+                <div class="oe_chatter">
+                    <field name="message_follower_ids" groups="base.group_user"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+</odoo>

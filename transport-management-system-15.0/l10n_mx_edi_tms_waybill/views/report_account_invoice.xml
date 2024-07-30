@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="report_invoice_waybill" inherit_id="l10n_mx_edi.report_invoice_document_mx">
+        <xpath expr="//table[@name='invoice_line_table']" position="before">
+            <t t-set="cartaporte" t-value="cfdi_vals.get('cartaporte_node')"/>
+            <t t-if="cartaporte">
+                <t t-set="hasattr" t-value="cfdi_vals.get('hasattr')"/>
+                <table class="table table-sm o_main_table" style="text-align:center">
+                    <thead>
+                        <tr>
+                            <th>International</th>
+                            <t t-if="o.l10n_mx_edi_origin">
+                                <th>Related CFDI</th>
+                            </t>
+                            <th>Currency</th>
+                            <t t-if="cartaporte.get('TranspInternac') == 'Si'">
+                                <th>Merchandise Entry/Exit</th>
+                                <th>Origin/Destination Country</th>
+                            </t>
+                            <th>Total Distance</th>
+                            <t t-if="cartaporte.Mercancias.Autotransporte.Seguros.get('AseguraCarga')">
+                                <th>Cargo Insurer</th>
+                                <th>Cargo Policy</th>
+                                <th>Cargo Fee</th>
+                            </t>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><t t-out="cartaporte.get('TranspInternac')"/></td>
+                            <t t-if="o.l10n_mx_edi_origin">
+                                <td><t t-out="'\n'.join(o.l10n_mx_edi_origin.split('|')[1:])"/></td>
+                            </t>
+                            <td><t t-out="o.currency_id.name"/></td>
+                            <t t-if="cartaporte.get('TranspInternac') == 'Si'">
+                                <td><t t-out="cartaporte.get('EntradaSalidaMerc')"/></td>
+                                <td><t t-out="cartaporte.get('PaisOrigenDestino')"/></td>
+                            </t>
+                            <td><t t-out="cartaporte.get('TotalDistRec')"/></td>
+                            <t t-if="cartaporte.Mercancias.Autotransporte.Seguros.get('AseguraCarga')">
+                                <td><t t-out="cartaporte.Mercancias.Autotransporte.Seguros.get('AseguraCarga')"/></td>
+                                <td><t t-out="cartaporte.Mercancias.Autotransporte.Seguros.get('PolizaCarga')"/></td>
+                                <td><t t-out="cartaporte.Mercancias.Autotransporte.Seguros.get('PrimaSeguro')"/></td>
+                            </t>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-sm o_main_table" style="text-align:center">
+                    <t t-set="external" t-value="False"/>
+                    <t t-set="street" t-value="False"/>
+                    <t t-set="ext_no" t-value="False"/>
+                    <t t-set="int_no" t-value="False"/>
+                    <t t-set="colony" t-value="False"/>
+                    <t t-set="locality" t-value="False"/>
+                    <t t-set="ref" t-value="False"/>
+                    <t t-set="city" t-value="False"/>
+                    <thead>
+                        <tr><th t-att-colspan="max([len(x.attrib) for x in cartaporte.Ubicaciones.getchildren()]) + max([len(x.Domicilio.attrib) for x in cartaporte.Ubicaciones.getchildren()])">Senders and recipients</th></tr>
+                        <tr>
+                            <th>Location Type</th>
+                            <th>Location ID</th>
+                            <th>VAT</th>
+                            <th>Name</th>
+                            <t t-if="any([l.get('NumRegIdTrib') for l in cartaporte.Ubicaciones.getchildren()])">
+                                <t t-set="external" t-value="True"/>
+                                <th>Fiscal ID</th>
+                                <th>Country</th>
+                            </t>
+                            <th>Date (Departure/Arrival)</th>
+                            <th>Distance</th>
+                            <t t-if="any([l.Domicilio.get('Calle') for l in cartaporte.Ubicaciones.getchildren()])">
+                                <t t-set="street" t-value="True"/>
+                                <th>Street</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('NumeroExterior') for l in cartaporte.Ubicaciones.getchildren()])">
+                                <t t-set="ext_no" t-value="True"/>
+                                <th>Ext Number</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('NumeroInterior') for l in cartaporte.Ubicaciones.getchildren()])">
+                                <t t-set="int_no" t-value="True"/>
+                                <th>Int Number</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Colonia') for l in cartaporte.Ubicaciones.getchildren()])">
+                                <t t-set="colony" t-value="True"/>
+                                <th>Colony</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Localidad') for l in cartaporte.Ubicaciones.getchildren()])">
+                                <t t-set="locality" t-value="True"/>
+                                <th>Locality</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Referencia') for l in cartaporte.Ubicaciones.getchildren()])">
+                                <t t-set="ref" t-value="True"/>
+                                <th>Reference</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Minicipio') for l in cartaporte.Ubicaciones.getchildren()])">
+                                <t t-set="city" t-value="True"/>
+                                <th>City</th>
+                            </t>
+                            <th>State</th>
+                            <th>Country</th>
+                            <th>Zip</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="cartaporte.Ubicaciones.getchildren()" t-as="location">
+                            <tr>
+                                <td><span t-out="location.get('TipoUbicacion')"/></td>
+                                <td><span t-out="location.get('IDUbicacion')"/></td>
+                                <td><span t-out="location.get('RFCRemitenteDestinatario')"/></td>
+                                <td><span t-out="location.get('NombreRemitenteDestinatario')"/></td>
+                                <t t-if="external">
+                                    <td><span t-out="location.get('NumRegIdTrib')"/></td>
+                                    <td><span t-out="location.get('ResidenciaFiscal')"/></td>
+                                </t>
+                                <td><span t-out="location.get('FechaHoraSalidaLlegada')"/></td>
+                                <td><span t-out="location.get('DistanciaRecorrida')"/></td>
+                                <t t-if="street">
+                                    <td><span t-out="location.Domicilio.get('Calle')"/></td>
+                                </t>
+                                <t t-if="ext_no">
+                                    <td><span t-out="location.Domicilio.get('NumeroExterior')"/></td>
+                                </t>
+                                <t t-if="int_no">
+                                    <td><span t-out="location.Domicilio.get('NumeroInterior')"/></td>
+                                </t>
+                                <t t-if="colony">
+                                    <td><span t-out="location.Domicilio.get('Colonia')"/></td>
+                                </t>
+                                <t t-if="locality">
+                                    <td><span t-out="location.Domicilio.get('Localidad')"/></td>
+                                </t>
+                                <t t-if="ref">
+                                    <td><span t-out="location.Domicilio.get('Referencia')"/></td>
+                                </t>
+                                <t t-if="city">
+                                    <td><span t-out="location.Domicilio.get('Municipio')"/></td>
+                                </t>
+                                <td><span t-out="location.Domicilio.get('Estado')"/></td>
+                                <td><span t-out="location.Domicilio.get('Pais')"/></td>
+                                <td><span t-out="location.Domicilio.get('CodigoPostal')"/></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+                <br/>
+                <table class="table table-sm o_main_table" style="text-align:center">
+                    <t t-set="stcc_code" t-value="False"/>
+                    <t t-set="dimensions" t-value="False"/>
+                    <t t-set="dangerous_material" t-value="False"/>
+                    <t t-set="dangerous_material_code" t-value="False"/>
+                    <t t-set="value" t-value="False"/>
+                    <t t-set="tariff_fraction" t-value="False"/>
+                    <t t-set="external_uuid" t-value="False"/>
+                    <t t-set="customs" t-value="False"/>
+                    <thead>
+                        <tr><th t-att-colspan="max([len(x.attrib) for x in cartaporte.Mercancias.getchildren()]) + (1 if any([hasattr(x, 'Pedimentos') for x in cartaporte.Mercancias.getchildren()]) else 0)">Merchandise</th></tr>
+                        <tr>
+                            <th>Product Code</th>
+                            <t t-if="any([m.get('ClaveSTCC') for m in cartaporte.Mercancias.getchildren()])">
+                                <t t-set="stcc_code" t-value="True"/>
+                                <th>STCC Code</th>
+                            </t>
+                            <th>Description</th>
+                            <th>Quantity</th>
+                            <th>UoM Code</th>
+                            <th>UoM</th>
+                            <t t-if="any([m.get('Dimensions') for m in cartaporte.Mercancias.getchildren()])">
+                                <t t-set="dimensions" t-value="True"/>
+                                <th>Dimensions</th>
+                            </t>
+                            <t t-if="any([m.get('MaterialPeligroso') for m in cartaporte.Mercancias.getchildren()])">
+                                <t t-set="dangerous_material" t-value="True"/>
+                                <th>Dangerous Material</th>
+                            </t>
+                            <t t-if="any([m.get('CveMaterialPeligroso') for m in cartaporte.Mercancias.getchildren()])">
+                                <t t-set="dangerous_material_code" t-value="True"/>
+                                <th>Dangerous Material Code</th>
+                                <th>Packaging Type</th>
+                                <th>Packaging Description</th>
+                            </t>
+                            <th>Weight in Kilograms</th>
+                            <t t-if="any([m.get('ValorMercancia') for m in cartaporte.Mercancias.getchildren()])">
+                                <t t-set="value" t-value="True"/>
+                                <th>Merchandise Value</th>
+                                <th>Currency</th>
+                            </t>
+                            <t t-if="any([m.get('FraccionArancelaria') for m in cartaporte.Mercancias.getchildren()])">
+                                <t t-set="tariff_fraction" t-value="True"/>
+                                <th>Tariff Fraction</th>
+                            </t>
+                            <t t-if="any([m.get('UUIDComercioExt') for m in cartaporte.Mercancias.getchildren()])">
+                                <t t-set="external_uuid" t-value="True"/>
+                                <th>External Trade UUID</th>
+                            </t>
+                            <t t-if="any([hasattr(m, 'Pedimentos') for m in cartaporte.Mercancias.getchildren()])">
+                                <t t-set="customs" t-value="True"/>
+                                <th>Customs Number</th>
+                            </t>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="cartaporte.Mercancias.getchildren()" t-as="merchandise">
+                        <tr>
+                            <td><span t-out="merchandise.get('BienesTransp')"/></td>
+                            <t t-if="stcc_code">
+                                <td><span t-out="merchandise.get('ClaveSTCC')"/></td>
+                            </t>
+                            <td><span t-out="merchandise.get('Descripcion')"/></td>
+                            <td><span t-out="merchandise.get('Cantidad')"/></td>
+                            <td><span t-out="merchandise.get('ClaveUnidad')"/></td>
+                            <td><span t-out="merchandise.get('Unidad')"/></td>
+                            <t t-if="dimensions">
+                                <td><span t-out="merchandise.get('Dimensiones')"/></td>
+                            </t>
+                            <t t-if="dangerous_material">
+                                <td><span t-out="merchandise.get('MaterialPeligroso')"/></td>
+                            </t>
+                            <t t-if="dangerous_material_code">
+                                <td><span t-out="merchandise.get('CveMaterialPeligroso')"/></td>
+                                <td><span t-out="merchandise.get('Embalaje')"/></td>
+                                <td><span t-out="merchandise.get('DescripEmbalaje')"/></td>
+                            </t>
+                            <td><span t-out="merchandise.get('PesoEnKg')"/></td>
+                            <t t-if="value">
+                                <td><span t-out="merchandise.get('ValorMercancia')"/></td>
+                                <td><span t-out="merchandise.get('Moneda')"/></td>
+                            </t>
+                            <t t-if="tariff_fraction">
+                                <td><span t-out="merchandise.get('FraccionArancelaria')"/></td>
+                            </t>
+                            <t t-if="external_uuid">
+                                <td><span t-out="merchandise.get('UUIDComercioExt')"/></td>
+                            </t>
+                            <t t-if="customs">
+                                <td>
+                                    <t t-foreach="merchandise.getchildren()" t-as="pedimento">
+                                        <t t-if="pedimento.get('Pedimento')">
+                                            <span t-out="pedimento.get('Pedimento')"/><br/>
+                                        </t>
+                                    </t>
+                                </td>
+                            </t>
+                        </tr>
+                    </t>
+                    </tbody>
+                </table>
+                <br/>
+                <table class="table table-sm o_main_table" style="text-align:center">
+                    <thead>
+                        <tr><th colspan="7">Vehicle Information</th></tr>
+                        <tr>
+                            <th>SCT Permit</th>
+                            <th>SCT Permit Number</th>
+                            <th>Vehicle Configuration</th>
+                            <th>Licence Plate</th>
+                            <th>Year</th>
+                            <th>Civil Liability Insurer</th>
+                            <th>Civil Liability Policy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><t t-out="cartaporte.Mercancias.Autotransporte.get('PermSCT')"/></td>
+                            <td><t t-out="cartaporte.Mercancias.Autotransporte.get('NumPermisoSCT')"/></td>
+                            <td><t t-out="cartaporte.Mercancias.Autotransporte.IdentificacionVehicular.get('ConfigVehicular')"/></td>
+                            <td><t t-out="cartaporte.Mercancias.Autotransporte.IdentificacionVehicular.get('PlacaVM')"/></td>
+                            <td><t t-out="cartaporte.Mercancias.Autotransporte.IdentificacionVehicular.get('AnioModeloVM')"/></td>
+                            <td><t t-out="cartaporte.Mercancias.Autotransporte.Seguros.get('AseguraRespCivil')"/></td>
+                            <td><t t-out="cartaporte.Mercancias.Autotransporte.Seguros.get('PolizaRespCivil')"/></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-sm o_main_table" style="text-align:center">
+                    <thead>
+                        <tr><th colspan="2">Trailer Information</th></tr>
+                        <tr>
+                            <th>Trailer Subtype</th>
+                            <th>License Plate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="cartaporte.Mercancias.Autotransporte.Remolques.getchildren()" t-as="trailer">
+                            <tr>
+                                <td><t t-out="trailer.get('SubTipoRem')"/></td>
+                                <td><t t-out="trailer.get('Placa')"/></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+                <table class="table table-sm o_main_table" style="text-align:center">
+                    <t t-set="external" t-value="False"/>
+                    <t t-set="street" t-value="False"/>
+                    <t t-set="ext_no" t-value="False"/>
+                    <t t-set="int_no" t-value="False"/>
+                    <t t-set="colony" t-value="False"/>
+                    <t t-set="locality" t-value="False"/>
+                    <t t-set="ref" t-value="False"/>
+                    <t t-set="city" t-value="False"/>
+                    <t t-set="part" t-value="False"/>
+                    <thead>
+                        <tr><th t-att-colspan="max([len(x.attrib) + len(x.Domicilio.attrib) + (1 if hasattr(x, 'PartesTransporte') else 0) for x in cartaporte.FiguraTransporte.getchildren()])">Transport Figure</th></tr>
+                        <tr>
+                            <th>Figure Type</th>
+                            <th>VAT</th>
+                            <th>License Number</th>
+                            <th>Name</th>
+                            <t t-if="any([l.get('NumRegIdTrib') for l in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="external" t-value="True"/>
+                                <th>Fiscal ID</th>
+                                <th>Country</th>
+                            </t>
+                            <t t-if="any([hasattr(x, 'PartesTransporte') for x in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="part" t-value="True"/>
+                                <th>Part</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Calle') for l in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="street" t-value="True"/>
+                                <th>Street</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('NumeroExterior') for l in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="ext_no" t-value="True"/>
+                                <th>Ext Number</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('NumeroInterior') for l in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="int_no" t-value="True"/>
+                                <th>Int Number</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Colonia') for l in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="colony" t-value="True"/>
+                                <th>Colony</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Localidad') for l in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="locality" t-value="True"/>
+                                <th>Locality</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Referencia') for l in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="ref" t-value="True"/>
+                                <th>Reference</th>
+                            </t>
+                            <t t-if="any([l.Domicilio.get('Minicipio') for l in cartaporte.FiguraTransporte.getchildren()])">
+                                <t t-set="city" t-value="True"/>
+                                <th>City</th>
+                            </t>
+                            <th>State</th>
+                            <th>Country</th>
+                            <th>Zip</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="cartaporte.FiguraTransporte.getchildren()" t-as="figure">
+                            <tr>
+                                <td><t t-out="figure.get('TipoFigura')"/></td>
+                                <td><t t-out="figure.get('RFCFigura')"/></td>
+                                <td><t t-out="figure.get('NumLicencia')"/></td>
+                                <td><t t-out="figure.get('NombreFigura')"/></td>
+                                <t t-if="external">
+                                    <td><t t-out="figure.get('NumRegIdTribFigura')"/></td>
+                                    <td><t t-out="figure.get('ResidenciaFiscalFigura')"/></td>
+                                </t>
+                                <t t-if="part">
+                                    <t t-if="hasattr(figure, 'ParteTransporte')">"
+                                        <td><t t-out="figure.PartesTransporte.get('ParteTransporte')"/></td>
+                                    </t>
+                                    <t t-else="">
+                                        <td></td>
+                                    </t>
+                                </t>
+                                <t t-if="street">
+                                        <td><span t-out="figure.Domicilio.get('Calle')"/></td>
+                                    </t>
+                                    <t t-if="ext_no">
+                                        <td><span t-out="figure.Domicilio.get('NumeroExterior')"/></td>
+                                    </t>
+                                    <t t-if="int_no">
+                                        <td><span t-out="figure.Domicilio.get('NumeroInterior')"/></td>
+                                    </t>
+                                    <t t-if="colony">
+                                        <td><span t-out="figure.Domicilio.get('Colonia')"/></td>
+                                    </t>
+                                    <t t-if="locality">
+                                        <td><span t-out="figure.Domicilio.get('Localidad')"/></td>
+                                    </t>
+                                    <t t-if="ref">
+                                        <td><span t-out="figure.Domicilio.get('Referencia')"/></td>
+                                    </t>
+                                    <t t-if="city">
+                                        <td><span t-out="figure.Domicilio.get('Municipio')"/></td>
+                                    </t>
+                                    <td><span t-out="figure.Domicilio.get('Estado')"/></td>
+                                    <td><span t-out="figure.Domicilio.get('Pais')"/></td>
+                                    <td><span t-out="figure.Domicilio.get('CodigoPostal')"/></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+                <br/>
+            </t>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="action_view_advance_payment" model="ir.actions.act_window">
+        <field name="name">Make Advance Payment.</field>
+        <field name="res_model">account.payment.register</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="model_tms_advance"/>
+    </record>
+    <record id="action_view_expense_payment" model="ir.actions.act_window">
+        <field name="name">Make Driver Expense Payment.</field>
+        <field name="res_model">account.payment.register</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="model_tms_expense"/>
+    </record>
+    <record id="action_view_expense_loan_payment" model="ir.actions.act_window">
+        <field name="name">Make Loan Expense Payment.</field>
+        <field name="res_model">account.payment.register</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+        <field name="binding_model_id" ref="model_tms_expense_loan"/>
+    </record>
+</odoo>

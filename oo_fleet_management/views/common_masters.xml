@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- FLEET.ROUTE -->
+
+    <!-- fleet.route search view -->
+    <record id="fleet_route_view_search" model="ir.ui.view">
+        <field name="name">fleet.route.view.search</field>
+        <field name="model">fleet.route</field>
+        <field name="arch" type="xml">
+            <search string="Search Description">
+                <field name="name" />
+                <field name="pickup_country_id" />
+                <field name="drop_country_id" />
+
+                <group expand="0" string="Group By">
+                    <filter string="Pickup Country" name="route_pickup_country_id" context="{'group_by':'pickup_country_id'}"/>
+                    <filter string="Dropoff Country" name="route_drop_country_id" context="{'group_by':'drop_country_id'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- fleet.route tree view -->
+    <record id="fleet_route_view_tree" model="ir.ui.view">
+        <field name="name">fleet.route.view.tree</field>
+        <field name="model">fleet.route</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="pickup_city" />
+                <field name="pickup_location" />
+                <field name="pickup_country_id" />
+                <field name="drop_city" />
+                <field name="drop_location" />
+                <field name="drop_country_id" />
+                <field name="company_id" />
+                <field name="company_truck_account_id" />
+                <field name="contractor_truck_account_id" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- fleet.route form view -->
+    <record id="fleet_route_view_form" model="ir.ui.view">
+        <field name="name">fleet.route.view.form</field>
+        <field name="model">fleet.route</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <field name="name" />
+                    </group>
+                    <group>
+                        <group>
+                            <field name="pickup_country_id" />
+                            <field name="pickup_location" />
+                            <field name="pickup_city" />
+                            <field name="company_id" />
+                            <field name="company_truck_account_id" />
+                        </group>
+                        <group>
+                            <field name="drop_country_id" />
+                            <field name="drop_location" />
+                            <field name="drop_city" />
+                            <field name="distance" />
+                            <field name="contractor_truck_account_id" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- FLEET.DOCUMENT.TYPE -->
+
+    <!-- fleet.document.type search view -->
+    <record id="fleet_document_type_view_search" model="ir.ui.view">
+        <field name="name">fleet.document.type.view.search</field>
+        <field name="model">fleet.document.type</field>
+        <field name="arch" type="xml">
+            <search string="Search Description">
+                <field name="name"/>
+
+                <group expand="0" string="Group By">
+                    <filter string="Applicable On" name="document_applicable_on" context="{'group_by':'applicable_on'}"/>
+                    <filter string="Mandatory Documents" name="document_mandatory" context="{'group_by':'mandatory'}"/>
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- fleet.document.type tree view -->
+    <record id="fleet_document_type_view_tree" model="ir.ui.view">
+        <field name="name">fleet.document.type.view.tree</field>
+        <field name="model">fleet.document.type</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="mandatory" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- fleet.document.type form view -->
+    <record id="fleet_document_type_view_form" model="ir.ui.view">
+        <field name="name">fleet.document.type.view.form</field>
+        <field name="model">fleet.document.type</field>
+        <field name="arch" type="xml">
+            <form string="">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                        </group>
+                        <group>
+                            <field name="applicable_on" invisible="1"/>
+                            <field name="mandatory" />
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="employee_contract_expiry_reminder" model="ir.cron">
+        <field name="name">HR Employee Contract Expiration</field>
+        <field name="model_id" ref="model_hr_contract" />
+        <field name="state">code</field>
+        <field name="code">model.contract_expiry()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+    </record>
+
+    <record id="employee_employee_clear_amount" model="ir.cron">
+        <field name="name">HR Employee Clear Amount</field>
+        <field name="model_id" ref="model_hr_employee" />
+        <field name="state">code</field>
+        <field name="code">model.clear_amount()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+    </record>
+
+    <record id="employee_contract_clear_hours" model="ir.cron">
+        <field name="name">HR Contract Clear Hours</field>
+        <field name="model_id" ref="model_hr_contract" />
+        <field name="state">code</field>
+        <field name="code">model.clear_amount()</field>
+        <field name="interval_number">1</field>
+        <field name="interval_type">days</field>
+        <field name="numbercall">-1</field>
+    </record>
+</odoo>

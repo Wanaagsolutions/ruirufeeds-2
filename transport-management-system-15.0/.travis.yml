@@ -1,0 +1,42 @@
+language: python
+
+sudo: false
+cache:
+  apt: true
+  directories:
+    - $HOME/.cache/pip
+
+addons:
+  postgresql: "11"
+  apt:
+    packages:
+      - expect-dev
+      - openssl
+
+python:
+  - "3.7"  # CI docker image is not compatible with py3.8 but py3.7
+
+env:
+  global:
+  - TESTS="0" LINT_CHECK="0"
+
+  matrix:
+  - LINT_CHECK="1"
+  - TESTS="1"
+
+install:
+  - source ${TRAVIS_BUILD_DIR}/variables.sh
+  - export TRAVIS_PYTHON_VERSION="3.7"  # CI docker image is not compatible with py3.8 but py3.7
+  - git clone --single-branch --depth=1 https://github.com/vauxoo/maintainer-quality-tools.git -b master ${HOME}/maintainer-quality-tools
+  - export PATH=${HOME}/maintainer-quality-tools/travis:${PATH}
+  - travis_install_nightly
+
+script:
+  - source ${TRAVIS_BUILD_DIR}/variables.sh  
+  - export TRAVIS_PYTHON_VERSION="3.7"  # CI docker image is not compatible with py3.8 but py3.7
+  - travis_run_tests
+
+after_success:
+  - source ${TRAVIS_BUILD_DIR}/variables.sh  
+  - export TRAVIS_PYTHON_VERSION="3.7"  # CI docker image is not compatible with py3.8 but py3.7
+  - travis_after_tests_success

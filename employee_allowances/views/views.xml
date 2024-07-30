@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <data noupdate="0">
+
+    <!-- ADD RECURRING FIELDS FOR CASH ALLOWANCES -->
+    <!-- ke.cash.allowance.type inherit form view -->
+    <record id="ke_cash_allownce_type_inherit" model="ir.ui.view">
+      <field name="name">ke.cash.allowance.type.inherit.view.form</field>
+      <field name="model">ke.cash.allowances.type</field>
+      <field name="inherit_id" ref="hr_ke.ke_cash_allowances_type_form" />
+      <field name="arch" type="xml">
+
+        <xpath expr="//group[@name='allowances_type']" position="after">
+          <group name="recurring">
+            <field name="is_recurring" />
+          </group>
+
+        </xpath>
+
+      </field>
+    </record>
+
+    <!-- ADD RECURRING FIELDS FOR AFTER TAX DEDUCTIONS -->
+    <!-- ke.cash.allowance.type inherit form view -->
+    <record id="ke_cash_deduction_type_inherit" model="ir.ui.view">
+      <field name="name">ke.cash.deductions.type.inherit.view.form</field>
+      <field name="model">ke.deductions.type</field>
+      <field name="inherit_id" ref="hr_ke.ke_deductions_type_form" />
+      <field name="arch" type="xml">
+
+        <xpath expr="//group[@name='deduction_type']" position="after">
+          <group name="recurring">
+            <field name="is_recurring" />
+          </group>
+
+        </xpath>
+
+      </field>
+    </record>
+
+
+    <record model="ir.actions.act_window" id="action_batch_deduction">
+      <field name="name">Batch Deduction</field>
+      <field name="res_model">ke.batch.deduction</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="hr_employee_cash_allowance_menu" name="Allowances" parent="hr.menu_hr_root" sequence="9" />
+    <menuitem id="hr_employee_deduction_menu" name="Deductions" parent="hr.menu_hr_root" action="action_batch_deduction" sequence="9" />
+
+    <menuitem id="hr_employee_bonus_and_commission" name="Cash Allowances" parent="hr_employee_cash_allowance_menu" action="action_bonus_and_commission" sequence="2" />
+    <menuitem id="hr_ke.ke_menu_overtime" name="Overtime" parent="hr_employee_cash_allowance_menu" sequence="3" />
+
+  </data>
+</odoo>

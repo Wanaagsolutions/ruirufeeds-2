@@ -1,0 +1,23 @@
+<odoo>
+<data noupdate="1">
+    
+    <record id="fleet_email_template_nomination" model="mail.template">
+        <field name="name">send Nomination by email</field>
+        <field name="model_id" ref="oo_fleet_management.model_fleet_order" />
+        <field name="subject"> Nomination Report for Order of number {{ object.name }}</field>
+        <field name="email_from">{{ ('') }}</field>
+        <field name="email_to">{{ object.partner_id.id }}</field>
+        <field name="body_html" type="html">
+            <div style="margin: 0px; padding: 0px;">
+                <p style="margin: 0px; padding: 0px; font-size: 13px;">  Kindly find the attached Nomination report. </p>
+            </div>
+        </field>
+        <field name="report_template" ref="oo_fleet_management.report_nomination" />
+        <field name="report_name">{{ (object.name)}}</field>
+        <field name="lang">{{ object.partner_id.lang }}</field>
+        
+        <field name="auto_delete" eval="True" />
+    </record>
+</data>
+
+</odoo>

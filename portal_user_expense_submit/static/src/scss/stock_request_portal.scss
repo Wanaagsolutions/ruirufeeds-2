@@ -1,0 +1,50 @@
+.stock_req_read_data{
+    display: flex;
+    justify-content: space-between;
+    @media (min-width: 992px) {
+        margin-right: 200px;
+    }
+    @media (max-width: 575px) {
+        flex-direction: column;
+    }
+}
+.stock_req_portal_details {
+    justify-content: space-around;
+    @media (max-width: 767px) {
+        display: contents !important;
+    }
+}
+
+.mb_1_custom {
+    margin-left: 20px;
+}
+    
+
+form {
+    position : relative;
+    width  : 740px;
+    height : 100%;
+    margin : 0 auto;
+    padding: 1em;
+    box-sizing: border-box;
+    border-color: darkgray;
+    background-color:#FFFFFF !important ;
+    margin-top: 5px;
+
+}
+
+textarea{
+    border  : aliceblue;
+    padding : 0 10px;
+    margin  : 0;
+    width: 100%;
+}
+
+
+.container-fluid .container-fluid, .container .container, .o_container_small .container, .container .o_container_small, .o_container_small .o_container_small, .container .container-fluid, .o_container_small .container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+    padding-top: 6px !important;
+    margin-top: 5px !important;
+    background-color:#FFFFFF !important ;
+}

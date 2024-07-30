@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="portal_attendance_breadcrumbs" name="Portal Attendance" inherit_id="portal.portal_breadcrumbs" priority="30">
+            <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+                <li t-if="page_name == 'attendance'" t-attf-class="breadcrumb-item #{'active ' if not service else ''}">
+                    <t>Attendance</t>
+                </li>
+            </xpath>
+        </template>
+
+        <template id="portal_my_attendance" name="Portal My Attendance: project entries" inherit_id="portal.portal_my_home" priority="30">
+            <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+                <t t-if="request.env['res.users'].browse(request.session.uid).user_has_groups('odoo_portal_attendance.portal_user_employee_attendance')">
+                    <t t-call="portal.portal_docs_entry">
+                        <t t-set="title">Your Attendances</t>
+                        <!--                        <t t-set="url" t-value="'/my/attendances'"/>-->
+                        <t t-set="url" t-value="'/my/attendance_record'"/>
+                        <t t-set="count" t-value="attendance_count"/>
+                    </t>
+                </t>
+            </xpath>
+        </template>
+
+        <template id="display_attendances" name="Display Attendance">
+            <t t-call="portal.portal_layout">
+                <div class="attendance_kiosk_mode_container o_home_menu_background">
+                    <span class="attendance_kiosk_backdrop"/>
+                    <div class="attendance_clock text-center"/>
+                    <div class="attendance_kiosk_mode">
+                        <t t-set="checked_in" t-value="employee.attendance_state=='checked_in'"/>
+                        <t t-if="employee">
+                            <div class="attendance_user_badge o_home_menu_background">
+                                <img class="img rounded-circle" t-attf-src="/web/image?model=hr.employee.public&amp;field=image_128&amp;id=#{employee.id}" t-att-title="employee.name" t-att-alt="employee.name"/>
+                            </div>
+                            <h1 class="mb8"><t t-esc="employee.name"/></h1>
+                            <h3 class="mt8 mb24"><t t-if="not checked_in">Welcome!</t><t t-else="">Want to check out?</t></h3>
+                            <a class="fa fa-7x attendance_sign_in_out_icon fa-sign-out btn-warning"
+                               t-if="checked_in" aria-label="Sign out" title="Sign out"
+                               t-attf-href="/my/sign_out_attendance"/>
+                            <a class="fa fa-7x attendance_sign_in_out_icon fa-sign-in btn-secondary"
+                               t-if="not checked_in" aria-label="Sign in" title="Sign in"
+                               t-attf-href="/my/sign_in_attendance"/>
+                            <h3 class="mt0 mb0 text-muted">Click to  <a> <b t-if="checked_in" style="color: #adb5bd !important;">check out</b></a><a><b t-if="not checked_in" style="color: #adb5bd !important;">check in</b></a></h3>
+                        </t>
+                        <t t-else="">
+                            Warning : Your user should be linked to an employee to use attendance. Please contact your administrator.
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="sign_in_attendance">
+            <t t-call="portal.frontend_layout">
+                <div id="wrap">
+                    <div class="attendance_kiosk_mode_container o_home_menu_background">
+                        <span class="attendance_kiosk_backdrop"/>
+                        <div class="attendance_clock text-center"/>
+                        <div class="attendance_kiosk_mode">
+                            <div class="attendance_user_badge o_home_menu_background">
+                                <img class="img rounded-circle" t-attf-src="/web/image?model=hr.employee.public&amp;field=image_128&amp;id=#{employee.id}" t-att-title="employee.name" t-att-alt="employee.name"/>
+                            </div>
+                            <h1 class="mb0">Welcome <t t-esc="employee.name"/>!</h1>
+                            <h2 class="o_hr_attendance_message_message mt4 mb24"/>
+                            <div class="alert alert-info h2 mt0" role="status">
+                                Checked in at <b><t t-esc="attendance.check_in"/></b>
+                            </div>
+                            <h3 class="o_hr_attendance_random_message mb24"/>
+                            <div class="o_hr_attendance_warning_message mt24 alert alert-warning" style="display:none" role="alert"/>
+                            <a class="attendance_button_dismiss btn btn-primary btn-lg" t-attf-href="/my">
+                                <span class="text-capitalize">OK</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="sign_out_attendance">
+            <t t-call="portal.frontend_layout">
+                <div id="wrap">
+                    <div class="attendance_kiosk_mode_container o_home_menu_background">
+                        <span class="attendance_kiosk_backdrop"/>
+                        <div class="attendance_clock text-center"/>
+                        <div class="attendance_kiosk_mode">
+                            <div class="attendance_user_badge o_home_menu_background">
+                                <img class="img rounded-circle" t-attf-src="/web/image?model=hr.employee.public&amp;field=image_128&amp;id=#{employee.id}" t-att-title="employee.name" t-att-alt="employee.name"/>
+                            </div>
+                            <h1 class="mb0">Goodbye <t t-esc="employee.name"/>!</h1>
+                            <h2 class="o_hr_attendance_message_message mt4 mb24"/>
+                            <div class="alert alert-info h2 mt0" role="status">
+                                Checked out at <b><t t-esc="attendance.check_out"/></b>
+                                <br/><b><t t-esc="hours_today"/></b>
+                            </div>
+                            <h3 class="o_hr_attendance_random_message mb24"/>
+                            <div class="o_hr_attendance_warning_message mt24 alert alert-warning" style="display:none" role="alert"/>
+                            <a class="attendance_button_dismiss btn btn-primary btn-lg" t-attf-href="/my">
+                                <span class="text-capitalize">Goodbye</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </t>
+        </template>
+
+        <template id="not_allowed_attendance" name="Access Denied">
+            <t t-call="portal.frontend_layout">
+                <div id="wrap">
+                    <div class="oe_structure"/> 
+                    <div class="container">
+                        <h5>  Warning : Your user should be linked to an employee to use attendance. Please contact your administrator. </h5>
+                        <div>
+                            <a t-attf-href="/my/home" class="btn btn-primary">
+                                Back
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </t>
+        </template>
+
+        <template id="portal_attendance_records" name="Portal Payslips">
+            <t t-call="portal.portal_layout">
+                <t t-set="breadcrumbs_searchbar" t-value="True"/>
+
+                <t t-call="portal.portal_searchbar">
+                    <t t-set="title">Attendance</t>
+                    <div class="btn-group flex-grow-1 mr-1 mb-1 mt-1 ml-2">
+                        <a class="btn btn-primary btn-block" style="width: fit-content;"
+                           title="Attendance" t-attf-href="/my/attendances">
+                            <i class="fa fa-sign-in"/>
+                        </a>
+                    </div>
+                </t>
+                <t t-if="not attendances">
+                    <p>There are currently no attendances for your account.</p>
+                </t>
+                <t t-if="attendances" t-call="portal.portal_table">
+                    <thead>
+                        <tr class="active">
+                            <th>Employee</th>
+                            <th>Check In</th>
+                            <th>Check Out</th>
+                            <th>Work Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="attendances" t-as="attendance">
+                            <tr>
+                                <td><span t-field="attendance.employee_id.name"/></td>
+                                <td><span t-field="attendance.check_in"/></td>
+                                <td><span t-field="attendance.check_out"/></td>
+                                <td><span t-field="attendance.worked_hours"/></td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </t>
+            </t>
+        </template>
+
+    </data>
+</odoo>

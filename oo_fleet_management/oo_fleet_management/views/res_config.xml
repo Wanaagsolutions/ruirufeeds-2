@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="oo_fleet_management_res_config_settings_view_form" model="ir.ui.view">
+            <field name="name">res.config.settings.view.form.inherit.account</field>
+            <field name="model">res.config.settings</field>
+            <field name="priority" eval="40" />
+            <field name="inherit_id" ref="base.res_config_settings_view_form" />
+            <field name="arch" type="xml">
+
+                <xpath expr="//div[hasclass('settings')]" position="inside">
+
+                    <div class="app_settings_block" data-string="Fleet Management" string="Fleet Management" data-key="oo_fleet_management" groups="oo_fleet_management.group_fleet_management_manager">
+                        <h2>General</h2>
+                        <div class="row mt16 o_settings_container" id="default_fleet_email_from">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="row mt8">
+                                            <label for="fleet_email_from" class="col-lg-4 o_light_label" />
+                                            <field name="fleet_email_from" widget="email" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="row mt8">
+                                            <label for="fleet_currency_id" class="col-lg-4 o_light_label" />
+                                            <field name="fleet_currency_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Journals</h2>
+                        <div class="row mt16 o_settings_container" id="default_fleet_journals">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="mt8">
+                                            <label for="fleet_income_journal_id" class="col-lg-4 o_light_label" string="Income Journal" />
+                                            <field name="fleet_income_journal_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="mt8">
+                                            <label for="fleet_expense_journal_id" class="col-lg-4 o_light_label" string="Contractor Bills Journal" />
+                                            <field name="fleet_expense_journal_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="mt8">
+                                            <label for="fleet_hr_expense_journal_id" class="col-lg-4 o_light_label" string="Truck Hr Expenses Journal" />
+                                            <field name="fleet_hr_expense_journal_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="mt8">
+                                            <label for="fleet_contractor_shorts_journal_id" class="col-lg-4 o_light_label" string="Contractor Shorts Journal" />
+                                            <field name="fleet_contractor_shorts_journal_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Income Accounts</h2>
+                        <div class="row mt16 o_settings_container" id="default_fleet_income_accounts">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="row mt8">
+                                            <label for="fleet_income_contractor_truck_account_id" class="col-lg-4 o_light_label" string="Contractor Account"/>
+                                            <field name="fleet_income_contractor_truck_account_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Truck Expense Accounts</h2>
+                        <div class="row mt16 o_settings_container" id="default_fleet_expense_accounts">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="row mt8">
+                                            <label for="fleet_expense_contractor_truck_debit_account_id" class="col-lg-4 o_light_label" string="Contractor Account"/>
+                                            <field name="fleet_expense_contractor_truck_debit_account_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Driver Recoverable Accounts</h2>
+                        <div class="row mt16 o_settings_container" id="default_fleet_shorts_accounts">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="row mt8">
+                                            <label for="fleet_driver_recoverable_account_id" class="col-lg-4 o_light_label" string="Driver Recoverable Account"/>
+                                            <field name="fleet_driver_recoverable_account_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <h2>Expenses Vendor</h2>
+                        <div class="row mt16 o_settings_container" id="default_fleet_shorts_accounts">
+                            <div class="col-12 col-lg-6 o_setting_box">
+                                <div class="o_setting_right_pane">
+                                    <div class="content-group">
+                                        <div class="row mt8">
+                                            <label for="fleet_expense_partner_id" class="col-lg-4 o_light_label" string="Expenses Vendor"/>
+                                            <field name="fleet_expense_partner_id" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+
+    </data>
+</odoo>

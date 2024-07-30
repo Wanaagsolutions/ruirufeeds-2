@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="tms_hr_employee_01" model="hr.employee">
+        <field name="name">Fernando Bedoya</field>
+        <field name="address_id" ref="base.main_partner"/>
+        <field name="driver" eval="True"/>
+        <field name="operating_unit_id" ref="operating_unit.main_operating_unit"/>
+        <field name="driver_license">QROO002722</field>
+        <field name="days_to_expire">365</field>
+        <field name="license_type">A</field>
+        <field name="license_valid_from" eval="datetime.now()"/>
+        <field name="license_expiration" eval="datetime.now()+timedelta(days=365)"/>
+        <field name="tms_advance_account_id" ref="account_drivers"/>
+        <field name="tms_expense_negative_account_id" ref="account_negative_balance"/>
+        <field name="address_home_id" ref="res_partner_01"/>
+        <field name="tms_loan_account_id" ref="account_loan"/>
+    </record>
+    <record id="tms_hr_employee_02" model="hr.employee">
+        <field name="name">Jose Almendrariz</field>
+        <field name="address_id" ref="base.main_partner"/>
+        <field name="driver" eval="True"/>
+        <field name="operating_unit_id" ref="operating_unit.main_operating_unit"/>
+        <field name="driver_license">QROO002722</field>
+        <field name="days_to_expire">365</field>
+        <field name="license_type">A</field>
+        <field name="license_valid_from" eval="datetime.now()"/>
+        <field name="license_expiration" eval="datetime.now()+timedelta(days=365)"/>
+        <field name="tms_advance_account_id" ref="account_drivers"/>
+        <field name="tms_expense_negative_account_id" ref="account_negative_balance"/>
+        <field name="address_home_id" ref="res_partner_02"/>
+        <field name="tms_loan_account_id" ref="account_loan"/>
+    </record>
+    <record id="tms_hr_employee_03" model="hr.employee">
+        <field name="name">Ricardo Bocanegra</field>
+        <field name="address_id" ref="base.main_partner"/>
+        <field name="driver" eval="True"/>
+        <field name="operating_unit_id" ref="operating_unit.main_operating_unit"/>
+        <field name="driver_license">QROO002722</field>
+        <field name="days_to_expire">365</field>
+        <field name="license_type">A</field>
+        <field name="license_valid_from" eval="datetime.now()"/>
+        <field name="license_expiration" eval="datetime.now()+timedelta(days=365)"/>
+        <field name="tms_advance_account_id" ref="account_drivers"/>
+        <field name="tms_expense_negative_account_id" ref="account_negative_balance"/>
+        <field name="address_home_id" ref="res_partner_03"/>
+        <field name="tms_loan_account_id" ref="account_loan"/>
+    </record>
+    <record id="tms_hr_employee_04" model="hr.employee">
+        <field name="name">Jhon Hawk</field>
+        <field name="address_id" ref="base.main_partner"/>
+        <field name="driver" eval="True"/>
+        <field name="operating_unit_id" ref="operating_unit.main_operating_unit"/>
+        <field name="driver_license">QROO002722</field>
+        <field name="days_to_expire">365</field>
+        <field name="license_type">A</field>
+        <field name="license_valid_from" eval="datetime.now()"/>
+        <field name="license_expiration" eval="datetime.now()+timedelta(days=365)"/>
+        <field name="tms_advance_account_id" ref="account_drivers"/>
+        <field name="tms_expense_negative_account_id" ref="account_negative_balance"/>
+        <field name="address_home_id" ref="res_partner_04"/>
+        <field name="tms_loan_account_id" ref="account_loan"/>
+    </record>
+    <record id="tms_hr_employee_05" model="hr.employee">
+        <field name="name">Jonathan Tomlinson</field>
+        <field name="address_id" ref="base.main_partner"/>
+        <field name="driver" eval="True"/>
+        <field name="operating_unit_id" ref="operating_unit.main_operating_unit"/>
+        <field name="driver_license">QROO002722</field>
+        <field name="days_to_expire">365</field>
+        <field name="license_type">A</field>
+        <field name="license_valid_from" eval="datetime.now()"/>
+        <field name="license_expiration" eval="datetime.now()+timedelta(days=365)"/>
+        <field name="tms_advance_account_id" ref="account_drivers"/>
+        <field name="tms_expense_negative_account_id" ref="account_negative_balance"/>
+        <field name="address_home_id" ref="res_partner_05"/>
+        <field name="tms_loan_account_id" ref="account_loan"/>
+    </record>
+    <record id="tms_hr_employee_06" model="hr.employee">
+        <field name="name">Fernando Hernandez</field>
+        <field name="address_id" ref="base.main_partner"/>
+        <field name="driver" eval="True"/>
+        <field name="operating_unit_id" ref="operating_unit.main_operating_unit"/>
+        <field name="driver_license">QROO002722</field>
+        <field name="days_to_expire">365</field>
+        <field name="license_type">A</field>
+        <field name="license_valid_from" eval="datetime.now()"/>
+        <field name="license_expiration" eval="datetime.now()+timedelta(days=365)"/>
+        <field name="tms_advance_account_id" ref="account_drivers"/>
+        <field name="tms_expense_negative_account_id" ref="account_negative_balance"/>
+        <field name="address_home_id" ref="res_partner_06"/>
+        <field name="tms_loan_account_id" ref="account_loan"/>
+    </record>
+    <record id="tms_hr_employee_07" model="hr.employee">
+        <field name="name">Luis Esparza</field>
+        <field name="address_id" ref="base.main_partner"/>
+        <field name="driver" eval="True"/>
+        <field name="operating_unit_id" ref="operating_unit.main_operating_unit"/>
+        <field name="driver_license">QROO002722</field>
+        <field name="days_to_expire">365</field>
+        <field name="license_type">A</field>
+        <field name="license_valid_from" eval="datetime.now()"/>
+        <field name="license_expiration" eval="datetime.now()+timedelta(days=365)"/>
+        <field name="tms_advance_account_id" ref="account_drivers"/>
+        <field name="tms_expense_negative_account_id" ref="account_negative_balance"/>
+        <field name="address_home_id" ref="res_partner_07"/>
+        <field name="tms_loan_account_id" ref="account_loan"/>
+    </record>
+</odoo>

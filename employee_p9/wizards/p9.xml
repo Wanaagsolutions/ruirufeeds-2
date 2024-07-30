@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="0">
+        <record id="hr_p9_employee_form" model="ir.ui.view">
+            <field name="name">Employee P9 Form</field>
+            <field name="model">hr.p9.form</field>
+            <field name="arch" type="xml">
+                <form string="Employee P9">
+                    <group>
+                        <span colspan="4">Generate Employee (s) Yealy P9 Form.</span>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="year" />
+                        </group>
+                        <group></group>
+                    </group>
+                    <group colspan="4">
+                        <separator string="Employees" colspan="4" />
+                        <newline />
+                        <field name="employee_ids">
+                            <tree editable="bottom">
+                                <field name="name" />
+                                <field name="company_id" invisible="0" />
+                                <field name="department_id" />
+                                <field name="job_id" />
+                                <field name="tax_pin" invisible="1" />
+                            </tree>
+                        </field>
+                    </group>
+                    <footer>
+                        <button name="generate_multi_p9_forms" string="Generate P9 Forms" type="object" class="btn-primary" />
+                        <button string="Cancel" class="btn-secondary" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_hr_p9_employee_form" model="ir.actions.act_window">
+            <field name="name">Hr P9 Report</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">hr.p9.form</field>
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="hr_p9_employee_form" />
+            <field name="target">new</field>
+        </record>
+
+        <menuitem id="hr_employee_employee_p9" name="P9 Forms" parent="hr.menu_hr_root" sequence="25" action="action_hr_p9_employee_form" />
+
+    </data>
+</odoo>

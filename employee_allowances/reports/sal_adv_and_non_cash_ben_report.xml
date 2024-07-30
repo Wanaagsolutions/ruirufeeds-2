@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <data noupdate="0">
+        <!-- Add you code here -->
+        <record id="salary_advance_hr_payslip_run_form_inherit" model="ir.ui.view">
+            <field name="name">hr.payslip.run.inherit.view.form.1</field>
+            <field name="model">hr.payslip.run</field>
+            <field name="inherit_id" ref="hr_payroll.hr_payslip_run_form" />
+            <field name="arch" type="xml">
+
+                <xpath expr="//button[@name='GetNetPay']" position="after">
+                    <button string="Non Cash Benefits Report" name="nonCashBenefitsReport" type="object" class="oe_highlight" />
+                </xpath>
+
+            </field>
+        </record>
+
+        <record id="view_print_salary_advance_report_form" model="ir.ui.view">
+            <field name="name">print.salary_advance.report.form</field>
+            <field name="model">salary_advance.report</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form string="Salary Advance Report">
+                    <field name="salary_advance_report_printed" invisible="1" />
+                    <group attrs="{'invisible':[('salary_advance_report_printed','=',True)]}">
+                        <group>
+                            <field name="months" required="1" style="width:250px;" />
+                        </group>
+                        <group>
+                            <field name="banks" required="1" style="width:250px;" />
+                        </group>
+                    </group>
+                    <group attrs="{'invisible':[('salary_advance_report_printed','=',False)]}">
+
+                        <group>
+                            <field name="file_name" invisible="1" />
+                            <field name="salary_advance_file" string=".XLS" readonly="1" filename="file_name" />
+                        </group>
+                    </group>
+
+                    <footer>
+                        <button string='Generate' name="salaryAdvanceReport" type="object" class="btn-primary" attrs="{'invisible':[('salary_advance_report_printed','=',True)]}" />
+                        <button string="Cancel" class="oe_link" special="cancel" />
+                    </footer>
+                </form>
+            </field>
+        </record>
+
+        <record id="action_salary_advance_report_summary" model="ir.actions.act_window">
+            <field name="name">Salary Advance Report</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">salary_advance.report</field>
+            <field name="view_mode">form</field>
+            <field name="target">new</field>
+        </record>
+
+        <menuitem name="Reports" id="menu_reports" parent="hr.menu_hr_root" sequence="26" />
+
+        <menuitem name="Salary Advance Report" id="salary_advance_menu" parent="employee_allowances.menu_reports" action="action_salary_advance_report_summary" />
+
+    </data>
+</odoo>

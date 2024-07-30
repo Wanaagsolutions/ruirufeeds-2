@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_partner_inherit_fleet" model="ir.ui.view">
+        <field name="name">res.partner.inherit.fleet</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='function']" position="replace">
+                <field name="partner_type" invisible="1" />
+                <field name="national_no" />
+               </xpath>
+            
+            <xpath expr="//page[@name='contact_addresses']" position="after">
+                <page string="Customer Documents" name="customer_documents">
+                    <field name="customer_documents_ids">
+                        <tree editable="bottom">
+                            <field name="name" />
+                            <field name="file" />
+                            <field name="doc_type" />
+                        </tree>
+                    </field>
+                </page>
+            </xpath>
+        </field>
+    </record>
+
+</odoo>

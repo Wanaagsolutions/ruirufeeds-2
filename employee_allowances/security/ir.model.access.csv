@@ -1,0 +1,13 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+
+batch_deduction_access,batch_deduction_access_user,model_ke_batch_deduction,hr.group_hr_user,1,1,1,1
+
+batch_deduction_ids_access,batch_deduction__ids_access_full,model_ke_batch_deduction_ids,hr.group_hr_user,1,1,1,1
+
+batch_fine_allocation_access,fine_allocation_user,model_fine_allocation,hr.group_hr_user,1,1,1,1
+
+batch_overtime_allocation_access,overtime_allocation_user,model_overtime_allocation,hr.group_hr_user,1,1,1,1
+
+bonus_allocation_access,bonus_allocation_user,model_bonus_allocation,hr.group_hr_user,1,1,1,1
+
+access_salary_advance_report,salary_advance_report_user,model_salary_advance_report,hr.group_hr_user,1,1,1,

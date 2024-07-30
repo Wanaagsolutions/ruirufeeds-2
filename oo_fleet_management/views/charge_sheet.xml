@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+    <!-- fleet.charge.sheet tree view -->
+    <record id="fleet_charge_sheet_view_tree" model="ir.ui.view">
+        <field name="name">fleet.charge.sheet.view.tree</field>
+        <field name="model">fleet.charge.sheet</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="driver_id"/>
+                <field name="date"/>
+                <field name="state"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- fleet.charge.sheet search view -->
+    <record id="fleet_charge_sheet_view_search" model="ir.ui.view">
+        <field name="name">fleet.charge.sheet.view.search</field>
+        <field name="model">fleet.charge.sheet</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="driver_id"/>
+                <field name="date"/>
+            </search>
+        </field>
+    </record>
+
+    <!-- fleet.charge.sheet form view -->
+    <record id="fleet_charge_sheet_view_form" model="ir.ui.view">
+        <field name="name">fleet.charge.sheet.view.form</field>
+        <field name="model">fleet.charge.sheet</field>
+        <field name="arch" type="xml">
+            <form>
+                <header>
+                    <button string="Confirm" name="action_confirm" type="object" class="oe_highlight" states='draft'/>
+                    <button string="Cancel" name="action_cancel" states='draft,done'/>
+                    <button string="Reset to Draft" name="action_draft" type="object" states='cancel'/>
+                    <field name="state" widget="statusbar" />
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" name="action_get_account_moves" string="Journal Entries" type="object" icon="fa-usd" attrs="{'invisible': [('move_ids', '=', [])]}"/>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="company_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="currency_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                        </group>
+                        <group>
+                            <field name="driver_id" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="date" attrs="{'readonly': [('state', '!=', 'draft')]}"/>
+                            <field name="move_ids" invisible="1"/>
+                        </group>
+                        <group string="Charge List" colspan="2">
+                            <field name="charge_ids" nolabel="1" attrs="{'readonly': [('state', '!=', 'draft')]}">
+                                <tree editable="bottom">
+                                    <field name="truck_id"/>
+                                    <field name="product_id"/>
+                                    <field name="quantity"/>
+                                    <field name="price_unit"/>
+                                    <field name="price_total"/>
+                                    <field name="charge_id" invisible="1"/>
+                                </tree>
+                            </field>
+                        </group>
+                        <group class="oe_subtotal_footer oe_right" colspan="2" name="charge_total">
+                            <div class="oe_inline o_td_label">
+                                <label for="total_amount"/>
+                            </div>
+                            <field name="total_amount" nolabel="1"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

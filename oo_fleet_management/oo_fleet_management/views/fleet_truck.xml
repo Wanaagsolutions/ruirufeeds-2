@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+
+    <!-- fleet.truck search view -->
+    <record id="fleet_truck_view_search" model="ir.ui.view">
+        <field name="name">fleet.truck.view.search</field>
+        <field name="model">fleet.truck</field>
+        <field name="arch" type="xml">
+            <search string="Search Trucks">
+                <field name="name" />
+                <filter name="filter_company_truck" string="Company Truck" domain="[('ownership', '=', 'company')]" />
+                <filter name="filter_contractor_truck" string="Contractor Truck" domain="[('ownership', '=', 'contractor')]" />
+
+                <group expand="0" string="Group By">
+                    <filter name="trucks_groupby_parent_id" string="Truck" context="{'group_by': 'parent_id'}" />
+                    <filter name="trucks_groupby_ownership" string="Ownership" context="{'group_by': 'ownership'}" />
+                    <filter name="trucks_groupby_truck_type" string="Truck Type" context="{'group_by': 'truck_type'}" />
+                    <filter name="trucks_groupby_status" string="Truck Status" context="{'group_by': 'state'}" />
+                </group>
+            </search>
+        </field>
+    </record>
+
+    <!-- fleet.truck tree view -->
+    <record id="fleet_truck_view_tree" model="ir.ui.view">
+        <field name="name">fleet.truck.view.tree</field>
+        <field name="model">fleet.truck</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name" />
+                <field name="truck_type" />
+                <field name="driver_id" />
+                <field name="supplier_id" />
+                <field name="manufacture_year" />
+                <field name="mileage" />
+                <field name="parent_id" />
+                <field name="state" />
+            </tree>
+        </field>
+    </record>
+
+    <!-- fleet.truck form view -->
+    <record id="fleet_truck_view_form" model="ir.ui.view">
+        <field name="name">fleet.truck.view.form</field>
+        <field name="model">fleet.truck</field>
+        <field name="arch" type="xml">
+            <form string="Trucks">
+                <header>
+                    <button string="Make Available" name="make_available" type="object"/>
+                </header>
+                <sheet>
+                    <div name="button_box" class="oe_button_box" groups="oo_fleet_management.group_fleet_management_account">
+                        <button name="action_analytic_account" string="Revenue" icon="fa-usd" class="oe_stat_button" attrs="{'invisible': [('analytic_account_id', '=', False)]}" type="object" />
+                    </div>
+                    <div class="oe_title">
+                        <p class="o_form_label">Registration No.</p>
+                        <h1 class="mt0">
+                            <field name="name" placeholder="KAY 457T" />
+                        </h1>
+                        <field name="state" invisible="1" />
+                    </div>
+
+                    <widget name="web_ribbon" title="Archived" bg_color="bg-danger" attrs="{'invisible': [('active', '=', True)]}" />
+                    <widget name="web_ribbon" title="Available" bg_color="bg-primary" attrs="{'invisible': [('state', '!=', 'available')]}" />
+                    <widget name="web_ribbon" title="Nominated" bg_color="bg-warning" attrs="{'invisible': [('state', '!=', 'nominated')]}" />
+                    <widget name="web_ribbon" title="In Trip" bg_color="bg-warning" attrs="{'invisible': [('state', '!=', 'in_trip')]}" />
+
+                    <group>
+                        <group id="header_left_group">
+                            <field name="truck_type" />
+                            <field name="parent_id" options="{'no_create': True, 'no_edit': True}" attrs="{'invisible': [('truck_type', '=', 'horse')], 'required': [('truck_type', '!=', 'horse')]}" />
+                            <field name="ownership" />
+                            <field name="supplier_id" options="{'no_create': True, 'no_edit': True}" />
+                            <field name="driver_id" options="{'no_create': True, 'no_edit': True}" attrs="{'invisible': [('truck_type', '!=', 'horse')]}"/>
+                            <field name="analytic_account_id" attrs="{'invisible': [('analytic_account_id', '=', False)]}" />
+                            <field name="active" widget="boolean_toggle" />
+                        </group>
+                        <group id="header_right_group">
+                            <field name="logbook_no"  />
+                            <field name="engine_no" attrs="{'invisible': [('truck_type', '!=', 'horse')]}"/>
+                            <field name="engine_cc" attrs="{'invisible': [('truck_type', '!=', 'horse')],'required': [('truck_type', '=', 'horse')]}"/>
+                            <field name="chasis_no" />
+                            <field name="wheel_no" />
+                            <field name="load_capacity" attrs="{'invisible': [('truck_type', '=', 'horse')],'required': [('truck_type', '!=', 'horse')]}"/>
+                            <field name="load_uom_id" attrs="{'invisible': [('truck_type', '=', 'horse')],'required': [('truck_type', '!=', 'horse')]}"/>
+                            <field name="main_tank_capacity" attrs="{'invisible': [('truck_type', '!=', 'horse')],'required': [('truck_type', '=', 'horse')]}"/>
+                            <field name="safari_tank_capacity" attrs="{'invisible': [('truck_type', '!=', 'horse')],'required': [('truck_type', '=', 'horse')]}"/>
+                            <field name="total_compartments" attrs="{'invisible': [('truck_type', '!=', 'tanker')],'required': [('truck_type', '=', 'tanker')]}"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="purchase_date" />
+                            <field name="make" placeholder="Mercedes,Actross.." />
+                            <field name="model" />
+                            <field name="manufacture_year" />
+                            <field name="mileage" />
+                            <field name="home_location" />
+                            <field name="gearbox_type" attrs="{'invisible': [('truck_type', '!=', 'horse')]}"/>
+                            <field name="analytic_account_id" invisible="1" />
+                        </group>
+                        <group>
+                            <field name="reg_date" />
+                            <field name="target_km" />
+                            <field name="max_tonnage" />
+                            <field name="service_after_km" />
+                            <field name="company_id" />
+                        </group>
+                    </group>
+
+                    <notebook>
+                        <page string="Trucks Documents" name="truck_documents">
+                            <field name="truck_documents_ids">
+                                <tree editable="bottom">
+                                    <field name="name" />
+                                    <field name="file" />
+                                    <field name="doc_type" />
+                                    <field name="expiration_date" />
+                                </tree>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+</odoo>

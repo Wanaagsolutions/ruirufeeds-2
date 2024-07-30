@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="portal_employee_expense" model="res.groups">
+            <field name="name">Portal Employee Expense</field>
+        </record>
+        
+    </data>
+</odoo>

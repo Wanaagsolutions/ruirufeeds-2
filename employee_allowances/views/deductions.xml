@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- ke.batch.deduction tree view -->
+        <record id="ke_batch_deduction_view_tree" model="ir.ui.view">
+            <field name="name">ke.batch.deduction.view.tree</field>
+            <field name="model">ke.batch.deduction</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="name" />
+                    <field name="date" />
+                </tree>
+            </field>
+        </record>
+
+        <!-- ke.batch.deduction search view -->
+        <record id="ke_batch_deduction_view_search" model="ir.ui.view">
+            <field name="name">ke.batch.deduction.view.search</field>
+            <field name="model">ke.batch.deduction</field>
+            <field name="arch" type="xml">
+                <search string="Batch Deductions Search">
+                    <field name="name" />
+                </search>
+            </field>
+        </record>
+
+        <!-- ke.batch.deduction form view -->
+        <record id="ke_batch_deduction_view_form" model="ir.ui.view">
+            <field name="name">ke.batch.deduction.view.form</field>
+            <field name="model">ke.batch.deduction</field>
+            <field name="arch" type="xml">
+                <form string="Batch Deduction Form">
+                    <header>
+                        <button string="Confirm" name="action_confirm_deductions" type="object" class="oe_highlight" attrs="{ 'invisible':[('state', 'in', ['confirm'])] }" />
+                        <button string="Batch Allocation" name="%(employee_fine_allocation)d" type="action" class="oe_secondary" attrs="{ 'invisible':[('state', 'in', ['confirm'])] }" />
+                        <field name="state" widget="statusbar" statusbar_visible="draft,confirm" readonly="1" />
+                    </header>
+                    <sheet>
+                        <group>
+                            <field name="name" />
+                        </group>
+                        <group>
+                            <field name="date" />
+                            <field name="note" />
+                        </group>
+                        <notebook>
+                            <page string="After Tax Deductions">
+                                <field name="deduction_ids" attrs="{'readonly': [('state','not in',['draft'])] }">
+                                    <tree>
+                                        <field name="employee_id" />
+                                        <field name="deduction_type_id" />
+                                        <field name="rule_id" />
+                                        <field name="amount" />
+                                        <field name="deduction_id" invisible="1" />
+                                    </tree>
+                                </field>
+                            </page>
+
+                            <page string="Extra Details">
+                                <field name="details" />
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

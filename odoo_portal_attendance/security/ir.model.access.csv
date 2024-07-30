@@ -1,0 +1,3 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_hr_employee_public_user_portal_usr,hr.employee_public,hr.model_hr_employee_public,,1,0,0,0
+access_attendance_public_user,access.attendance.public.user,hr_attendance.model_hr_attendance,odoo_portal_attendance.portal_user_employee_attendance,1,1,1,0

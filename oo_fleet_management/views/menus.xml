@@ -1,0 +1,250 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odoo>
+  <!-- res.partner driver action window -->
+  <record id="oo_fleet_management_drivers_action" model="ir.actions.act_window">
+    <field name="name">Drivers</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">hr.employee</field>
+    <field name="view_mode">kanban,tree,form</field>
+    <field name="context">{'default_is_driver': True}</field>
+    <field name="domain">[('is_driver', '=', True)]</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a new Driver.</p>
+    </field>
+  </record>
+
+  <!-- res.partner supplier action window -->
+  <record id="oo_fleet_management_suppliers_action" model="ir.actions.act_window">
+    <field name="name">Suppliers</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">res.partner</field>
+    <field name="view_mode">kanban,tree,form</field>
+    <field name="context">{'default_partner_type': 'supplier'}</field>
+    <field name="domain">[('partner_type', '=', 'supplier')]</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a new Supplier.</p>
+    </field>
+  </record>
+
+  <!-- res.partner customer action window -->
+  <record id="oo_fleet_management_customers_action" model="ir.actions.act_window">
+    <field name="name">Customers</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">res.partner</field>
+    <field name="view_mode">kanban,tree,form</field>
+    <field name="context">{'default_partner_type': 'customer'}</field>
+    <field name="domain">[('partner_type', '=', 'customer')]</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a new Customer.</p>
+    </field>
+  </record>
+
+  <!-- fleet.order action window -->
+  <record id="oo_fleet_management_orders_action" model="ir.actions.act_window">
+    <field name="name">Customer Orders</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.order</field>
+    <field name="view_mode">tree,form</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Create a new Customer Order.</p>
+    </field>
+  </record>
+
+  <!-- fleet.trip action window -->
+  <record id="oo_fleet_management_trips_action" model="ir.actions.act_window">
+    <field name="name">Trips</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.trip</field>
+    <field name="view_mode">tree,form,map,activity</field>
+    <field name="context">{'create': 0}</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Create a new customer order trip.</p>
+    </field>
+  </record>
+
+  <!-- fleet.truck action window -->
+  <record id="oo_fleet_management_trucks_action" model="ir.actions.act_window">
+    <field name="name">Trucks</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.truck</field>
+    <field name="view_mode">tree,form,kanban</field>
+    <field name="context">{'search_default_trucks_groupby_parent_id': 1}</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Register a new truck.</p>
+    </field>
+  </record>
+
+  <!-- fleet.route action window -->
+  <record id="oo_fleet_management_routes_action" model="ir.actions.act_window">
+    <field name="name">Routes</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.route</field>
+    <field name="view_mode">tree,form</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Register a new customer Route.</p>
+    </field>
+  </record>
+
+  <!-- product.product action window -->
+  <record id="oo_fleet_management_products_action" model="ir.actions.act_window">
+    <field name="name">Products</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">product.product</field>
+    <field name="view_mode">kanban,tree,form</field>
+    <field name="context">{'default_is_fleet_product': True}</field>
+    <field name="domain">[('is_fleet_product', '=', True)]</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a new Fleet Product.</p>
+    </field>
+  </record>
+
+
+  <!-- fleet.document.type driver action window -->
+  <record id="oo_fleet_management_driver_docs_action" model="ir.actions.act_window">
+    <field name="name">Driver Document Types</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.document.type</field>
+    <field name="view_mode">tree,form</field>
+    <field name="context">{'default_applicable_on': 'driver'}</field>
+    <field name="domain">[('applicable_on', '=', 'driver')]</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a new Driver Document Type.</p>
+    </field>
+  </record>
+
+  <!-- fleet.document.type trip action window -->
+  <record id="oo_fleet_management_trip_docs_action" model="ir.actions.act_window">
+    <field name="name">Trip Document Types</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.document.type</field>
+    <field name="view_mode">tree,form</field>
+    <field name="context">{'default_applicable_on': 'trip'}</field>
+    <field name="domain">[('applicable_on', '=', 'trip')]</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a new Trip Document Type.</p>
+    </field>
+  </record>
+
+  <!-- fleet.document.type truck action window -->
+  <record id="oo_fleet_management_truck_docs_action" model="ir.actions.act_window">
+    <field name="name">Truck Document Types</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.document.type</field>
+    <field name="view_mode">tree,form</field>
+    <field name="context">{'default_applicable_on': 'truck'}</field>
+    <field name="domain">[('applicable_on', '=', 'truck')]</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a new Truck Document Type.</p>
+    </field>
+  </record>
+
+  <!-- partner.relationship  action window -->
+  <record id="oo_fleet_management_partner_relationship_action" model="ir.actions.act_window">
+    <field name="name">Kin Relationships</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">partner.relationship</field>
+    <field name="view_mode">tree,form</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a new Driver Kin Relationship.</p>
+    </field>
+  </record>
+
+  <!-- fleet.workshop  action window -->
+  <record id="oo_fleet_workshop_action" model="ir.actions.act_window">
+    <field name="name">Fleet Workshop</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.workshop</field>
+    <field name="view_mode">tree,form</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Start a Truck Workshop.</p>
+    </field>
+  </record>
+
+  <!-- fleet.charge.sheet  action window -->
+  <record id="oo_fleet_charge_sheet_action" model="ir.actions.act_window">
+    <field name="name">Fleet Charge Sheet</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.charge.sheet</field>
+    <field name="view_mode">tree,form</field>
+    <field name="help" type="html">
+      <p class="oe_view_nocontent_create">Add a driver charge sheet.</p>
+    </field>
+  </record>
+
+  <record id="oo_fleet_management_settings_action" model="ir.actions.act_window">
+    <field name="name">Settings</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">res.config.settings</field>
+    <field name="view_mode">form</field>
+    <field name="target">inline</field>
+    <field name="context">{'module' : 'oo_fleet_management', 'bin_size': False}</field>
+  </record>
+
+  <record id="oo_fleet_management_trip_analysis_action" model="ir.actions.act_window">
+    <field name="name">Trips Analysis</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.analysis</field>
+    <field name="view_mode">form</field>
+    <field name="view_id" ref="oo_fleet_management_fleet_analysis_form" />
+    <field name="context">{'default_report_type': 'trip'}</field>
+    <field name="binding_model_id" ref="model_fleet_analysis"/>
+    <field name="target">new</field>
+  </record>
+
+  <record id="oo_fleet_management_truck_analysis_action" model="ir.actions.act_window">
+    <field name="name">Truck Analysis</field>
+    <field name="type">ir.actions.act_window</field>
+    <field name="res_model">fleet.analysis</field>
+    <field name="view_mode">form</field>
+    <field name="view_id" ref="oo_fleet_management_fleet_analysis_form" />
+    <field name="context">{'default_report_type': 'truck'}</field>
+    <field name="binding_model_id" ref="model_fleet_analysis"/>
+    <field name="target">new</field>
+  </record>
+
+  <menuitem id="oo_fleet_management_menu" name="Fleet Management" web_icon="oo_fleet_management,static/description/icon.png" sequence="22" groups="group_fleet_management_officer">
+
+    <menuitem id="oo_fleet_management_transactions_menu" name="Transactions" sequence="1">
+      <menuitem id="oo_fleet_management_orders_menu" name="Customer Orders" action="oo_fleet_management_orders_action" sequence="1"/>
+      <menuitem id="oo_fleet_management_trips_menu" name="Trips" action="oo_fleet_management_trips_action" sequence="2"/>
+      <menuitem id="oo_fleet_management_bills_menu" name="Bills" action="account.action_move_in_invoice_type" sequence="3"/>
+      <menuitem id="oo_fleet_management_expenses_menu" name="Expenses" action="hr_expense.hr_expense_actions_my_all" sequence="4"/>
+      <menuitem id="oo_fleet_management_charge_sheet_menu" name="Fleet Charge Sheet" action="oo_fleet_charge_sheet_action" sequence="5"/>
+      <menuitem id="oo_fleet_management_workshop_menu" name="Fleet Workshop" action="oo_fleet_workshop_action" sequence="6"/>
+    </menuitem>
+
+    <menuitem id="oo_fleet_management_contact_menu" name="Contacts" sequence="2">
+      <menuitem id="oo_fleet_management_customers_menu" name="Customers" action="oo_fleet_management_customers_action" sequence="1"/>
+      <menuitem id="oo_fleet_management_suppliers_menu" name="Contractors" action="oo_fleet_management_suppliers_action" sequence="2"/>
+      <menuitem id="oo_fleet_management_drivers_menu" name="Drivers" action="oo_fleet_management_drivers_action" sequence="3"/>
+    </menuitem>
+
+    <menuitem id="oo_fleet_management_assets_menu" name="Assets" sequence="4">
+      <menuitem id="oo_fleet_management_trucks_menu" name="Trucks" action="oo_fleet_management_trucks_action" sequence="1"/>
+      <menuitem id="oo_fleet_management_routes_menu" name="Routes" action="oo_fleet_management_routes_action" sequence="2"/>
+      <menuitem id="oo_fleet_management_products_menu" name="Cargo" action="oo_fleet_management_products_action" sequence="3"/>
+    </menuitem>
+
+    <menuitem id="oo_fleet_management_reporting_menu" name="Reporting" sequence="5">
+      <menuitem id="oo_fleet_management_trip_margin_report_menu" name="Trips Analysis" action="oo_fleet_management_trip_analysis_action" sequence="1" />
+      <menuitem id="oo_fleet_management_tuck_margin_report_menu" name="Trucks Analysis" action="oo_fleet_management_truck_analysis_action" sequence="2" />
+    </menuitem>
+
+    <menuitem id="oo_fleet_management_configuration_menu" name="Configurations" sequence="6" groups="group_fleet_management_manager">
+      <menuitem id="oo_fleet_management_settings_menu" name="Settings" action="oo_fleet_management_settings_action" groups="base.group_system" sequence="1"/>
+
+      <menuitem id="oo_fleet_management_masters_menu" name="Masters" sequence="2">
+        <menuitem id="oo_fleet_management_kin_relationships_menu" name="Kin Relationships" action="oo_fleet_management_partner_relationship_action" sequence="1"/>
+      </menuitem>
+
+      <menuitem id="oo_fleet_management_docs_menu" name="Documents" sequence="3">
+        <menuitem id="oo_fleet_management_trip_docs_menu" name="Trip Documents" action="oo_fleet_management_trip_docs_action" sequence="1"/>
+        <menuitem id="oo_fleet_management_driver_docs_menu" name="Driver Documents" action="oo_fleet_management_driver_docs_action" sequence="2"/>
+        <menuitem id="oo_fleet_management_truck_docs_menu" name="Truck Documents" action="oo_fleet_management_truck_docs_action" sequence="3"/>
+      </menuitem>
+
+    </menuitem>
+
+  </menuitem>
+
+</odoo>

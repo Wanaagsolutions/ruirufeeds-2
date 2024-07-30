@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record model="ir.ui.view" id="tms_waybill_form">
+        <field name="name">tms_waybill.form</field>
+        <field name="model">tms.waybill</field>
+        <field name="inherit_id" ref="tms.view_tms_waybill_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet/group" position="after">
+                <group string="Mexican EDI Fields">
+                    <group>
+                        <field name="l10n_mx_edi_international"/>
+                        <field name="l10n_mx_edi_transport_type" attrs="{
+                            'invisible': [('l10n_mx_edi_international', '=', 'No')],
+                            'required': [('l10n_mx_edi_international', '=', 'Sí')],
+                            'readonly': [('state', 'in', ['confirmed', 'cancel'])],
+                        }"/>
+                    </group>
+                    <group>
+                        <field name="l10n_mx_edi_station_type" attrs="{
+                            'invisible': [
+                                '|',
+                                ('l10n_mx_edi_international', '=', 'No'),
+                                ('l10n_mx_edi_transport_type', 'in', [False, '01', '05'])
+                            ],
+                            'required': [
+                                ('l10n_mx_edi_transport_type', 'in', ['02', '03', '04'])
+                            ],
+                            'readonly': [('state', 'in', ['confirmed', 'cancel'])],
+                        }"/>
+                    </group>
+                    <group string="Departure" attrs="{
+                        'invisible': [
+                            ('l10n_mx_edi_international', '=', 'No'),
+                        ],}">
+                        <field name="l10n_mx_edi_departure_station_ids" invisible="1"/>
+                        <field name="l10n_mx_edi_departure_station_id" domain="[
+                                ('id', 'in', l10n_mx_edi_departure_station_ids),
+                            ]" options="{'no_create_edit': True, 'no_create': True}" attrs="{
+                            'invisible': [
+                                '|',
+                                ('l10n_mx_edi_international', '=', 'No'),
+                                ('l10n_mx_edi_transport_type', 'in', [False, '01', '05'])
+                            ],
+                            'required': [
+                                ('l10n_mx_edi_transport_type', 'in', ['02', '03', '04'])
+                            ],
+                            'readonly': [('state', 'in', ['confirmed', 'cancel'])],
+                        }"/>
+                        <field name="l10n_mx_edi_departure_port_type" attrs="{
+                            'invisible': [
+                                '|',
+                                ('l10n_mx_edi_international', '=', 'No'),
+                                ('l10n_mx_edi_transport_type', '!=', '02')
+                            ],
+                            'required': [
+                                ('l10n_mx_edi_transport_type', '=', '02')
+                            ],
+                            'readonly': [('state', 'in', ['confirmed', 'cancel'])],
+                        }"/>
+                        <field name="l10n_mx_edi_departure_date" attrs="{
+                            'invisible': [
+                                ('l10n_mx_edi_international', '=', 'No'),
+                            ],
+                            'required': [
+                                ('l10n_mx_edi_international', '=', 'Sí')
+                            ],
+                            'readonly': [('state', 'in', ['confirmed', 'cancel'])],
+                        }"/>
+                    </group>
+                    <group string="Arrival" attrs="{
+                        'invisible': [
+                            ('l10n_mx_edi_international', '=', 'No'),
+                        ],}">
+                        <field name="l10n_mx_edi_arrival_station_ids" invisible="1"/>
+                        <field name="l10n_mx_edi_arrival_station_id" domain="[
+                                ('id', 'in', l10n_mx_edi_arrival_station_ids),
+                            ]" options="{'no_create_edit': True, 'no_create': True}" attrs="{
+                            'invisible': [
+                                '|',
+                                ('l10n_mx_edi_international', '=', 'No'),
+                                ('l10n_mx_edi_transport_type', 'in', [False, '01', '05'])
+                            ],
+                            'required': [
+                                ('l10n_mx_edi_transport_type', 'in', ['02', '03', '04'])
+                            ],
+                            'readonly': [('state', 'in', ['confirmed', 'cancel'])],
+                        }"/>
+                        <field name="l10n_mx_edi_arrival_port_type" attrs="{
+                            'invisible': [
+                                '|',
+                                ('l10n_mx_edi_international', '=', 'No'),
+                                ('l10n_mx_edi_transport_type', '!=', '02')
+                            ],
+                            'required': [
+                                ('l10n_mx_edi_transport_type', '=', '02')
+                            ],
+                            'readonly': [('state', 'in', ['confirmed', 'cancel'])],
+                        }"/>
+                        <field name="l10n_mx_edi_arrival_date" attrs="{
+                            'invisible': [
+                                ('l10n_mx_edi_international', '=', 'No'),
+                            ],
+                            'required': [
+                                ('l10n_mx_edi_international', '=', 'Sí')
+                            ],
+                            'readonly': [('state', 'in', ['confirmed', 'cancel'])],
+                        }"/>
+                    </group>
+                    <group name="insurance" string="Insurance Information">
+                        <field name="l10n_mx_edi_cargo_insurance_partner_id"/>
+                        <field name="l10n_mx_edi_cargo_insurance_policy" attrs="{'required': [('l10n_mx_edi_cargo_insurance_partner_id', '!=', False)]}"/>
+                        <field name="l10n_mx_edi_insurance_fee"/>
+                    </group>
+                </group>
+            </xpath>
+            <xpath expr="//field[@name='transportable_line_ids']/tree/field[@name='notes']" position="before">
+                <field name="l10n_mx_edi_tare" optional="hide"/>
+            </xpath>
+            <xpath expr="//field[@name='transportable_line_ids']/tree/field[@name='notes']" position="after">
+                <field name="l10n_mx_edi_merchandise_value" optional="hide"/>
+                <field name="currency_id" optional="hide"/>
+                <field name="l10n_mx_edi_uuid" optional="hide" attrs="{'column_invisible': [('parent.l10n_mx_edi_international', '=', 'No')]}"/>
+                <field name="l10n_mx_edi_customs_number" optional="hide" attrs="{'column_invisible': [('parent.l10n_mx_edi_international', '=', 'No')]}"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>

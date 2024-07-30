@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="portal_user_employee_attendance" model="res.groups">
+            <field name="name">Portal Employee Attendance</field>
+        </record>
+        
+    </data>
+</odoo>

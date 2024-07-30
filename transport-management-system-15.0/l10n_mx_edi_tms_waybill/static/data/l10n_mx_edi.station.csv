@@ -1,0 +1,3288 @@
+02|PM001|Rosarito|mx
+02|PM002|La Misión|mx
+02|PM003|El Sauzal|mx
+02|PM004|Marina Coral|mx
+02|PM005|Ensenada|mx
+02|PM006|Punta China|mx
+02|PM007|San Quintín|mx
+02|PM008|Isla Cedros|mx
+02|PM009|Venustiano Carranza|mx
+02|PM010|Bahía de los Ángeles|mx
+02|PM011|Puertecitos|mx
+02|PM012|San Felipe|mx
+02|PM013|Costa Azul|mx
+02|PM014|Bahía Colonet|mx
+02|PM015|La Paz|mx
+02|PM016|Pichilingue|mx
+02|PM017|Puerto de Loreto|mx
+02|PM018|Puerto de Santa Rosalía|mx
+02|PM019|Puerto Escondido|mx
+02|PM020|San Carlos|mx
+02|PM021|Cabo San Lucas|mx
+02|PM022|Guerrero Negro|mx
+02|PM023|Santa María|mx
+02|PM024|Isla San Marcos|mx
+02|PM025|Adolfo López Mateos|mx
+02|PM026|San Juan de la Costa|mx
+02|PM027|Punta prieta|mx
+02|PM028|San José del Cabo|mx
+02|PM029|Los Barriles|mx
+02|PM030|Mulege|mx
+02|PM031|Isla del Carmen|mx
+02|PM032|Campeche|mx
+02|PM033|Cayo Arcas|mx
+02|PM034|Seybaplaya|mx
+02|PM035|Isla Arena|mx
+02|PM036|San Francisco|mx
+02|PM037|Lerma|mx
+02|PM038|Champotón|mx
+02|PM039|Sabancuy|mx
+02|PM040|Isla Aguada|mx
+02|PM041|Emiliano Zapata|mx
+02|PM042|Nuevo Campechito|mx
+02|PM043|Takuntah|mx
+02|PM044|Yúum K'ak Naab|mx
+02|PM045|Puerto Chiapas|mx
+02|PM046|Manzanillo|mx
+02|PM047|San Pedrito|mx
+02|PM048|Laguna de Cuyutlán|mx
+02|PM049|Acapulco|mx
+02|PM050|Zihuatanejo|mx
+02|PM051|Butaba|mx
+02|PM052|Vicente Guerrero|mx
+02|PM053|Puerto Marqués|mx
+02|PM054|Puerto Vallarta|mx
+02|PM055|Barra de Navidad|mx
+02|PM056|Lázaro Cárdenas|mx
+02|PM057|San Blas|mx
+02|PM058|Nuevo Vallarta|mx
+02|PM059|Cruz de Huanacaxtle|mx
+02|PM060|Chacala|mx
+02|PM061|Salina Cruz|mx
+02|PM062|Bahías de Huatulco|mx
+02|PM063|Puerto Escondido|mx
+02|PM064|Puerto Angel|mx
+02|PM065|Puerto Juárez|mx
+02|PM066|Isla Mujeres|mx
+02|PM067|Cancún|mx
+02|PM068|Puerto Morelos|mx
+02|PM069|Playa del Carmen|mx
+02|PM070|Punta Venado|mx
+02|PM071|Puerta Aventuras|mx
+02|PM072|Punta Allen|mx
+02|PM073|Majahual|mx
+02|PM074|La Aguada|mx
+02|PM075|Xcalac|mx
+02|PM076|Chetumal|mx
+02|PM077|Holbox|mx
+02|PM078|Mazatlán|mx
+02|PM079|Topolobampo|mx
+02|PM080|Altata|mx
+02|PM081|El Sábalo|mx
+02|PM082|Escuinapa|mx
+02|PM083|Teacapan|mx
+02|PM084|Guaymas|mx
+02|PM085|Puerto Peñasco|mx
+02|PM086|Golfo de Santa Clara|mx
+02|PM087|Bahía Kino|mx
+02|PM088|Yavaros|mx
+02|PM089|Puerto Libertad|mx
+02|PM090|General Rodolfo Sánchez Toboada|mx
+02|PM091|San Carlos|mx
+02|PM092|Dos Bocas|mx
+02|PM093|Frontera|mx
+02|PM094|Chiltepec|mx
+02|PM095|Sanchez Magallanes|mx
+02|PM096|Puerto Altamira|mx
+02|PM097|Puerto Tampico|mx
+02|PM098|Puerto Matamoros|mx
+02|PM099|La Pesca|mx
+02|PM100|Puerto de Veracruz|mx
+02|PM101|Tuxpan|mx
+02|PM102|Coatzacoalcos|mx
+02|PM103|Pajaritos|mx
+02|PM104|Alvarado|mx
+02|PM105|Tlacotalpan|mx
+02|PM106|Nautla|mx
+02|PM107|Tecolutla|mx
+02|PM108|Puerto Progreso|mx
+02|PM109|Celestún|mx
+02|PM110|Sisal|mx
+02|PM111|Chuburná|mx
+02|PM112|Yucalpetén|mx
+02|PM113|Telchac|mx
+02|PM114|Chabihau|mx
+02|PM115|Dzilam de Bravo|mx
+02|PM116|San Felipe|mx
+02|PM117|Río Lagartos|mx
+02|PM118|Las Coloradas|mx
+02|PM119|El Cuyo|mx
+02|PM120|Extranjera|
+03|EA001|Konrad Adenauer|de
+03|EA002|Rhein-Ruhr|de
+03|EA003|Münster/Osnabrück|de
+03|EA004|Rhein-Main|de
+03|EA005|Hannover|de
+03|EA006|Fuhlsbüttel|de
+03|EA007|Frankfurt-Hahn|de
+03|EA008|Franz Josef Strauss|de
+03|EA009|Nürnberg|de
+03|EA010|Prince Mohammad Bin Abdulaziz|sa
+03|EA011|Ingeniero Aeronáutico Ambrosio L.V. Taravella|ar
+03|EA012|Ministro Pistarini|ar
+03|EA013|Astor Piazzolla|ar
+03|EA014|Gobernador Francisco Gabrielli|ar
+03|EA015|Teniente General Benjamin Matienzo|ar
+03|EA016|Vienna|at
+03|EA017|Grand Bahamas|bs
+03|EA018|Lynden Pindling|bs
+03|EA019|San Salvador|bs
+03|EA020|Grantley Adams|bb
+03|EA021|Brussels|be
+03|EA022|Liege|be
+03|EA023|Ostend-Brugge|be
+03|EA024|Philip S.W. Goldson|bz
+03|EA025|Jorge Wilsterman|bo
+03|EA026|El Trompillo|bo
+03|EA027|Viru Viru|bo
+03|EA028|Presidente Juscelino Kubitschek|br
+03|EA029|Adalberto Mendes Da Silva|br
+03|EA030|Carutapera|br
+03|EA031|Afonso Pena|br
+03|EA032|Pinto Martins|br
+03|EA033|Antonio Carlos Jobim|br
+03|EA034|Governador Andre Franco Montoro|br
+03|EA035|Manaus|br
+03|EA036|Santos Dumont|br
+03|EA037|Salgado Filho|br
+03|EA038|Guararapes|br
+03|EA039|Santos Dumont|br
+03|EA040|Professor Urbano Ernesto Stumpf|br
+03|EA041|Deputado Luis Eduardo Magalhaes|br
+03|EA042|Viracopos-Campinas|br
+03|EA043|Gladman Point|ca
+03|EA044|Sault Ste. Marie|ca
+03|EA045|Canadian Forces Base Shearwater|ca
+03|EA046|Canadian Forces Base Bagotville|ca
+03|EA047|Brandon Municipal|ca
+03|EA048|Edmonton|ca
+03|EA049|Fredericton|ca
+03|EA050|John C. Munro|ca
+03|EA051|Robert L. Stanfield|ca
+03|EA052|Region Of Waterloo|ca
+03|EA053|Kelowna|ca
+03|EA054|Mary's Harbour|ca
+03|EA055|Fort Mcmurray|ca
+03|EA056|Montreal-Mirabel|ca
+03|EA057|Macdonald-Cartier|ca
+03|EA058|Jean Lesage|ca
+03|EA059|Windsor|ca
+03|EA060|Lethbridge County|ca
+03|EA061|Greater Moncton|ca
+03|EA062|Canadian Forces Base Comox|ca
+03|EA063|Regina|ca
+03|EA064|Thunder Bay|ca
+03|EA065|Gander|ca
+03|EA066|Sudbury|ca
+03|EA067|Saint John|ca
+03|EA068|Billy Bishop|ca
+03|EA069|Pierre Elliott Trudeau|ca
+03|EA070|Rouyn-Noranda|ca
+03|EA071|Vancouver|ca
+03|EA072|James Armstrong Richardson|ca
+03|EA073|John G. Diefenbaker|ca
+03|EA074|Prince George|ca
+03|EA075|London|ca
+03|EA076|Abbotsford|ca
+03|EA077|Calgary|ca
+03|EA078|Victoria|ca
+03|EA079|Canadian Forces Base Goose Bay|ca
+03|EA080|St. John's|ca
+03|EA081|Lester B. Pearson|ca
+03|EA082|Andres Sabella|cl
+03|EA083|Carriel Sur|cl
+03|EA084|Diego Aracena|cl
+03|EA085|Arturo Merino Benítez|cl
+03|EA086|Baiyun|cn
+03|EA087|Changle|cn
+03|EA088|Xiaoshan|cn
+03|EA089|Lishe|cn
+03|EA090|Nanjing Lukou|cn
+03|EA091|Capital|cn
+03|EA092|Pudong|cn
+03|EA093|Gaoqi|cn
+03|EA094|Gustavo Rojas Pinilla|co
+03|EA095|Ernesto Cortissoz|co
+03|EA096|El Nuevo Dorado|co
+03|EA097|Alfonso Bonilla Aragón|co
+03|EA098|Rafael Nuñez|co
+03|EA099|Jose Maria Córdova|co
+03|EA100|Montelibano|co
+03|EA101|Daniel Oduber Quiros|cr
+03|EA102|Juan Santamaría|cr
+03|EA103|Jardines Del Rey|cu
+03|EA104|Ignacio Agramonte|cu
+03|EA105|Vilo Acuña|cu
+03|EA106|Jose Martí|cu
+03|EA107|Frank País|cu
+03|EA108|Antonio Maceo|cu
+03|EA109|Abel Santamaría|cu
+03|EA110|Juan Gualberto Gomez|cu
+03|EA111|Aalborg|dk
+03|EA112|Billund|dk
+03|EA113|København|dk
+03|EA114|Mariscal Lamar|ec
+03|EA115|Jose Joaquín De Olmdeo|ec
+03|EA116|Eloy Alfaro|ec
+03|EA117|General Ulpiano Páez|ec
+03|EA118|Mitad Del Mundo|ec
+03|EA119|Monseñor Oscar Arnulfo Romero|sv
+03|EA120|Al Maktoum|ae
+03|EA121|El Prat|es
+03|EA122|Adolfo Suarez Madrid–Barajas|es
+03|EA123|Son Sant Joan|es
+03|EA124|Manises|es
+03|EA125|Zaragoza|es
+03|EA126|Albuquerque International|us
+03|EA127|Atlantic City International|us
+03|EA128|Addison|us
+03|EA129|Joint Base Andrews|us
+03|EA130|Alexandria International|us
+03|EA131|Fort Worth Alliance|us
+03|EA132|Albany International|us
+03|EA133|Waterloo Regional|us
+03|EA134|Rick Husband Amarillo International|us
+03|EA135|Anniston Regional|us
+03|EA136|Ted Stevens|us
+03|EA137|Talladega Municipal|us
+03|EA138|Hartsfield - Jackson Atlanta International|us
+03|EA139|Appleton International|us
+03|EA140|Augusta State|us
+03|EA141|Austin-Bergstrom International|us
+03|EA142|Asheville Regional|us
+03|EA143|Phoenix-Mesa Gateway|us
+03|EA144|Kalamazoo/Battle Creek International|us
+03|EA145|Bradley International|us
+03|EA146|Laurence G Hanscom|us
+03|EA147|Boeing Field/King County International|us
+03|EA148|Meadows Field|us
+03|EA149|Bangor International|us
+03|EA150|Birmingham-Shuttlesworth|us
+03|EA151|Biggs|us
+03|EA152|West Michigan Regional|us
+03|EA153|Central Il Regional Airport|us
+03|EA154|Nashville International|us
+03|EA155|General Edward Lawrence Logan International|us
+03|EA156|Rafael Hernandez|us
+03|EA157|Brownsville/South Padre Island International|us
+03|EA158|W K Kellogg|us
+03|EA159|Bert Mooney|us
+03|EA160|Buffalo Niagara International|us
+03|EA161|Warren County Regional|us
+03|EA162|Baltimore/Washington International Thurgood Marshall|us
+03|EA163|Columbia Metropolitan|us
+03|EA164|Akron-Canton Regional|us
+03|EA165|Lovell|us
+03|EA166|Charleston International|us
+03|EA167|The Eastern Iowa|us
+03|EA168|Cleveland-Hopkins International|us
+03|EA169|Easterwood|us
+03|EA170|Charlotte/Douglas International|us
+03|EA171|John Glenn Columbus International|us
+03|EA172|University Of Illinois|us
+03|EA173|Aeropuerto de Columbia|us
+03|EA174|Columbia Regional|us
+03|EA175|Corpus Christi International|us
+03|EA176|Columbus|us
+03|EA177|Cincinnati/Northern Kentucky International|us
+03|EA178|Dallas Love|us
+03|EA179|James M Cox Dayton International|us
+03|EA180|Ronald Reagan|us
+03|EA181|Denver International|us
+03|EA182|Dallas-Fort Worth International|us
+03|EA183|De Kalb Taylor Municipal|us
+03|EA184|Duluth International|us
+03|EA185|Dupage|us
+03|EA186|Del Rio International|us
+03|EA187|Des Moines International|us
+03|EA188|Denton Enterprise|us
+03|EA189|Detroit Metropolitan|us
+03|EA190|Eagle County Regional|us
+03|EA191|South Arkansas Regional|us
+03|EA192|El Paso International|us
+03|EA193|Evansville Regional|us
+03|EA194|Newark Liberty International|us
+03|EA195|Héctor International|us
+03|EA196|Fresno Yosemite International|us
+03|EA197|Frederick Regional|us
+03|EA198|Fort Lauderdale|us
+03|EA199|Bishop International|us
+03|EA200|Topeka Regional|us
+03|EA201|Joe Foss|us
+03|EA202|Fort Wayne International|us
+03|EA203|Greeneville-Greene County Municipal|us
+03|EA204|Grand Forks International|us
+03|EA205|Grand Junction Regional|us
+03|EA206|Arlington Municipal|us
+03|EA207|Greenville Mid-Delta|us
+03|EA208|Central Nebraska Regional|us
+03|EA209|Gordon Municipal|us
+03|EA210|Gerald R Ford International|us
+03|EA211|Piedmont Triad International|us
+03|EA212|Greenville Spartanburg International|us
+03|EA213|Donaldson|us
+03|EA214|Gary/Chicago International|us
+03|EA215|Hagerstown Regional|us
+03|EA216|Hawkins|us
+03|EA217|Hickory Regional|us
+03|EA218|Helena Regional|us
+03|EA219|Daniel K Inouye International|us
+03|EA220|William P Hobby|us
+03|EA221|Valley International|us
+03|EA222|Boone County|us
+03|EA223|Carl T Jones Field|us
+03|EA224|Tri-State/Milton J Ferguson|us
+03|EA225|Terre Haute Regional|us
+03|EA226|Washington Dulles|us
+03|EA227|Niagara Falls International|us
+03|EA228|George Bush Intercontinental|us
+03|EA229|Dwight D Eisenhower National|us
+03|EA230|Ankeny Regional|us
+03|EA231|Wilmington International|us
+03|EA232|Wilmington Air Park|us
+03|EA233|Immokalee Regional|us
+03|EA234|Indianapolis International|us
+03|EA235|Jackson Hole|us
+03|EA236|Jackson-Evers International|us
+03|EA237|Jacksonville International|us
+03|EA238|Jefferson City Memorial|us
+03|EA239|John F Kennedy International|us
+03|EA240|Capital Region International|us
+03|EA241|Mccarran International|us
+03|EA242|Los Angeles International|us
+03|EA243|Lubbock Preston Smith International|us
+03|EA244|Rickenbacker International|us
+03|EA245|Blue Grass|us
+03|EA246|Lafayette Regional|us
+03|EA247|Laguardia|us
+03|EA248|Long Beach|us
+03|EA249|Lagrange-Callaway|us
+03|EA250|Bill And Hillary Clinton National|us
+03|EA251|Facility|us
+03|EA252|Louisville Winston County|us
+03|EA253|Bowman|us
+03|EA254|Laredo International|us
+03|EA255|La Crosse Regional|us
+03|EA256|Cincinnati Municipal|us
+03|EA257|Lawrenceville-Vincennes International|us
+03|EA258|Gwinnett County|us
+03|EA259|Mbs International|us
+03|EA260|Kansas City International|us
+03|EA261|Orlando International|us
+03|EA262|Chicago Midway International|us
+03|EA263|Key|us
+03|EA264|Memphis International|us
+03|EA265|Mansfield Lahm Regional|us
+03|EA266|Mcallen Miller International|us
+03|EA267|Michigan City Municipal|us
+03|EA268|Montgomery Regional|us
+03|EA269|Miami International|us
+03|EA270|Charles B Wheeler Downtown|us
+03|EA271|General Mitchell International|us
+03|EA272|Quad City International|us
+03|EA273|Mobile Regional|us
+03|EA274|Smyrna|us
+03|EA275|Maury County|us
+03|EA276|Dane County Regional|us
+03|EA277|Minneapolis-St. Paul International|us
+03|EA278|Louis Armstrong New Orleans International|us
+03|EA279|Montrose Regional|us
+03|EA280|Myrtle Beach International|us
+03|EA281|Metropolitan Oakland International|us
+03|EA282|Ogden-Hinckley|us
+03|EA283|Will Rogers|us
+03|EA284|Kokomo Municipal|us
+03|EA285|Nogales|us
+03|EA286|Eppley|us
+03|EA287|Ontario International|us
+03|EA288|Miami-Opa Locka Executive|us
+03|EA289|Chicago O'hare International|us
+03|EA290|Norfolk International|us
+03|EA291|Orlando Executive|us
+03|EA292|Oscoda-Wurtsmith|us
+03|EA293|Ottumwa Regional|us
+03|EA294|Palm Beach International|us
+03|EA295|Portage Creek|us
+03|EA296|Portland International|us
+03|EA297|Newport News/Williamsburg International|us
+03|EA298|Philadelphia International|us
+03|EA299|Phoenix Sky Harbor|us
+03|EA300|General Downing - Peoria International|us
+03|EA301|Pittsburgh International|us
+03|EA302|Mid-Ohio Valley Regional|us
+03|EA303|Pease International|us
+03|EA304|Palm Springs International|us
+03|EA305|Oakland County International|us
+03|EA306|Theodore Francis Green|us
+03|EA307|Portland International|us
+03|EA308|Vail Van Service|us
+03|EA309|Ellsworth Air Force Base|us
+03|EA310|Raleigh-Durham International|us
+03|EA311|Chicago/Rockford International|us
+03|EA312|Richmond International|us
+03|EA313|Reno/Tahoe International|us
+03|EA314|Greater Rochester International|us
+03|EA315|Rochester International|us
+03|EA316|Southwest Florida International|us
+03|EA317|Rocky Mount-Wilson Regional|us
+03|EA318|Santa Fe Municipal|us
+03|EA319|San Diego International|us
+03|EA320|San Antonio International|us
+03|EA321|San Bernardino International|us
+03|EA322|South Bend International|us
+03|EA323|Louisville International|us
+03|EA324|Brown Field Municipal|us
+03|EA325|Seattle-Tacoma International|us
+03|EA326|Orlando Sanford International|us
+03|EA327|San Francisco International|us
+03|EA328|Sugar Land Regional|us
+03|EA329|Stuttgart Municipal|us
+03|EA330|Shreveport Regional|us
+03|EA331|San José International|us
+03|EA332|Luis Muñoz Marin|us
+03|EA333|Kelly|us
+03|EA334|Griffing Sandusky|us
+03|EA335|Salt Lake City International|us
+03|EA336|Sacramento International|us
+03|EA337|Santa Monica Municipal|us
+03|EA338|John Wayne Airport|us
+03|EA339|St. Louis Lambert International|us
+03|EA340|Spirit Of St. Louis|us
+03|EA341|Statesville Regional|us
+03|EA342|Stewart International|us
+03|EA343|Catalina Island|us
+03|EA344|Syracuse Hancock International|us
+03|EA345|Tuscaloosa Regional|us
+03|EA346|Person County|us
+03|EA347|Teterboro|us
+03|EA348|Tullahoma Regional|us
+03|EA349|Toledo Express|us
+03|EA350|Tampa International|us
+03|EA351|Raleigh Exec Jetport|us
+03|EA352|Tulsa International|us
+03|EA353|Tupelo Regional|us
+03|EA354|Tucson International|us
+03|EA355|Texarkana Regional|us
+03|EA356|Mcghee Tyson|us
+03|EA357|Quincy Regional|us
+03|EA358|University-Oxford|us
+03|EA359|Van Nuys|us
+03|EA360|Mcguire|us
+03|EA361|Willow Run|us
+03|EA362|Youngstown-Warren Regional|us
+03|EA363|Yuma International|us
+03|EA364|Vantaa|fi
+03|EA365|Euroairport Basel Mulhouse Freiburg|fr
+03|EA366|Felix Eboue|fr
+03|EA367|Charles De Gaulle|fr
+03|EA368|Euroairport Basel Mulhouse Freiburg|fr
+03|EA369|Martinique Aime Cesaire|fr
+03|EA370|Lyon St-Exupery|fr
+03|EA371|Euroairport Basel Mulhouse Freiburg|fr
+03|EA372|Marseille Provence|fr
+03|EA373|Côte D'azur|fr
+03|EA374|Atlantique|fr
+03|EA375|Orly|fr
+03|EA376|Le Raizet|fr
+03|EA377|Toulouse Blagnac|fr
+03|EA378|Mundo Maya|gt
+03|EA379|La Aurora|gt
+03|EA380|Antoine-Simon|ht
+03|EA381|Toussaint Louverture|ht
+03|EA382|Goloson|hn
+03|EA383|Juan Manuel Gálvez|hn
+03|EA384|Ramón Villeda Morales|hn
+03|EA385|Toncontin|hn
+03|EA386|Chek Lap Kok|hk
+03|EA387|Budapest|hu
+03|EA388|Vadodara|in
+03|EA389|Dublín|ie
+03|EA390|Shannon|ie
+03|EA391|Keflavik|is
+03|EA392|Owen Roberts|ky
+03|EA393|Ben Gurion|il
+03|EA394|Bologna|it
+03|EA395|Cagliari-Elmas|it
+03|EA396|Ciampino-Giovan Battista Pastine|it
+03|EA397|Leonardo Da Vinci|it
+03|EA398|Genoa Cristoforo Colombo|it
+03|EA399|Malpensa|it
+03|EA400|Caselle|it
+03|EA401|Marco Polo|it
+03|EA402|Villafranca|it
+03|EA403|Norman Manley|jm
+03|EA404|Sangster|jm
+03|EA405|New Sapporo|jp
+03|EA406|Hachijojima|jp
+03|EA407|Kansai|jp
+03|EA408|Narita|jp
+03|EA409|Sendai|jp
+03|EA410|Luxembourg|lu
+03|EA411|Licenciado Jesus Teran Peredo|mx
+03|EA412|General Alberto L. Salinas C.|mx
+03|EA413|General Rodolfo Sanchez Taboada|mx
+03|EA414|General Abelardo L. Rodriguez|mx
+03|EA415|Cabo San Lucas|mx
+03|EA416|General Manuel Marquez De Leon|mx
+03|EA417|Loreto|mx
+03|EA418|Los Cabos|mx
+03|EA419|Ciudad Del Carmen|mx
+03|EA420|Ingeniero Alberto Acuña Ongay|mx
+03|EA421|Palenque|mx
+03|EA422|Tapachula|mx
+03|EA423|Angel Albino Corzo|mx
+03|EA424|Abraham González|mx
+03|EA425|General Roberto Fierro Villalobos|mx
+03|EA426|Benito Juárez|mx
+03|EA427|Ciudad Acuña|mx
+03|EA428|Venustiano Carranza|mx
+03|EA429|Piedras Negras|mx
+03|EA430|Plan De Guadalupe|mx
+03|EA431|Francisco Sarabia|mx
+03|EA432|Licenciado Miguel De La Madrid|mx
+03|EA433|Playa De Oro|mx
+03|EA434|General Guadalupe Victoria|mx
+03|EA435|Base Aérea Militar No.1 Santa Lucia|mx
+03|EA436|Licenciado Adolfo Lopez Mateos|mx
+03|EA437|Guanajuato|mx
+03|EA438|General Juan N. Alvarez|mx
+03|EA439|Ixtapa Zihuatanejo|mx
+03|EA440|Don Miguel Hidalgo Y Costilla|mx
+03|EA441|Francisco Primo De Verdad|mx
+03|EA442|Licenciado Gustavo Díaz Ordaz|mx
+03|EA443|Lázaro Cárdenas|mx
+03|EA444|General Francisco J. Mujica|mx
+03|EA445|Licenciado Y General Ignacio Lopez Rayón|mx
+03|EA446|General Mariano Matamoros|mx
+03|EA447|Amado Nervo|mx
+03|EA448|General Mariano Escobedo|mx
+03|EA449|Aeropuerto Del Norte|mx
+03|EA450|Bahías De Huatulco|mx
+03|EA451|Ixtepec|mx
+03|EA452|Xoxocotlan|mx
+03|EA453|Puerto Escondido|mx
+03|EA454|Estación Aeronaval De Salina Cruz|mx
+03|EA455|Hermanos Serdán|mx
+03|EA456|Ingeniero Fernando Espinoza Gutiérrez|mx
+03|EA457|Chetumal|mx
+03|EA458|Cancún|mx
+03|EA459|Cozumel|mx
+03|EA460|Ponciano Arriaga|mx
+03|EA461|Tamuin|mx
+03|EA462|Federal De Bachigualato|mx
+03|EA463|Federal Del Valle Del Fuerte|mx
+03|EA464|General Rafael Buelna|mx
+03|EA465|Ciudad Obregón|mx
+03|EA466|General Jose Maria Yáñez|mx
+03|EA467|General Ignacio Pesqueira Garcia|mx
+03|EA468|Nogales|mx
+03|EA469|Punta Peñasco|mx
+03|EA470|C.P.A. Carlos Rovirosa Perez|mx
+03|EA471|General Pedro J. Méndez|mx
+03|EA472|General Servando Canales|mx
+03|EA473|Quetzalcóatl|mx
+03|EA474|General Lucio Blanco|mx
+03|EA475|General Francisco Javier Mina|mx
+03|EA476|El Lencero|mx
+03|EA477|Minatitlán|mx
+03|EA478|El Tajín|mx
+03|EA479|General Heriberto Jara Corona|mx
+03|EA480|Chichen Itzá|mx
+03|EA481|Licenciado Manuel Crescencio Rejón|mx
+03|EA482|General Leobardo C. Ruiz|mx
+03|EA483|Augusto Cesar Sandino|ni
+03|EA484|Flesland|no
+03|EA485|Oslo|no
+03|EA486|Sola|no
+03|EA487|Vaernes|no
+03|EA488|Woodbourne|nz
+03|EA489|Schiphol|nl
+03|EA490|Reina Beatrix|nl
+03|EA491|Hato|nl
+03|EA492|Princess Juliana|nl
+03|EA493|Panamá Pacifico|pa
+03|EA494|Enrique Malek|pa
+03|EA495|Tocumen|pa
+03|EA496|Salamo|pg
+03|EA497|Guaraní|py
+03|EA498|Carlos Miguel Jimenez|py
+03|EA499|Capitán Fap Jose A. Quiñones González|pe
+03|EA500|Jorge Chávez|pe
+03|EA501|Capitán Fap Renán Elías Olivera|pe
+03|EA502|Frederic Chopin|pl
+03|EA503|Humberto Delgado|pt
+03|EA504|Francisco Sa Carneiro|pt
+03|EA505|Santa Maria|pt
+03|EA506|Aeroporto Das Lajes|pt
+03|EA507|Hamad|qa
+03|EA508|L.F. Wade|uk
+03|EA509|Belfast|uk
+03|EA510|George Best|uk
+03|EA511|Birmingham|uk
+03|EA512|Bournemouth|uk
+03|EA513|Bristol|uk
+03|EA514|Cardiff|uk
+03|EA515|Doncaster Sheffield|uk
+03|EA516|Edinburgh|uk
+03|EA517|East Midlands|uk
+03|EA518|Exeter|uk
+03|EA519|Abbotsinch|uk
+03|EA520|Leeds Bradford|uk
+03|EA521|London City|uk
+03|EA522|Gatwick|uk
+03|EA523|Heathrow|uk
+03|EA524|Raf Lakenheath|uk
+03|EA525|Ringway|uk
+03|EA526|Newcastle|uk
+03|EA527|Providenciales|uk
+03|EA528|Stansted|uk
+03|EA529|Vaclav Havel|cz
+03|EA530|Incheon|kr
+03|EA531|Samana El Catey|do
+03|EA532|Casa De Campo|do
+03|EA533|Gregorio Luperón|do
+03|EA534|Punta Cana|do
+03|EA535|Las Américas|do
+03|EA536|Domodedovo|ru
+03|EA537|Pulkovo|ru
+03|EA538|Sheremetyevo|ru
+03|EA539|Vnukovo|ru
+03|EA540|O.R. Tambo|za
+03|EA541|Arlanda|se
+03|EA542|Landvetter|se
+03|EA543|Kalmar|se
+03|EA544|Kallax|se
+03|EA545|Kungsängen|se
+03|EA546|Umeå|se
+03|EA547|Zürich-Kloten|ch
+03|EA548|Tainan|tw
+03|EA549|Piarco International|tt
+03|EA550|Carrasco/General Cesareo L. Berisso|uy
+03|EA551|General Jose Antonio Anzoátegui|ve
+03|EA552|Jacinto Lara|ve
+03|EA553|Simón Bolívar|ve
+03|EA554|Josefa Camejo|ve
+03|EA555|La Chinita|ve
+03|EA556|Santiago Mariño|ve
+03|EA557|General Manuel Carlos Piar|ve
+03|EA558|Las Flecheras|ve
+03|EA559|Juan Pablo Perez Alfonso|ve
+03|EA560|Arturo Michelena International|ve
+03|EA561|Extranjera|
+04|EF001|Pantaco|mx
+04|EF002|Valle de México|mx
+04|EF003|Tlalnepantla|mx
+04|EF004|Lechería|mx
+04|EF005|Cuautitlán|mx
+04|EF006|Teoloyucan|mx
+04|EF007|Huehuetoca|mx
+04|EF008|El Salto|mx
+04|EF009|Dorantes|mx
+04|EF010|Cruz Azul|mx
+04|EF011|Tolteca|mx
+04|EF012|Tula|mx
+04|EF013|San Juan del Rio|mx
+04|EF014|Coachiti|mx
+04|EF015|El Tunal|mx
+04|EF016|Apaseo|mx
+04|EF017|Celaya|mx
+04|EF018|Crespo|mx
+04|EF019|Cortázar|mx
+04|EF020|Villagrán|mx
+04|EF021|Molino Sarabia|mx
+04|EF022|Univex|mx
+04|EF023|Salamanca|mx
+04|EF024|Chico|mx
+04|EF025|Irapuato|mx
+04|EF026|Arandas|mx
+04|EF027|Copalillo|mx
+04|EF028|Vieyra|mx
+04|EF029|Villalobos|mx
+04|EF030|Pico de Oro|mx
+04|EF031|El Cerrito|mx
+04|EF032|Silao|mx
+04|EF033|Nápoles|mx
+04|EF034|Trinidad|mx
+04|EF035|León|mx
+04|EF036|La Mora|mx
+04|EF037|El Potrerito|mx
+04|EF038|San Francisco del Rincón|mx
+04|EF039|Guanajal|mx
+04|EF040|San Bartolo|mx
+04|EF041|Pedrito|mx
+04|EF042|Carolina|mx
+04|EF043|Corral Blanco|mx
+04|EF044|Loma|mx
+04|EF045|Lagos de Moreno|mx
+04|EF046|Mira|mx
+04|EF047|Los Salas|mx
+04|EF048|Placa KM. A-503|mx
+04|EF049|Castro|mx
+04|EF050|Doble|mx
+04|EF051|Santa Maria de Enmedio|mx
+04|EF052|San Juan de los Lagos|mx
+04|EF053|Placa KM. A-529|mx
+04|EF054|Encarnación|mx
+04|EF055|El Tigre|mx
+04|EF056|Peruelas|mx
+04|EF057|Arellano|mx
+04|EF058|Aguascalientes|mx
+04|EF059|Placa KM. A-592|mx
+04|EF060|Chicalote|mx
+04|EF061|Garabato|mx
+04|EF062|Pabellón|mx
+04|EF063|Rincón de Romos|mx
+04|EF064|Punta|mx
+04|EF065|Adames|mx
+04|EF066|Berriozábal|mx
+04|EF067|Tlacotes|mx
+04|EF068|Palmira|mx
+04|EF069|Trancoso|mx
+04|EF070|San Gerónimo|mx
+04|EF071|Rafael S. Martinez|mx
+04|EF072|Zacatecas|mx
+04|EF073|El Brillo|mx
+04|EF074|Pimienta|mx
+04|EF075|Morelos|mx
+04|EF076|Victor Rosales|mx
+04|EF077|Ojuelos|mx
+04|EF078|Fresnillo|mx
+04|EF079|Mendoza|mx
+04|EF080|Gutiérrez|mx
+04|EF081|Mezquite|mx
+04|EF082|El Saucillo|mx
+04|EF083|Felipe Pescador|mx
+04|EF084|Cedro|mx
+04|EF085|Edmundo|mx
+04|EF086|La Colorada|mx
+04|EF087|Urbieta|mx
+04|EF088|Pacheco|mx
+04|EF089|Alamillo|mx
+04|EF090|La Sección|mx
+04|EF091|Dpal|mx
+04|EF092|Carlos|mx
+04|EF093|Camacho|mx
+04|EF094|Fuertes|mx
+04|EF095|San Isidro|mx
+04|EF096|Symon|mx
+04|EF097|Ryvas|mx
+04|EF098|Acacio|mx
+04|EF099|La Mancha|mx
+04|EF100|Darías|mx
+04|EF101|Calvo|mx
+04|EF102|El Centinela|mx
+04|EF103|Peralta|mx
+04|EF104|Otto|mx
+04|EF105|La Flor|mx
+04|EF106|Jimulco|mx
+04|EF107|Los Trizar|mx
+04|EF108|Jalisco|mx
+04|EF109|Amador|mx
+04|EF110|Picardías|mx
+04|EF111|Nazareno|mx
+04|EF112|Mieleras|mx
+04|EF113|La Perla|mx
+04|EF114|Torreón|mx
+04|EF115|Torreón|mx
+04|EF116|AI. IANZA|mx
+04|EF117|Gomez Palacio|mx
+04|EF118|El Vergel|mx
+04|EF119|NOE|mx
+04|EF120|Cadena|mx
+04|EF121|Maravasco|mx
+04|EF122|Bermejillo|mx
+04|EF123|Sierrita|mx
+04|EF124|Peronal|mx
+04|EF125|Banderas|mx
+04|EF126|Conejos|mx
+04|EF127|El Bolsón|mx
+04|EF128|Yermo|mx
+04|EF129|Ceballos|mx
+04|EF130|Zavalza|mx
+04|EF131|Escalón|mx
+04|EF132|Asunsolo|mx
+04|EF133|Rellano|mx
+04|EF134|Mugoz|mx
+04|EF135|Corralitos|mx
+04|EF136|Lolita|mx
+04|EF137|Jimenez|mx
+04|EF138|La Reforma|mx
+04|EF139|Díaz|mx
+04|EF140|La Enramada|mx
+04|EF141|Florido|mx
+04|EF142|Santa Rosalía Camargo|mx
+04|EF143|La Sección|mx
+04|EF144|La Cruz|mx
+04|EF145|Aurelio|mx
+04|EF146|Concho|mx
+04|EF147|Saucillo|mx
+04|EF148|Armendáriz|mx
+04|EF149|Rosetilla|mx
+04|EF150|Las Delicias|mx
+04|EF151|Meoqui|mx
+04|EF152|Consuelo|mx
+04|EF153|Hondonada|mx
+04|EF154|Bachimba|mx
+04|EF155|Abraham González|mx
+04|EF156|Francisco Villa|mx
+04|EF157|Horcasitas|mx
+04|EF158|Los Martinez|mx
+04|EF159|Mapula|mx
+04|EF160|Alberto|mx
+04|EF161|Morse|mx
+04|EF162|Tabalaopa|mx
+04|EF163|Chihuahua|mx
+04|EF164|Cuilty|mx
+04|EF165|Corral|mx
+04|EF166|Molinar|mx
+04|EF167|Terrazas|mx
+04|EF168|Sauz|mx
+04|EF169|Pirale|mx
+04|EF170|Encinillas|mx
+04|EF171|Parrita|mx
+04|EF172|Ojo Laguna|mx
+04|EF173|Arados|mx
+04|EF174|Mocho|mx
+04|EF175|Loaeza|mx
+04|EF176|Gallego|mx
+04|EF177|El Sueco|mx
+04|EF178|Chavatito|mx
+04|EF179|Moctezuma|mx
+04|EF180|Las Minas|mx
+04|EF181|Vado|mx
+04|EF182|Carrizal|mx
+04|EF183|Ahumada|mx
+04|EF184|Juan Jose|mx
+04|EF185|Lucero|mx
+04|EF186|Ranchería|mx
+04|EF187|Candelaria|mx
+04|EF188|Los Médanos|mx
+04|EF189|Samalayuca|mx
+04|EF190|Desierto|mx
+04|EF191|Meseta|mx
+04|EF192|Ciudad Juárez|mx
+04|EF193|Iturbe|mx
+04|EF194|Embarcadero Central|mx
+04|EF195|Tlaxcoapan|mx
+04|EF196|Tetepango|mx
+04|EF197|Valentín|mx
+04|EF198|El Gorrión|mx
+04|EF199|Rosal|mx
+04|EF200|General Zaragoza|mx
+04|EF201|Benito Juárez|mx
+04|EF202|Tlaxiaca|mx
+04|EF203|Tecamatl|mx
+04|EF204|Concepción|mx
+04|EF205|Los Lobos|mx
+04|EF206|Garma|mx
+04|EF207|Valle de Santiago|mx
+04|EF208|Covadonga|mx
+04|EF209|Brande|mx
+04|EF210|La Bolsa|mx
+04|EF211|Jaral del Progreso|mx
+04|EF212|Cuarta Parte|mx
+04|EF213|La Cuesta|mx
+04|EF214|Teresa|mx
+04|EF215|Noche Buena|mx
+04|EF216|Marfol|mx
+04|EF217|Guanajuato|mx
+04|EF218|AEDO|mx
+04|EF219|Dinamita|mx
+04|EF220|Buenavista|mx
+04|EF221|Huehuetoca|mx
+04|EF222|Tlaltepoxco|mx
+04|EF223|Tula|mx
+04|EF224|Daxthi|mx
+04|EF225|Aragón|mx
+04|EF226|Dazu|mx
+04|EF227|Pachuquilla|mx
+04|EF228|Polotitlan|mx
+04|EF229|Palmillas|mx
+04|EF230|San Juan del Rio|mx
+04|EF231|Ahorcado|mx
+04|EF232|La Griega|mx
+04|EF233|Querétaro|mx
+04|EF234|Valle de México|mx
+04|EF235|Lechería|mx
+04|EF236|Cuautitlán|mx
+04|EF237|Teoloyucan|mx
+04|EF238|Huehuetoca|mx
+04|EF239|San Sebastián|mx
+04|EF240|Apaxco|mx
+04|EF241|Vito|mx
+04|EF242|Calera|mx
+04|EF243|Bojay|mx
+04|EF244|Teocalco|mx
+04|EF245|Carrasco|mx
+04|EF246|Endo|mx
+04|EF247|Magua|mx
+04|EF248|Sayula|mx
+04|EF249|Rancho Nuevo|mx
+04|EF250|Escandón|mx
+04|EF251|Aragón|mx
+04|EF252|Nopala|mx
+04|EF253|Mejia|mx
+04|EF254|Huichapan|mx
+04|EF255|San Jose de Atlan|mx
+04|EF256|Atlan|mx
+04|EF257|El Zapote|mx
+04|EF258|Rayón|mx
+04|EF259|Cambalache|mx
+04|EF260|Mercader|mx
+04|EF261|Bernal|mx
+04|EF262|San Nicolás|mx
+04|EF263|La Llave|mx
+04|EF264|La Fuente|mx
+04|EF265|Noria|mx
+04|EF266|Viborillas|mx
+04|EF267|Fertimex|mx
+04|EF268|Las Adjuntas|mx
+04|EF269|Mariscala|mx
+04|EF270|Cosio|mx
+04|EF271|Jocoqui|mx
+04|EF272|Escobedo|mx
+04|EF273|Comonfort|mx
+04|EF274|Rinconcillo|mx
+04|EF275|Dolores Hidalgo|mx
+04|EF276|Rio Laja|mx
+04|EF277|Villa de Reyes|mx
+04|EF278|Jesus Maria|mx
+04|EF279|La Pila|mx
+04|EF280|Esparita|mx
+04|EF281|San Luis Potosí|mx
+04|EF282|Perasco|mx
+04|EF283|Pinto|mx
+04|EF284|Arriola|mx
+04|EF285|Bocas|mx
+04|EF286|Enramada|mx
+04|EF287|Moctezuma|mx
+04|EF288|Venado|mx
+04|EF289|Laborcilla|mx
+04|EF290|Charcas|mx
+04|EF291|Laguna Seca|mx
+04|EF292|El Cubo|mx
+04|EF293|Berrendo|mx
+04|EF294|La Maroma|mx
+04|EF295|Coronados|mx
+04|EF296|Madley|mx
+04|EF297|Catorce|mx
+04|EF298|Poblazon|mx
+04|EF299|Collado|mx
+04|EF300|Venegas|mx
+04|EF301|La Trueba|mx
+04|EF302|San Vicente|mx
+04|EF303|El Salado|mx
+04|EF304|San Salvador|mx
+04|EF305|La Ventura|mx
+04|EF306|Huron|mx
+04|EF307|Santa Elena|mx
+04|EF308|Ledezma|mx
+04|EF309|La Zacatera|mx
+04|EF310|Gomez Farías|mx
+04|EF311|San Miguel|mx
+04|EF312|Guillermo|mx
+04|EF313|El Cobre|mx
+04|EF314|Benjamin Méndez|mx
+04|EF315|Agua Nueva|mx
+04|EF316|Encantada|mx
+04|EF317|Angostura|mx
+04|EF318|Saltillo|mx
+04|EF319|Almacenes|mx
+04|EF320|ZINCAMEX|mx
+04|EF321|Rojas|mx
+04|EF322|Ramiro E. Martinez|mx
+04|EF323|Ramos Arizpe|mx
+04|EF324|Santa Maria|mx
+04|EF325|Ojo Caliente|mx
+04|EF326|Higueras|mx
+04|EF327|La Mariposa|mx
+04|EF328|Rinconada|mx
+04|EF329|Los Fierros|mx
+04|EF330|Soledad|mx
+04|EF331|Garcia|mx
+04|EF332|Alcali|mx
+04|EF333|Durazno|mx
+04|EF334|Santa Catarina|mx
+04|EF335|Leona|mx
+04|EF336|Monterrey|mx
+04|EF337|Cortavia 9|mx
+04|EF338|Ramón Travieso|mx
+04|EF339|Topo|mx
+04|EF340|Leal|mx
+04|EF341|Salinas Victoria|mx
+04|EF342|Morales|mx
+04|EF343|El Puerto|mx
+04|EF344|Álamo|mx
+04|EF345|Villaldama|mx
+04|EF346|Bustamante|mx
+04|EF347|Golondrinas|mx
+04|EF348|Candela|mx
+04|EF349|Brasil|mx
+04|EF350|Lampazos|mx
+04|EF351|Naranjo|mx
+04|EF352|Rodriguez|mx
+04|EF353|Anáhuac|mx
+04|EF354|Huizachito|mx
+04|EF355|Jarita|mx
+04|EF356|Sanchez|mx
+04|EF357|Sección Sanchez|mx
+04|EF358|Nuevo Laredo|mx
+04|EF359|Montelongo|mx
+04|EF360|Delgadillo|mx
+04|EF361|Siete Reales|mx
+04|EF362|Lourdes|mx
+04|EF363|San Luis de la Paz|mx
+04|EF364|Pozos|mx
+04|EF365|Vanegas de Abajo|mx
+04|EF366|Tepiche|mx
+04|EF367|San Isidro|mx
+04|EF368|Cedral|mx
+04|EF369|Las Tuzas|mx
+04|EF370|La Cabra|mx
+04|EF371|San Jose de las Trojes|mx
+04|EF372|Matehuala|mx
+04|EF373|Chichimequillas|mx
+04|EF374|Puerto Carrozas|mx
+04|EF375|San José Iturbide|mx
+04|EF376|Presa de la Cebada|mx
+04|EF377|Ing. Buchaman Lopez|mx
+04|EF378|Piedra de Lumbre|mx
+04|EF379|Parritas|mx
+04|EF380|Melchor|mx
+04|EF381|San Felipe|mx
+04|EF382|Pronapade|mx
+04|EF383|San Miguel Allende|mx
+04|EF384|Josefa O. de Domínguez|mx
+04|EF385|Los Garcia|mx
+04|EF386|Escobedo|mx
+04|EF387|Salitre|mx
+04|EF388|Melville|mx
+04|EF389|Las Cotuchas|mx
+04|EF390|Jazminal|mx
+04|EF391|San Carlos|mx
+04|EF392|San Miguel|mx
+04|EF393|Avalos|mx
+04|EF394|Margarita|mx
+04|EF395|Nuevo Laredo|mx
+04|EF396|San Luis Potosí|mx
+04|EF397|Buenavista|mx
+04|EF398|Huehuetoca|mx
+04|EF399|Tlaltepoxco|mx
+04|EF400|Tula|mx
+04|EF401|BAXTHI|mx
+04|EF402|Aragón|mx
+04|EF403|Dañu|mx
+04|EF404|Pachuquilla|mx
+04|EF405|Polotitlan|mx
+04|EF406|Palmillas|mx
+04|EF407|San Juan del Rio|mx
+04|EF408|Ahorcado|mx
+04|EF409|La Griega|mx
+04|EF410|Querétaro|mx
+04|EF411|Julia|mx
+04|EF412|Los Morales|mx
+04|EF413|San Pedro de los Pinos|mx
+04|EF414|Olivar|mx
+04|EF415|Contreras|mx
+04|EF416|Eslava|mx
+04|EF417|Ajusco|mx
+04|EF418|Parres|mx
+04|EF419|Cima|mx
+04|EF420|Toro|mx
+04|EF421|Tezoyo|mx
+04|EF422|Tres Cumbres|mx
+04|EF423|El Parque|mx
+04|EF424|Alarcón|mx
+04|EF425|Ramón|mx
+04|EF426|Cuernavaca|mx
+04|EF427|Plama KM. C-126|mx
+04|EF428|Mango|mx
+04|EF429|Emiliano Zapata|mx
+04|EF430|Tezoyuca|mx
+04|EF431|Tetecalita|mx
+04|EF432|San Miguel Treinta|mx
+04|EF433|Treinta|mx
+04|EF434|Juan Pagaza|mx
+04|EF435|Hermosa|mx
+04|EF436|Vidal|mx
+04|EF437|Puente de Ixtla|mx
+04|EF438|Cacahuamilpa|mx
+04|EF439|Cajones|mx
+04|EF440|El Sureño|mx
+04|EF441|Casahuatlan|mx
+04|EF442|Santa Fe|mx
+04|EF443|Samano|mx
+04|EF444|Vista|mx
+04|EF445|Pimentel|mx
+04|EF446|Los Amantes|mx
+04|EF447|Naranjo|mx
+04|EF448|Iguala|mx
+04|EF449|Metlapa|mx
+04|EF450|Mextitlan|mx
+04|EF451|Xonacatla|mx
+04|EF452|Cocula|mx
+04|EF453|El Puente|mx
+04|EF454|Apipilulco|mx
+04|EF455|Tlanipantlan|mx
+04|EF456|Olea|mx
+04|EF457|Durango|mx
+04|EF458|Labor|mx
+04|EF459|Málaga|mx
+04|EF460|El Salvador|mx
+04|EF461|Chorro|mx
+04|EF462|Francisco I. Madero|mx
+04|EF463|Guadalupe Victoria|mx
+04|EF464|Calixto Contreras|mx
+04|EF465|Ignacio Allende|mx
+04|EF466|Luis Moya|mx
+04|EF467|Progreso|mx
+04|EF468|Colonia Independencia|mx
+04|EF469|Placa KM. DA-114|mx
+04|EF470|Yerbanis|mx
+04|EF471|Chupaderos|mx
+04|EF472|Pasaje|mx
+04|EF473|El Centro|mx
+04|EF474|Agua Vieja|mx
+04|EF475|Las Mercedes|mx
+04|EF476|Pedricera|mx
+04|EF477|Huarichi|mx
+04|EF478|Diego|mx
+04|EF479|Chocolate|mx
+04|EF480|Placa KM. DA-219|mx
+04|EF481|La Goma|mx
+04|EF482|Ejido Monterrey|mx
+04|EF483|Villa Juárez|mx
+04|EF484|Rio Nazas|mx
+04|EF485|Alianza|mx
+04|EF486|Pedrera KM. DB-10|mx
+04|EF487|Casa Blanca|mx
+04|EF488|Morcillo|mx
+04|EF489|Ranchoya|mx
+04|EF490|Carpintero|mx
+04|EF491|El Sábalo|mx
+04|EF492|Nicolás Bravo|mx
+04|EF493|Lucia|mx
+04|EF494|La Granja|mx
+04|EF495|Canatlan|mx
+04|EF496|Pozole|mx
+04|EF497|Los Pinos|mx
+04|EF498|Don Hilario|mx
+04|EF499|Las Olas|mx
+04|EF500|La Soledad|mx
+04|EF501|Guatimape|mx
+04|EF502|Esfuerzos Unidos|mx
+04|EF503|Alisos|mx
+04|EF504|Nuevo Ideal|mx
+04|EF505|Angelita|mx
+04|EF506|Las Flores|mx
+04|EF507|Chinacates|mx
+04|EF508|El Jaguey|mx
+04|EF509|Francisco Javier Leyva|mx
+04|EF510|Huizache|mx
+04|EF511|Placa KM. DB-157|mx
+04|EF512|Santiago Papasquiaro|mx
+04|EF513|Tambor|mx
+04|EF514|Barrazas|mx
+04|EF515|El Barrial|mx
+04|EF516|Hervideros|mx
+04|EF517|Los Herreras|mx
+04|EF518|Pedrera KM. DB-187|mx
+04|EF519|Pascuales|mx
+04|EF520|Manqueros|mx
+04|EF521|Los Corrales|mx
+04|EF522|Sandias|mx
+04|EF523|La Candela|mx
+04|EF524|El Presidio|mx
+04|EF525|Escape Presidio|mx
+04|EF526|Carreras|mx
+04|EF527|Tepehuanes|mx
+04|EF528|Central Camionera|mx
+04|EF529|Dalila|mx
+04|EF530|Centauro|mx
+04|EF531|Guadiana|mx
+04|EF532|Tuitan|mx
+04|EF533|Brena|mx
+04|EF534|Poanas|mx
+04|EF535|Parrilla|mx
+04|EF536|Vicente Guerrero|mx
+04|EF537|San Jose del Molino|mx
+04|EF538|El Súchil|mx
+04|EF539|Bualterio|mx
+04|EF540|Canutillo|mx
+04|EF541|El Cerrito|mx
+04|EF542|Vergelitos|mx
+04|EF543|San Pascual|mx
+04|EF544|Lodemena|mx
+04|EF545|La Parada|mx
+04|EF546|Abrego|mx
+04|EF547|Frio|mx
+04|EF548|Felipe Carrillo Puerto|mx
+04|EF549|El Arenal|mx
+04|EF550|Cantuna|mx
+04|EF551|El Fresno|mx
+04|EF552|El Mirasol|mx
+04|EF553|Sain Alto|mx
+04|EF554|Santa Mónica|mx
+04|EF555|Virata|mx
+04|EF556|Pastelera|mx
+04|EF557|Felipe|mx
+04|EF558|Rio Grande|mx
+04|EF559|Indios|mx
+04|EF560|Tetillas|mx
+04|EF561|Picotello|mx
+04|EF562|Las Cuatro Ciénegas|mx
+04|EF563|La Vieja|mx
+04|EF564|Baravito|mx
+04|EF565|Placa KM. DE-17|mx
+04|EF566|Cieneguita|mx
+04|EF567|Nevería|mx
+04|EF568|Palos Colorados|mx
+04|EF569|Rio Chico|mx
+04|EF570|Otinapa|mx
+04|EF571|Jarocho|mx
+04|EF572|El Fuerte|mx
+04|EF573|Cocona|mx
+04|EF574|El Chicle|mx
+04|EF575|Purísima|mx
+04|EF576|Placa KM. DE-90|mx
+04|EF577|Los Artículos|mx
+04|EF578|El Toro|mx
+04|EF579|Borcelano|mx
+04|EF580|Llano Piocode|mx
+04|EF581|Cruz de Piedra|mx
+04|EF582|Coyotes|mx
+04|EF583|Bajío Atascoso|mx
+04|EF584|Los Negros|mx
+04|EF585|Aserraderos|mx
+04|EF586|Ramón Barajas|mx
+04|EF587|Sombrerete|mx
+04|EF588|Asarco|mx
+04|EF589|Velardera|mx
+04|EF590|Navíos Viejos|mx
+04|EF591|El Tanque|mx
+04|EF592|Tecuan|mx
+04|EF593|Los Bancos|mx
+04|EF594|La Venada|mx
+04|EF595|Ciénega de los Caballos|mx
+04|EF596|Ardillon|mx
+04|EF597|Encinal|mx
+04|EF598|La Cruz|mx
+04|EF599|Rebocijo|mx
+04|EF600|Santa Rosa|mx
+04|EF601|Tres Jagueyes|mx
+04|EF602|Cartago|mx
+04|EF603|Tepeaca|mx
+04|EF604|Ajajalpan|mx
+04|EF605|Buenaventura|mx
+04|EF606|San Simón|mx
+04|EF607|Zoyaoetlayoca|mx
+04|EF608|Perro Rubín|mx
+04|EF609|Rosendo Marquez|mx
+04|EF610|Huixcolotla|mx
+04|EF611|Tecamachalco|mx
+04|EF612|Alseseca|mx
+04|EF613|Las Animas|mx
+04|EF614|Rancho Chico|mx
+04|EF615|Tlacotepec|mx
+04|EF616|Tlacoyalco|mx
+04|EF617|Libertad|mx
+04|EF618|Pozoltepec|mx
+04|EF619|Temalacayuca|mx
+04|EF620|Tepanco|mx
+04|EF621|Cuayucatepec|mx
+04|EF622|Patio Nuevo Carnero|mx
+04|EF623|Carnero|mx
+04|EF624|Tehuacán|mx
+04|EF625|La Huerta|mx
+04|EF626|Sanchez|mx
+04|EF627|Altepexi|mx
+04|EF628|San Sebastián|mx
+04|EF629|Nopala|mx
+04|EF630|Venta Salada|mx
+04|EF631|Aldama|mx
+04|EF632|San Antonio|mx
+04|EF633|Ignacio Mejia|mx
+04|EF634|Mejia Viejo|mx
+04|EF635|Los Cues|mx
+04|EF636|Tecomavaca|mx
+04|EF637|Quiotepec|mx
+04|EF638|Tanque KM. E-237|mx
+04|EF639|Los Obos|mx
+04|EF640|La Venta|mx
+04|EF641|Cuicatlan|mx
+04|EF642|San Pedrito|mx
+04|EF643|Tomellin|mx
+04|EF644|Organal|mx
+04|EF645|Almoloyas|mx
+04|EF646|Venado|mx
+04|EF647|Santa Catarina|mx
+04|EF648|Anona|mx
+04|EF649|Parían|mx
+04|EF650|Escondida|mx
+04|EF651|Placa KM. E-318|mx
+04|EF652|Las Bedas|mx
+04|EF653|Telixtlahuaca|mx
+04|EF654|Huitzo|mx
+04|EF655|Sulchiquitongo|mx
+04|EF656|Mixteca|mx
+04|EF657|Lachixolana|mx
+04|EF658|Don Benito|mx
+04|EF659|Magdalena|mx
+04|EF660|Etla|mx
+04|EF661|Magote|mx
+04|EF662|Hacienda Blanca|mx
+04|EF663|Oaxaca|mx
+04|EF664|Negritos|mx
+04|EF665|El Tule|mx
+04|EF666|Guendulain|mx
+04|EF667|Guelece|mx
+04|EF668|Abasolo|mx
+04|EF669|Guelavia|mx
+04|EF670|Tlacolula|mx
+04|EF671|Miahuatlan|mx
+04|EF672|Carmen|mx
+04|EF673|Cabras|mx
+04|EF674|Llano Grande de Linares|mx
+04|EF675|La Defensa|mx
+04|EF676|Cañada|mx
+04|EF677|San Antonio Soledad|mx
+04|EF678|Garcias|mx
+04|EF679|El Salado|mx
+04|EF680|Amozoquillo|mx
+04|EF681|Esperanza|mx
+04|EF682|XOXO|mx
+04|EF683|San Isidro|mx
+04|EF684|Jalpan|mx
+04|EF685|Zaachila|mx
+04|EF686|Trinidad|mx
+04|EF687|Cienega de los Caballos|mx
+04|EF688|Zimatlan|mx
+04|EF689|San Nicolás|mx
+04|EF690|San Pablo|mx
+04|EF691|Santa Inés Yatzechi|mx
+04|EF692|Santiago|mx
+04|EF693|Ocotlán|mx
+04|EF694|Guebesche|mx
+04|EF695|La Cima|mx
+04|EF696|Taviche|mx
+04|EF697|Las Puentes|mx
+04|EF698|San Nicolás|mx
+04|EF699|LaGrange|mx
+04|EF700|Apodaca|mx
+04|EF701|Palma|mx
+04|EF702|Pesquería|mx
+04|EF703|Francisco Villa Pesquería|mx
+04|EF704|Lobos|mx
+04|EF705|San Juan|mx
+04|EF706|Milpa|mx
+04|EF707|Ayancual|mx
+04|EF708|AltaVista|mx
+04|EF709|Ramones|mx
+04|EF710|Loma|mx
+04|EF711|Barretosa|mx
+04|EF712|Herreras|mx
+04|EF713|La Laja|mx
+04|EF714|La Palmita|mx
+04|EF715|Aldamas|mx
+04|EF716|Doctos Coss|mx
+04|EF717|Zacate|mx
+04|EF718|Arroyo Lobo|mx
+04|EF719|Ochoa|mx
+04|EF720|Camargo|mx
+04|EF721|Nuevo Cadillo|mx
+04|EF722|Valadeces|mx
+04|EF723|Los Villarreas|mx
+04|EF724|Gustavo Díaz Ordaz|mx
+04|EF725|Venecia|mx
+04|EF726|Los Altos|mx
+04|EF727|Anguelles|mx
+04|EF728|Sinaí|mx
+04|EF729|Anzalduas|mx
+04|EF730|Barita|mx
+04|EF731|Reynosa|mx
+04|EF732|Reynosa|mx
+04|EF733|Corrales|mx
+04|EF734|Alacranes|mx
+04|EF735|Rio Bravo|mx
+04|EF736|Celulosa|mx
+04|EF737|Tenacitas|mx
+04|EF738|Charco Azul|mx
+04|EF739|Canales|mx
+04|EF740|Ebanito Nuevo|mx
+04|EF741|Los Olmos|mx
+04|EF742|Control|mx
+04|EF743|Ramirez|mx
+04|EF744|Capote|mx
+04|EF745|Timones|mx
+04|EF746|Sandoval|mx
+04|EF747|La Gloria|mx
+04|EF748|Rosita|mx
+04|EF749|Matamoros|mx
+04|EF750|Coatzacoalcos|mx
+04|EF751|Ing. A. Lira Arciniega|mx
+04|EF752|Cangrejera|mx
+04|EF753|El Chapo|mx
+04|EF754|Cuichapa|mx
+04|EF755|Acalapa|mx
+04|EF756|Pueblo Viejo|mx
+04|EF757|Cárdenas|mx
+04|EF758|Tancochapa|mx
+04|EF759|Rueda|mx
+04|EF760|El Guanal|mx
+04|EF761|Héroe de Macozari|mx
+04|EF762|Gaytán|mx
+04|EF763|Mosquitero|mx
+04|EF764|Zanapa|mx
+04|EF765|Ing. Roberto Ayala|mx
+04|EF766|Mezcalapa|mx
+04|EF767|San Manuel|mx
+04|EF768|El Porvenir|mx
+04|EF769|La Crimea|mx
+04|EF770|Camoapa|mx
+04|EF771|Cardona|mx
+04|EF772|Juárez|mx
+04|EF773|Joaquín Gutiérrez|mx
+04|EF774|Pichucalco|mx
+04|EF775|Teapa|mx
+04|EF776|Tacotalpa|mx
+04|EF777|Poana|mx
+04|EF778|Lomas Tristes|mx
+04|EF779|Chango Santo|mx
+04|EF780|González|mx
+04|EF781|Macuspana|mx
+04|EF782|Agua Blanca|mx
+04|EF783|Pino Suarez|mx
+04|EF784|El Zopo|mx
+04|EF785|El Ceibo|mx
+04|EF786|Salto de Agua|mx
+04|EF787|Dos Arroyos|mx
+04|EF788|La Gloria|mx
+04|EF789|Los Llanos|mx
+04|EF790|La Unión|mx
+04|EF791|Palenque|mx
+04|EF792|San Marcos|mx
+04|EF793|Lacandón|mx
+04|EF794|San Agustín|mx
+04|EF795|Placa KM. FA-363|mx
+04|EF796|Chacamax|mx
+04|EF797|Zapata|mx
+04|EF798|Boca del Cerro|mx
+04|EF799|Tenosique|mx
+04|EF800|Esperanza|mx
+04|EF801|Mactun|mx
+04|EF802|El Águila|mx
+04|EF803|Barita|mx
+04|EF804|El Pozo|mx
+04|EF805|San Pedro|mx
+04|EF806|El Triunfo|mx
+04|EF807|La Micotea|mx
+04|EF808|El Naranjo|mx
+04|EF809|Paraíso|mx
+04|EF810|Pajaral|mx
+04|EF811|Candelaria|mx
+04|EF812|Peje Lagarto|mx
+04|EF813|Miguel Alemán|mx
+04|EF814|Luna|mx
+04|EF815|Don Samuel|mx
+04|EF816|Hard|mx
+04|EF817|División Norte|mx
+04|EF818|Escarcega|mx
+04|EF819|Colorado|mx
+04|EF820|5 de Febrero|mx
+04|EF821|Pixoyal|mx
+04|EF822|Carrillo Puerto|mx
+04|EF823|Pustunich|mx
+04|EF824|San Dimas|mx
+04|EF825|San Juan Carpizo|mx
+04|EF826|Arellano|mx
+04|EF827|Placa KM. FA-656|mx
+04|EF828|Santa Cruz|mx
+04|EF829|Hool|mx
+04|EF830|Yixmucuy|mx
+04|EF831|Uayamon|mx
+04|EF832|Mucuychacan|mx
+04|EF833|Placa KM. FA-712|mx
+04|EF834|China|mx
+04|EF835|Campeche|mx
+04|EF836|Koben|mx
+04|EF837|Hampoldi|mx
+04|EF838|Managua|mx
+04|EF839|Tenabo|mx
+04|EF840|Pomuch|mx
+04|EF841|Hecelchakan|mx
+04|EF842|Pocboc|mx
+04|EF843|Dzitbalche|mx
+04|EF844|Calkini|mx
+04|EF845|Tepakam|mx
+04|EF846|Becal|mx
+04|EF847|Halacho|mx
+04|EF848|Maxcanu|mx
+04|EF849|San Bernardo|mx
+04|EF850|Kopoma|mx
+04|EF851|Chochola|mx
+04|EF852|Umán|mx
+04|EF853|Ciudad Industrial|mx
+04|EF854|Mérida|mx
+04|EF855|Tixpeual|mx
+04|EF856|Tixkokob|mx
+04|EF857|Euan|mx
+04|EF858|Cacalchen|mx
+04|EF859|Bokoba|mx
+04|EF860|Tekanto|mx
+04|EF861|Izamal|mx
+04|EF862|Sitilpech|mx
+04|EF863|Ualactun|mx
+04|EF864|Kankabchen|mx
+04|EF865|Tunkas|mx
+04|EF866|Cámara|mx
+04|EF867|Quintana Roo|mx
+04|EF868|Dzitas|mx
+04|EF869|Santa Rosa|mx
+04|EF870|Xuilub|mx
+04|EF871|Espita|mx
+04|EF872|Calothul|mx
+04|EF873|Tizimin Nuevo|mx
+04|EF874|Tizimin|mx
+04|EF875|Chuburna|mx
+04|EF876|Cordemex|mx
+04|EF877|Xcanatun|mx
+04|EF878|Yaxche|mx
+04|EF879|San Ignacio|mx
+04|EF880|Progreso|mx
+04|EF881|Kanasin|mx
+04|EF882|Acanceh|mx
+04|EF883|Tecoh|mx
+04|EF884|Lepan|mx
+04|EF885|Xcanchakan|mx
+04|EF886|Hunaschen|mx
+04|EF887|Ticul|mx
+04|EF888|Pustunich|mx
+04|EF889|Yhotolin|mx
+04|EF890|Oxkutzcab|mx
+04|EF891|Akil|mx
+04|EF892|Tekak|mx
+04|EF893|Ticum|mx
+04|EF894|Kaxaytuc|mx
+04|EF895|Tzucacab|mx
+04|EF896|Xoy|mx
+04|EF897|Peto|mx
+04|EF898|Seye|mx
+04|EF899|Xucu|mx
+04|EF900|Hocaba|mx
+04|EF901|Sanahcat|mx
+04|EF902|Huhi|mx
+04|EF903|Xletra|mx
+04|EF904|Sotuta|mx
+04|EF905|Balatun|mx
+04|EF906|Tinun|mx
+04|EF907|Uayma|mx
+04|EF908|Valladolid|mx
+04|EF909|Córdoba|mx
+04|EF910|San Miguelito|mx
+04|EF911|Amatlan|mx
+04|EF912|La Patrona|mx
+04|EF913|Los Ángeles|mx
+04|EF914|Cerro Blanco|mx
+04|EF915|Cuichapa|mx
+04|EF916|Xuchiles|mx
+04|EF917|Omealca|mx
+04|EF918|La Zafra|mx
+04|EF919|Pocitos|mx
+04|EF920|Presidio|mx
+04|EF921|El Paraíso|mx
+04|EF922|Motzorongo|mx
+04|EF923|Tezonapa|mx
+04|EF924|Refugio|mx
+04|EF925|Rancho Tablas|mx
+04|EF926|La Estrella|mx
+04|EF927|Guadalupe de Reyes|mx
+04|EF928|Acatlán|mx
+04|EF929|Martinica|mx
+04|EF930|La Margarita|mx
+04|EF931|Vicente|mx
+04|EF932|Camalote|mx
+04|EF933|El Cañaveral|mx
+04|EF934|Tétela|mx
+04|EF935|Las Prietas|mx
+04|EF936|Chicalon|mx
+04|EF937|Tierra Blanca|mx
+04|EF938|Tierra Blanca|mx
+04|EF939|El Cien|mx
+04|EF940|Amapá|mx
+04|EF941|La Granja|mx
+04|EF942|Las Yaguas|mx
+04|EF943|Tres Valles|mx
+04|EF944|Ciudad General Alemán|mx
+04|EF945|Papaloapan|mx
+04|EF946|Escape El Hule|mx
+04|EF947|Las Piñas|mx
+04|EF948|Benemérito Juárez|mx
+04|EF949|Guadavictor|mx
+04|EF950|Obispo|mx
+04|EF951|Loma Bonita|mx
+04|EF952|Arroyo Claro|mx
+04|EF953|Dobladero|mx
+04|EF954|Azueta|mx
+04|EF955|Masoco|mx
+04|EF956|Garza Blanca|mx
+04|EF957|Isla|mx
+04|EF958|Rodriguez Clara|mx
+04|EF959|Jimba|mx
+04|EF960|Los Tigres|mx
+04|EF961|Angostura|mx
+04|EF962|La Ceiba|mx
+04|EF963|Juanita|mx
+04|EF964|Bellaco|mx
+04|EF965|Achotal|mx
+04|EF966|Campo Nuevo|mx
+04|EF967|Espartal|mx
+04|EF968|El Tejar|mx
+04|EF969|Paso del Toro|mx
+04|EF970|Los Robles|mx
+04|EF971|Guayabo|mx
+04|EF972|El Rodeo|mx
+04|EF973|Tlalixcoyan|mx
+04|EF974|Piedras Negras|mx
+04|EF975|Madereros|mx
+04|EF976|Cospalapam|mx
+04|EF977|Otapa|mx
+04|EF978|Joachin|mx
+04|EF979|Moreno Norte|mx
+04|EF980|Moreno Sur|mx
+04|EF981|Jícaro|mx
+04|EF982|Estanzuela|mx
+04|EF983|Fulgencio D. Vázquez|mx
+04|EF984|Carolina|mx
+04|EF985|Coyol|mx
+04|EF986|Nopaltepec|mx
+04|EF987|Alfredo|mx
+04|EF988|El Roble|mx
+04|EF989|Cocuite|mx
+04|EF990|Nuevo Cocuite|mx
+04|EF991|Chacal Tianguis|mx
+04|EF992|Casomaldapan|mx
+04|EF993|San Gabriel|mx
+04|EF994|San Cristóbal|mx
+04|EF995|Banano|mx
+04|EF996|Toro Bravo|mx
+04|EF997|Bela|mx
+04|EF998|Bartolome|mx
+04|EF999|Silverio|mx
+04|EF1000|Tuxtepec|mx
+04|EF1001|Adolfo Lopez Mateos|mx
+04|EF1002|Presidente Juárez|mx
+04|EF1003|Cartagena|mx
+04|EF1004|Tultepec|mx
+04|EF1005|Cajiba|mx
+04|EF1006|Jaltocan|mx
+04|EF1007|Xolox|mx
+04|EF1008|Paula|mx
+04|EF1009|Maquixco|mx
+04|EF1010|Temascalapa|mx
+04|EF1011|Empalme El Rey|mx
+04|EF1012|Ocotitlan|mx
+04|EF1013|Tezontepec|mx
+04|EF1014|Relinas|mx
+04|EF1015|San Agustín|mx
+04|EF1016|Tepa|mx
+04|EF1017|San Antonio Oztoyuca|mx
+04|EF1018|Pueblilla|mx
+04|EF1019|Tecajete|mx
+04|EF1020|Animas|mx
+04|EF1021|San Vicente|mx
+04|EF1022|Somorriel|mx
+04|EF1023|San Joaquín|mx
+04|EF1024|Las Lajas|mx
+04|EF1025|Los Romeros|mx
+04|EF1026|Otlimulco|mx
+04|EF1027|Fabrica|mx
+04|EF1028|Santiago|mx
+04|EF1029|Tulancingo|mx
+04|EF1030|Huapalcalco|mx
+04|EF1031|Sototlan|mx
+04|EF1032|Laguna del Cerrito|mx
+04|EF1033|Anita|mx
+04|EF1034|Pánfilo|mx
+04|EF1035|Canales|mx
+04|EF1036|Tonalixco|mx
+04|EF1037|Pejay|mx
+04|EF1038|Amapolas|mx
+04|EF1039|Honey|mx
+04|EF1040|19 de Marzo|mx
+04|EF1041|Téllez|mx
+04|EF1042|Venta de Cruz|mx
+04|EF1043|Santa Inés|mx
+04|EF1044|Tlanalapa|mx
+04|EF1045|Ciudad Sahagún|mx
+04|EF1046|Irolo|mx
+04|EF1047|La Trinidad|mx
+04|EF1048|Xochihuacan|mx
+04|EF1049|La Soledad|mx
+04|EF1050|Las Colonias|mx
+04|EF1051|Cadena|mx
+04|EF1052|Pachuca|mx
+04|EF1053|Ventoquipa|mx
+04|EF1054|Cuautepec|mx
+04|EF1055|Hueyapan|mx
+04|EF1056|Xocopa|mx
+04|EF1057|Cima de Togo|mx
+04|EF1058|Ahuazotepec|mx
+04|EF1059|Beristaín|mx
+04|EF1060|Sototlan|mx
+04|EF1061|Santa Rosa|mx
+04|EF1062|Acocul|mx
+04|EF1063|Tortugas|mx
+04|EF1064|Apulco|mx
+04|EF1065|Covarrubias|mx
+04|EF1066|Rivera|mx
+04|EF1067|Joaquín|mx
+04|EF1068|Abasolo|mx
+04|EF1069|Corralejo|mx
+04|EF1070|Pénjamo|mx
+04|EF1071|Oliva|mx
+04|EF1072|La Maraña|mx
+04|EF1073|Cortes|mx
+04|EF1074|La Piedad|mx
+04|EF1075|La Mula|mx
+04|EF1076|Patti|mx
+04|EF1077|Mirandillas|mx
+04|EF1078|Monte león|mx
+04|EF1079|Yurecuaro|mx
+04|EF1080|Villanueva|mx
+04|EF1081|Los Pilares|mx
+04|EF1082|El Alvareso|mx
+04|EF1083|Negrete|mx
+04|EF1084|Salamea|mx
+04|EF1085|La Barca|mx
+04|EF1086|Feliciano|mx
+04|EF1087|Limón|mx
+04|EF1088|Santa Inesia|mx
+04|EF1089|El Pedregal|mx
+04|EF1090|Ocotlán|mx
+04|EF1091|Camcel|mx
+04|EF1092|El Grande|mx
+04|EF1093|Pocitlan|mx
+04|EF1094|Constancia|mx
+04|EF1095|San Jacinto|mx
+04|EF1096|Corona|mx
+04|EF1097|Atequiza|mx
+04|EF1098|La Capilla|mx
+04|EF1099|El Castillo|mx
+04|EF1100|Ladrillera|mx
+04|EF1101|La Junta|mx
+04|EF1102|Guadalajara|mx
+04|EF1103|Guadalajara|mx
+04|EF1104|Mojonera|mx
+04|EF1105|Incalpa|mx
+04|EF1106|Orozco|mx
+04|EF1107|Lomas de Tejeda|mx
+04|EF1108|Tlajomulco|mx
+04|EF1109|Flores|mx
+04|EF1110|Tepetates|mx
+04|EF1111|Cruz Vieja|mx
+04|EF1112|Mazatepec|mx
+04|EF1113|Los Baños|mx
+04|EF1114|Valencia|mx
+04|EF1115|Balastre|mx
+04|EF1116|Mascota|mx
+04|EF1117|Santa Ana|mx
+04|EF1118|Catarina|mx
+04|EF1119|Zacoalco|mx
+04|EF1120|Verdia|mx
+04|EF1121|San Miguel del Zapote|mx
+04|EF1122|Techaluta|mx
+04|EF1123|Atoyac|mx
+04|EF1124|Carmelita|mx
+04|EF1125|Sayula|mx
+04|EF1126|Nicolás Bravo|mx
+04|EF1127|Manzano|mx
+04|EF1128|Providencia|mx
+04|EF1129|Ciudad Guzman|mx
+04|EF1130|Ciudad Guzman|mx
+04|EF1131|Huescalapa|mx
+04|EF1132|Zapotiltic|mx
+04|EF1133|Tuxpan|mx
+04|EF1134|Quito|mx
+04|EF1135|Atenquique|mx
+04|EF1136|Platanar|mx
+04|EF1137|Platanarillo|mx
+04|EF1138|Higuera|mx
+04|EF1139|Villegas|mx
+04|EF1140|Tonilita|mx
+04|EF1141|Fernández|mx
+04|EF1142|Alzada|mx
+04|EF1143|Salvador|mx
+04|EF1144|Estancia|mx
+04|EF1145|Colima|mx
+04|EF1146|Balcón|mx
+04|EF1147|Conquinatlan Pueblo|mx
+04|EF1148|Conquinatlan|mx
+04|EF1149|Jala|mx
+04|EF1150|Madrid|mx
+04|EF1151|El Rosario|mx
+04|EF1152|Caleras|mx
+04|EF1153|Tecomán|mx
+04|EF1154|La Bascula|mx
+04|EF1155|Periquillo|mx
+04|EF1156|Armería|mx
+04|EF1157|Cuyutlan|mx
+04|EF1158|Tepalcates|mx
+04|EF1159|Campos|mx
+04|EF1160|Manzanillo|mx
+04|EF1161|Dionisia|mx
+04|EF1162|Verduzco|mx
+04|EF1163|Cieneguitas|mx
+04|EF1164|Las Fuentes|mx
+04|EF1165|Falconi|mx
+04|EF1166|Torcazas|mx
+04|EF1167|Lopez|mx
+04|EF1168|Zamora|mx
+04|EF1169|Ario|mx
+04|EF1170|Dávalos|mx
+04|EF1171|Chavinda|mx
+04|EF1172|Moreno|mx
+04|EF1173|El Guayabo|mx
+04|EF1174|Guaracha|mx
+04|EF1175|La Soledad|mx
+04|EF1176|Cotija|mx
+04|EF1177|Angel|mx
+04|EF1178|Barrio Alto|mx
+04|EF1179|Yarecuato|mx
+04|EF1180|Guascaro|mx
+04|EF1181|Mercado|mx
+04|EF1182|Chucandiran|mx
+04|EF1183|Tinguindin|mx
+04|EF1184|Plaka KM. IB-125|mx
+04|EF1185|Santa Clara|mx
+04|EF1186|Salitre|mx
+04|EF1187|Los Reyes|mx
+04|EF1188|Zula|mx
+04|EF1189|La Labor Vieja|mx
+04|EF1190|Margaro|mx
+04|EF1191|Rancho Viejo|mx
+04|EF1192|Alcalde|mx
+04|EF1193|El Zorrillo|mx
+04|EF1194|Gaspar|mx
+04|EF1195|La Esperanza|mx
+04|EF1196|Navarro|mx
+04|EF1197|Atotonilco|mx
+04|EF1198|Barajas|mx
+04|EF1199|Atarjea|mx
+04|EF1200|La Calle|mx
+04|EF1201|Tres Mezquites|mx
+04|EF1202|Los Ángeles|mx
+04|EF1203|Villachuato|mx
+04|EF1204|Tunillas|mx
+04|EF1205|El Sabino|mx
+04|EF1206|Curimeo|mx
+04|EF1207|Magdacuaro|mx
+04|EF1208|Panindicuaro|mx
+04|EF1209|San Elias|mx
+04|EF1210|Zipimeo|mx
+04|EF1211|Villa Jimenez|mx
+04|EF1212|Tariacuri|mx
+04|EF1213|Jauja|mx
+04|EF1214|Viscosa|mx
+04|EF1215|Zacapu|mx
+04|EF1216|Ortega|mx
+04|EF1217|El Cortijo|mx
+04|EF1218|Comanja|mx
+04|EF1219|Escobillas|mx
+04|EF1220|Zirondaro|mx
+04|EF1221|Oponquio|mx
+04|EF1222|Puacuaro|mx
+04|EF1223|Erongaricuaro|mx
+04|EF1224|Lomitas|mx
+04|EF1225|San Julián|mx
+04|EF1226|Aguanaval|mx
+04|EF1227|Espuela Arenera|mx
+04|EF1228|El Fresno|mx
+04|EF1229|Gilita|mx
+04|EF1230|La Fe|mx
+04|EF1231|Claudio|mx
+04|EF1232|Ojo de Agua|mx
+04|EF1233|Hornos|mx
+04|EF1234|Viesca|mx
+04|EF1235|Ixtaltepec|mx
+04|EF1236|La Planta|mx
+04|EF1237|Juchitán|mx
+04|EF1238|General Charis|mx
+04|EF1239|Salineras|mx
+04|EF1240|Unión Hidalgo|mx
+04|EF1241|Yolanda|mx
+04|EF1242|San Dionicio|mx
+04|EF1243|La Riqueza|mx
+04|EF1244|Sidar|mx
+04|EF1245|Las Palmas|mx
+04|EF1246|Reforma|mx
+04|EF1247|Cabestrada|mx
+04|EF1248|Las Anonas|mx
+04|EF1249|Chahuites|mx
+04|EF1250|Elías Castro Ortega|mx
+04|EF1251|San Ramón|mx
+04|EF1252|Aurora|mx
+04|EF1253|Arriaga|mx
+04|EF1254|San Antolín|mx
+04|EF1255|Tonalá|mx
+04|EF1256|Esmeralda|mx
+04|EF1257|La Polka|mx
+04|EF1258|Cabaña|mx
+04|EF1259|Amates|mx
+04|EF1260|Mojarras|mx
+04|EF1261|Andrés|mx
+04|EF1262|Tres Picos|mx
+04|EF1263|Indalecio|mx
+04|EF1264|Ricardo Flores Magón|mx
+04|EF1265|Los Patos|mx
+04|EF1266|Joaquín Amaron|mx
+04|EF1267|San Isidro|mx
+04|EF1268|Colonia Central|mx
+04|EF1269|Nancinapa|mx
+04|EF1270|Urbina|mx
+04|EF1271|Pijijiapan|mx
+04|EF1272|Echegaray|mx
+04|EF1273|El Progreso|mx
+04|EF1274|El Carmen|mx
+04|EF1275|Margaritas|mx
+04|EF1276|Polmorada|mx
+04|EF1277|Jericó|mx
+04|EF1278|Leon Brindis|mx
+04|EF1279|Valdivia|mx
+04|EF1280|Mapastepec|mx
+04|EF1281|Barrancón|mx
+04|EF1282|La Playa|mx
+04|EF1283|Sesecapa|mx
+04|EF1284|Ulapa|mx
+04|EF1285|El Pataste|mx
+04|EF1286|La Bonanza|mx
+04|EF1287|Socomusco|mx
+04|EF1288|Acapetahua|mx
+04|EF1289|Zorrillo|mx
+04|EF1290|La Acacia|mx
+04|EF1291|Zacualpan|mx
+04|EF1292|Villa de Comaltitlan|mx
+04|EF1293|Despoblado|mx
+04|EF1294|Saltillo|mx
+04|EF1295|Montecristo|mx
+04|EF1296|Huixtla|mx
+04|EF1297|Tuzantan|mx
+04|EF1298|Islamapa|mx
+04|EF1299|Chamulapa|mx
+04|EF1300|Cuyamiapa|mx
+04|EF1301|Huehuetan|mx
+04|EF1302|22 de Mayo|mx
+04|EF1303|Tapachula|mx
+04|EF1304|Los Toros|mx
+04|EF1305|Congregación Reforma|mx
+04|EF1306|El Manzano|mx
+04|EF1307|La Soledad|mx
+04|EF1308|Cahuacan|mx
+04|EF1309|Ejido 20 de Noviembre|mx
+04|EF1310|Tres Hermanos|mx
+04|EF1311|El Silencio|mx
+04|EF1312|La Gloria|mx
+04|EF1313|El Dorado|mx
+04|EF1314|Los Fideles|mx
+04|EF1315|EL Campito|mx
+04|EF1316|La Platanera|mx
+04|EF1317|Ciudad Hidalgo|mx
+04|EF1318|Puerto Madero|mx
+04|EF1319|Canadá|mx
+04|EF1320|Jaltomate|mx
+04|EF1321|Amapola del Rio|mx
+04|EF1322|Gallardo|mx
+04|EF1323|El Tule|mx
+04|EF1324|Villa Juárez|mx
+04|EF1325|San Juan del Rio|mx
+04|EF1326|San Gil|mx
+04|EF1327|Bimbaletes|mx
+04|EF1328|Loreto|mx
+04|EF1329|Genaro|mx
+04|EF1330|Tauro|mx
+04|EF1331|La Honda|mx
+04|EF1332|La Olma|mx
+04|EF1333|Perón Blanco|mx
+04|EF1334|Salinas|mx
+04|EF1335|Sotol|mx
+04|EF1336|El Jaibito|mx
+04|EF1337|Espíritu Santo|mx
+04|EF1338|Tolosa|mx
+04|EF1339|Ipiña|mx
+04|EF1340|Arenal|mx
+04|EF1341|El Viejo|mx
+04|EF1342|El Corte|mx
+04|EF1343|Julián Carrillo|mx
+04|EF1344|Palmar Primero|mx
+04|EF1345|Ojo Zarco|mx
+04|EF1346|Estanzuela|mx
+04|EF1347|Alonso|mx
+04|EF1348|Techa|mx
+04|EF1349|Ventura|mx
+04|EF1350|Corcovada|mx
+04|EF1351|Pozo|mx
+04|EF1352|Los Venaditos|mx
+04|EF1353|Peotillos|mx
+04|EF1354|San Ignacio|mx
+04|EF1355|Silos|mx
+04|EF1356|Villar|mx
+04|EF1357|La Joya|mx
+04|EF1358|Montaña|mx
+04|EF1359|Cerritos|mx
+04|EF1360|El Gato|mx
+04|EF1361|La Borreguita|mx
+04|EF1362|El Tejocote|mx
+04|EF1363|San Bartolo|mx
+04|EF1364|EL Viejo|mx
+04|EF1365|Las Tablas|mx
+04|EF1366|Los Anteojos|mx
+04|EF1367|El Divisadero|mx
+04|EF1368|El Duro|mx
+04|EF1369|La Cinta|mx
+04|EF1370|Cárdenas|mx
+04|EF1371|La Presa|mx
+04|EF1372|La Bomba|mx
+04|EF1373|Escontria|mx
+04|EF1374|La Labor|mx
+04|EF1375|Las Candas|mx
+04|EF1376|Espinazo de Diablo|mx
+04|EF1377|Venastequi|mx
+04|EF1378|El Balcón|mx
+04|EF1379|Zacate|mx
+04|EF1380|Cafetal|mx
+04|EF1381|Tamasopo|mx
+04|EF1382|La Changa|mx
+04|EF1383|Abacatan|mx
+04|EF1384|Tambaca|mx
+04|EF1385|Rascón|mx
+04|EF1386|San Dieguito|mx
+04|EF1387|Las Crucitas|mx
+04|EF1388|Quinientos|mx
+04|EF1389|Micos|mx
+04|EF1390|Pago Pago|mx
+04|EF1391|San Mateo|mx
+04|EF1392|Valles|mx
+04|EF1393|El Abra|mx
+04|EF1394|Tanimul|mx
+04|EF1395|Las Palmas|mx
+04|EF1396|Tamuin|mx
+04|EF1397|El Coco|mx
+04|EF1398|Celis|mx
+04|EF1399|Velasco|mx
+04|EF1400|Auza|mx
+04|EF1401|Ébano|mx
+04|EF1402|Ferronales|mx
+04|EF1403|Chi Jol|mx
+04|EF1404|Méndez|mx
+04|EF1405|Lázaro Cárdenas|mx
+04|EF1406|Chila|mx
+04|EF1407|El Claron|mx
+04|EF1408|Ochoa|mx
+04|EF1409|Ferroautlan|mx
+04|EF1410|Tamos|mx
+04|EF1411|Tampico|mx
+04|EF1412|Árbol Grande|mx
+04|EF1413|Dora Cecilia|mx
+04|EF1414|La Angostura|mx
+04|EF1415|Pastora|mx
+04|EF1416|Cirio|mx
+04|EF1417|Zuciga|mx
+04|EF1418|Naranjal|mx
+04|EF1419|Rio verde|mx
+04|EF1420|Ciudad Madero|mx
+04|EF1421|Germinal|mx
+04|EF1422|Miramar|mx
+04|EF1423|Altamira|mx
+04|EF1424|Colonia|mx
+04|EF1425|Cervantes|mx
+04|EF1426|San Carlitos|mx
+04|EF1427|El Esfuerzo|mx
+04|EF1428|Los Enteros|mx
+04|EF1429|Cuauhtémoc|mx
+04|EF1430|Los Plátanos|mx
+04|EF1431|Chocoy|mx
+04|EF1432|Manuel|mx
+04|EF1433|González|mx
+04|EF1434|El Bernal|mx
+04|EF1435|Rosillo|mx
+04|EF1436|Pretil|mx
+04|EF1437|Calles|mx
+04|EF1438|Escandón|mx
+04|EF1439|Ignacio Zaragoza|mx
+04|EF1440|Forlón|mx
+04|EF1441|San Francisco|mx
+04|EF1442|Lavín|mx
+04|EF1443|Zorrilla|mx
+04|EF1444|Rosa|mx
+04|EF1445|Ciudad Victoria|mx
+04|EF1446|La Misión|mx
+04|EF1447|Caballeros|mx
+04|EF1448|Cerámica|mx
+04|EF1449|Carbonero|mx
+04|EF1450|Otilio Montaño|mx
+04|EF1451|Martinez|mx
+04|EF1452|Santa Enoracia|mx
+04|EF1453|Adeleida|mx
+04|EF1454|Cruz|mx
+04|EF1455|Tinajas|mx
+04|EF1456|Puerto del Aire|mx
+04|EF1457|Carrizos|mx
+04|EF1458|Grande|mx
+04|EF1459|Campoamor|mx
+04|EF1460|Garza Valdez|mx
+04|EF1461|Cima|mx
+04|EF1462|Benítez|mx
+04|EF1463|Maguiras|mx
+04|EF1464|Linares|mx
+04|EF1465|Alta|mx
+04|EF1466|Huertas|mx
+04|EF1467|Paras|mx
+04|EF1468|Montemorelos|mx
+04|EF1469|Terán|mx
+04|EF1470|Vaqueros|mx
+04|EF1471|Emilio Carranza|mx
+04|EF1472|Caña|mx
+04|EF1473|San Juan|mx
+04|EF1474|Pedro C. Morales|mx
+04|EF1475|Cadereyta|mx
+04|EF1476|Bellavista|mx
+04|EF1477|Cerrito la Silla|mx
+04|EF1478|San Miguel|mx
+04|EF1479|Lindavista|mx
+04|EF1480|Monterrey|mx
+04|EF1481|General Escobedo|mx
+04|EF1482|Chimpinque|mx
+04|EF1483|Abasolito|mx
+04|EF1484|Hidalgo|mx
+04|EF1485|Villa Mina|mx
+04|EF1486|Arista|mx
+04|EF1487|Ixtle|mx
+04|EF1488|El Milagro|mx
+04|EF1489|Ramos|mx
+04|EF1490|Paredón|mx
+04|EF1491|Amargos|mx
+04|EF1492|Las Moras|mx
+04|EF1493|Fraustro|mx
+04|EF1494|Placa KM. M-636|mx
+04|EF1495|Josefa|mx
+04|EF1496|Sauceda|mx
+04|EF1497|Mimo|mx
+04|EF1498|Hipólito|mx
+04|EF1499|Letona|mx
+04|EF1500|Brisa|mx
+04|EF1501|Marte|mx
+04|EF1502|Venus|mx
+04|EF1503|Tizoc|mx
+04|EF1504|Cacama|mx
+04|EF1505|Madero|mx
+04|EF1506|Pomona|mx
+04|EF1507|Talía|mx
+04|EF1508|Ceres|mx
+04|EF1509|La Sección|mx
+04|EF1510|Minerva|mx
+04|EF1511|Benavides|mx
+04|EF1512|Nazas|mx
+04|EF1513|San Pedro|mx
+04|EF1514|Gurza|mx
+04|EF1515|Concordia|mx
+04|EF1516|La Dalia|mx
+04|EF1517|Santa Teresa|mx
+04|EF1518|Santo Niño|mx
+04|EF1519|Abelardo Rodriguez|mx
+04|EF1520|Porvenir|mx
+04|EF1521|Gregorio Garcia|mx
+04|EF1522|Lujan|mx
+04|EF1523|El Compas|mx
+04|EF1524|Viredo|mx
+04|EF1525|Ferroaleaciones|mx
+04|EF1526|General Banda|mx
+04|EF1527|El Conejo|mx
+04|EF1528|El Conejito|mx
+04|EF1529|La Concha|mx
+04|EF1530|Xicontencatl|mx
+04|EF1531|Guayalejo|mx
+04|EF1532|El Ejido|mx
+04|EF1533|Las Ovejas|mx
+04|EF1534|Las Águilas|mx
+04|EF1535|El Limón|mx
+04|EF1536|Álvaro Obregón|mx
+04|EF1537|General Villa|mx
+04|EF1538|El Mante|mx
+04|EF1539|Quintero|mx
+04|EF1540|La Gavia|mx
+04|EF1541|La Bonita|mx
+04|EF1542|Atascador|mx
+04|EF1543|Clavo de Oro|mx
+04|EF1544|Palmito|mx
+04|EF1545|Ceiba|mx
+04|EF1546|Puerto Indust. Altamira|mx
+04|EF1547|Tlatilco|mx
+04|EF1548|El Rosario|mx
+04|EF1549|Tacuba|mx
+04|EF1550|Naucalpan|mx
+04|EF1551|Molinito|mx
+04|EF1552|Rio Hondo|mx
+04|EF1553|Monte|mx
+04|EF1554|San Bartolito|mx
+04|EF1555|Dos Ríos|mx
+04|EF1556|Nava|mx
+04|EF1557|Laurel|mx
+04|EF1558|San Martin|mx
+04|EF1559|La Cima|mx
+04|EF1560|Salazar|mx
+04|EF1561|Carretera|mx
+04|EF1562|Fresno|mx
+04|EF1563|Jajalpa|mx
+04|EF1564|Ocoyoacac|mx
+04|EF1565|Maclovio Herrera|mx
+04|EF1566|Lerma|mx
+04|EF1567|Doña Rosa|mx
+04|EF1568|Toluca|mx
+04|EF1569|Palmillas|mx
+04|EF1570|Mina México|mx
+04|EF1571|Santa Juana|mx
+04|EF1572|Del Rio|mx
+04|EF1573|Toxico|mx
+04|EF1574|Ixtlahuaca|mx
+04|EF1575|Vaquería|mx
+04|EF1576|Tepatitlán|mx
+04|EF1577|Flor de Maria|mx
+04|EF1578|Atlacomulco|mx
+04|EF1579|Manto|mx
+04|EF1580|Tepeolilco|mx
+04|EF1581|Bassoco|mx
+04|EF1582|Venta del Aire|mx
+04|EF1583|Tultenango|mx
+04|EF1584|Puerto de Medina|mx
+04|EF1585|Alberto Garduro|mx
+04|EF1586|Contepec|mx
+04|EF1587|Agua Buena|mx
+04|EF1588|Colorado|mx
+04|EF1589|Los Lirios|mx
+04|EF1590|Pateo|mx
+04|EF1591|Pomoca|mx
+04|EF1592|Apeo|mx
+04|EF1593|Tumgadero|mx
+04|EF1594|El Jejero|mx
+04|EF1595|Maravito|mx
+04|EF1596|Nicolasito|mx
+04|EF1597|San Antonio|mx
+04|EF1598|Gigantes|mx
+04|EF1599|Zirizicuaro|mx
+04|EF1600|Arena Blanca|mx
+04|EF1601|Tarandacuao|mx
+04|EF1602|Arroyo de la Luna|mx
+04|EF1603|Juan J. Franco|mx
+04|EF1604|Miguel G. Navarro|mx
+04|EF1605|Acambaro|mx
+04|EF1606|General Felipe Ángeles|mx
+04|EF1607|Costura|mx
+04|EF1608|Alvarez|mx
+04|EF1609|Andocutin|mx
+04|EF1610|Huingo|mx
+04|EF1611|Coro|mx
+04|EF1612|Querendaro|mx
+04|EF1613|Zinzimeo|mx
+04|EF1614|El Plan|mx
+04|EF1615|Quirio|mx
+04|EF1616|Charo|mx
+04|EF1617|La Goleta|mx
+04|EF1618|Atapaneo|mx
+04|EF1619|El Pilila|mx
+04|EF1620|Morelia|mx
+04|EF1621|La Huerta|mx
+04|EF1622|Coinztzio|mx
+04|EF1623|Jacuaro|mx
+04|EF1624|Noriega|mx
+04|EF1625|Tiripetio|mx
+04|EF1626|San Jose Coapa|mx
+04|EF1627|Lagunillas|mx
+04|EF1628|La Caja|mx
+04|EF1629|Fontezuela|mx
+04|EF1630|Chapultepec|mx
+04|EF1631|Pátzcuaro|mx
+04|EF1632|Parco|mx
+04|EF1633|Bonilla|mx
+04|EF1634|San Pablo|mx
+04|EF1635|Ajuno|mx
+04|EF1636|Lago Zirahuen|mx
+04|EF1637|Copandaro|mx
+04|EF1638|Ajambaran|mx
+04|EF1639|Jujucato|mx
+04|EF1640|Tarascón|mx
+04|EF1641|Paranguitiro|mx
+04|EF1642|Las Palomas|mx
+04|EF1643|Zurumucapio|mx
+04|EF1644|Conuy|mx
+04|EF1645|Aristeo|mx
+04|EF1646|Caltzontzin|mx
+04|EF1647|Cienfuegos|mx
+04|EF1648|Canacha|mx
+04|EF1649|Ziracuaretiro|mx
+04|EF1650|Patuam|mx
+04|EF1651|Taretan|mx
+04|EF1652|Plan Sexenal|mx
+04|EF1653|La Purísima|mx
+04|EF1654|Chupangujo|mx
+04|EF1655|Alberto Arenal Banuet|mx
+04|EF1656|Hoyo del Aire|mx
+04|EF1657|Tomendan|mx
+04|EF1658|Tipitaro|mx
+04|EF1659|Las Pilas|mx
+04|EF1660|El Jabalí|mx
+04|EF1661|Mirador|mx
+04|EF1662|Nuevo Urechp|mx
+04|EF1663|Huarenitzio|mx
+04|EF1664|Casilda|mx
+04|EF1665|Lombardia|mx
+04|EF1666|Maguizabal|mx
+04|EF1667|El Marques|mx
+04|EF1668|Nueva Italia|mx
+04|EF1669|Cussi|mx
+04|EF1670|Corondiro|mx
+04|EF1671|El Ceridor|mx
+04|EF1672|Antúnez|mx
+04|EF1673|Paracuaro|mx
+04|EF1674|El Junco|mx
+04|EF1675|Apatzingán|mx
+04|EF1676|Tlalnepantla|mx
+04|EF1677|Betti|mx
+04|EF1678|Monte Prieto|mx
+04|EF1679|Manzana|mx
+04|EF1680|San Cristóbal|mx
+04|EF1681|Chamacuaro|mx
+04|EF1682|San Agustín|mx
+04|EF1683|Guzman|mx
+04|EF1684|La Rancherita|mx
+04|EF1685|Salvatierra|mx
+04|EF1686|Corral|mx
+04|EF1687|LA Moncada|mx
+04|EF1688|Panales|mx
+04|EF1689|Cacalote|mx
+04|EF1690|Ojo Seco|mx
+04|EF1691|Tamayo|mx
+04|EF1692|Bajío|mx
+04|EF1693|Milpa Vieja|mx
+04|EF1694|Boulevard Celaya|mx
+04|EF1695|Santa Rita|mx
+04|EF1696|Mendoza|mx
+04|EF1697|San Juan de la Vega|mx
+04|EF1698|Uruapan|mx
+04|EF1699|El Oro|mx
+04|EF1700|Gambara|mx
+04|EF1701|Capirio|mx
+04|EF1702|Limoncito|mx
+04|EF1703|Los Ranchos|mx
+04|EF1704|La Vinata|mx
+04|EF1705|Las Caras|mx
+04|EF1706|Los Chivos|mx
+04|EF1707|Las Cruces|mx
+04|EF1708|Infiernillo|mx
+04|EF1709|Ing. J. M. Aguirre|mx
+04|EF1710|El Salvador|mx
+04|EF1711|El Panamá|mx
+04|EF1712|Las Minas|mx
+04|EF1713|Lázaro Cárdenas|mx
+04|EF1714|Chamuco|mx
+04|EF1715|Campo Hermoso|mx
+04|EF1716|Caredo|mx
+04|EF1717|Seguio|mx
+04|EF1718|Tarimoro|mx
+04|EF1719|Irimbo|mx
+04|EF1720|Aporo|mx
+04|EF1721|Alvarado|mx
+04|EF1722|Arguello|mx
+04|EF1723|Oyamel|mx
+04|EF1724|El Sanudo|mx
+04|EF1725|La Junta|mx
+04|EF1726|Ocampo|mx
+04|EF1727|Hernandez|mx
+04|EF1728|Tuxpan|mx
+04|EF1729|Sirahuato|mx
+04|EF1730|Purua|mx
+04|EF1731|Curungueo|mx
+04|EF1732|Zitácuaro|mx
+04|EF1733|Anguangeo|mx
+04|EF1734|La Cuadrilla|mx
+04|EF1735|Troya|mx
+04|EF1736|Baca|mx
+04|EF1737|Marportin|mx
+04|EF1738|Dorado|mx
+04|EF1739|La Mansa|mx
+04|EF1740|Morita|mx
+04|EF1741|Adela|mx
+04|EF1742|El Cobero|mx
+04|EF1743|Ejido Querita|mx
+04|EF1744|Bomera|mx
+04|EF1745|General Ángeles|mx
+04|EF1746|Mayurana|mx
+04|EF1747|Parral|mx
+04|EF1748|Fluorita|mx
+04|EF1749|Zenzontle|mx
+04|EF1750|La Vencedora|mx
+04|EF1751|Borjas|mx
+04|EF1752|Roncesvalles|mx
+04|EF1753|Peinado|mx
+04|EF1754|Cuevas|mx
+04|EF1755|Catarinas|mx
+04|EF1756|Piloncillos|mx
+04|EF1757|Paloma|mx
+04|EF1758|Rosario|mx
+04|EF1759|Santa Bárbara|mx
+04|EF1760|San Francisco del Oro|mx
+04|EF1761|Ojinaga|mx
+04|EF1762|San Uriel|mx
+04|EF1763|Chapo|mx
+04|EF1764|La Hula|mx
+04|EF1765|Lagunitas|mx
+04|EF1766|Volcanes|mx
+04|EF1767|Chilicote|mx
+04|EF1768|Pulpito|mx
+04|EF1769|Falomia|mx
+04|EF1770|Picachos|mx
+04|EF1771|San Sostenes|mx
+04|EF1772|Colonias|mx
+04|EF1773|Encantada|mx
+04|EF1774|Morreon|mx
+04|EF1775|Trancas|mx
+04|EF1776|Aldama|mx
+04|EF1777|Muller|mx
+04|EF1778|Tabalaopa|mx
+04|EF1779|Chihuahua|mx
+04|EF1780|Fresno|mx
+04|EF1781|Salas|mx
+04|EF1782|Palomas|mx
+04|EF1783|Araiza|mx
+04|EF1784|Santa Isabel|mx
+04|EF1785|Baeza|mx
+04|EF1786|Nopalera|mx
+04|EF1787|Chavarria|mx
+04|EF1788|San Andrés|mx
+04|EF1789|Aldana|mx
+04|EF1790|Mesa|mx
+04|EF1791|Bustillos|mx
+04|EF1792|Anáhuac|mx
+04|EF1793|Colonia Anáhuac|mx
+04|EF1794|Cuauhtémoc|mx
+04|EF1795|Casa Colorada|mx
+04|EF1796|Cima|mx
+04|EF1797|Pedernales|mx
+04|EF1798|Rosario|mx
+04|EF1799|La Junta|mx
+04|EF1800|Miraca|mx
+04|EF1801|La Unión|mx
+04|EF1802|González|mx
+04|EF1803|Terrero|mx
+04|EF1804|Vergel|mx
+04|EF1805|Pichachic|mx
+04|EF1806|Ataros|mx
+04|EF1807|Treviño|mx
+04|EF1808|Pinera|mx
+04|EF1809|San Juanito|mx
+04|EF1810|Cuesta Prieta|mx
+04|EF1811|Poblado Bocoyna|mx
+04|EF1812|Bocoyna|mx
+04|EF1813|Creel|mx
+04|EF1814|Sanchez|mx
+04|EF1815|Federico Lopez|mx
+04|EF1816|Pitorreal|mx
+04|EF1817|Nacaibo|mx
+04|EF1818|Divisadero|mx
+04|EF1819|Ing. Francisco M. Tosno|mx
+04|EF1820|Posada Barrancas|mx
+04|EF1821|San Rafael|mx
+04|EF1822|Chihuahuicame|mx
+04|EF1823|Cuiteco|mx
+04|EF1824|Bahuichivo|mx
+04|EF1825|Irigoyen|mx
+04|EF1826|Parajes|mx
+04|EF1827|Soledad|mx
+04|EF1828|Temoris|mx
+04|EF1829|Julio Ornelas|mx
+04|EF1830|Tacuina|mx
+04|EF1831|Santo Niño|mx
+04|EF1832|Jesus Cruz|mx
+04|EF1833|Descango|mx
+04|EF1834|Ing. Luis Covarrubias|mx
+04|EF1835|Los Pozos|mx
+04|EF1836|Aguacaliente|mx
+04|EF1837|Loreto|mx
+04|EF1838|La Laguna|mx
+04|EF1839|Ing. Heriberto Valdez|mx
+04|EF1840|El Fuerte|mx
+04|EF1841|Norotes|mx
+04|EF1842|Vega|mx
+04|EF1843|Sufragio|mx
+04|EF1844|Charay|mx
+04|EF1845|Constancia|mx
+04|EF1846|Cerrillos|mx
+04|EF1847|Santa Rosa|mx
+04|EF1848|Jiquilpan|mx
+04|EF1849|Los Mochis|mx
+04|EF1850|Topolobampo|mx
+04|EF1851|Basuchil|mx
+04|EF1852|San Isidro|mx
+04|EF1853|Girasol|mx
+04|EF1854|Santo Tomas|mx
+04|EF1855|Placa KM. DA-48|mx
+04|EF1856|Tejolocachic|mx
+04|EF1857|Matachic|mx
+04|EF1858|Loma|mx
+04|EF1859|Maulas|mx
+04|EF1860|Temosachic|mx
+04|EF1861|Yepomera|mx
+04|EF1862|Rincon|mx
+04|EF1863|Las Varas|mx
+04|EF1864|El Preson|mx
+04|EF1865|Madera|mx
+04|EF1866|El Rastro|mx
+04|EF1867|Cebadilla|mx
+04|EF1868|La Herradura|mx
+04|EF1869|"Colonia ""Año de Hidalgo"""|mx
+04|EF1870|Babicora|mx
+04|EF1871|Ojo|mx
+04|EF1872|Drake|mx
+04|EF1873|Chico|mx
+04|EF1874|Aguilar|mx
+04|EF1875|Cumbre|mx
+04|EF1876|Caballo|mx
+04|EF1877|Bellavista|mx
+04|EF1878|Aguaje|mx
+04|EF1879|Riba|mx
+04|EF1880|Cuevitas|mx
+04|EF1881|Rucio|mx
+04|EF1882|Santa Rosa|mx
+04|EF1883|Maya Ortiz|mx
+04|EF1884|San Diego|mx
+04|EF1885|Achondo|mx
+04|EF1886|Colonia Madero|mx
+04|EF1887|Nuevo Casas Grandes|mx
+04|EF1888|Guzman|mx
+04|EF1889|San Blas|mx
+04|EF1890|Barreal|mx
+04|EF1891|Placa KM. QA-490|mx
+04|EF1892|Médanos|mx
+04|EF1893|Mezquite|mx
+04|EF1894|Sapello|mx
+04|EF1895|Méndez|mx
+04|EF1896|Ciudad Juárez|mx
+04|EF1897|Piedras Negras|mx
+04|EF1898|Fuente|mx
+04|EF1899|Cantú|mx
+04|EF1900|Rio Escondido|mx
+04|EF1901|Placa KM. R-29|mx
+04|EF1902|Navas|mx
+04|EF1903|Allende|mx
+04|EF1904|Los Rosales|mx
+04|EF1905|Calatrava|mx
+04|EF1906|Las Blancas|mx
+04|EF1907|Peyotes|mx
+04|EF1908|Silencio|mx
+04|EF1909|Puente Negro|mx
+04|EF1910|Blanco|mx
+04|EF1911|Sabinas|mx
+04|EF1912|Mezquital|mx
+04|EF1913|San Fernando|mx
+04|EF1914|Barroteran|mx
+04|EF1915|Aura|mx
+04|EF1916|Lechuguilla|mx
+04|EF1917|Obayos|mx
+04|EF1918|Manuel M. Rodriguez|mx
+04|EF1919|Hermanas|mx
+04|EF1920|Tapado|mx
+04|EF1921|Adjuntas|mx
+04|EF1922|Agustín Espinoza|mx
+04|EF1923|Ciudad Frontera|mx
+04|EF1924|Fierro|mx
+04|EF1925|Dolomita|mx
+04|EF1926|Castaño|mx
+04|EF1927|Bocatoche|mx
+04|EF1928|Gloria|mx
+04|EF1929|Dezago|mx
+04|EF1930|Bajan|mx
+04|EF1931|Joya|mx
+04|EF1932|Sierra Azul|mx
+04|EF1933|Espinazo|mx
+04|EF1934|La Popa|mx
+04|EF1935|General Coss|mx
+04|EF1936|Carlos Pereyra|mx
+04|EF1937|Anhelo|mx
+04|EF1938|Bravo|mx
+04|EF1939|Mesillas|mx
+04|EF1940|Roca|mx
+04|EF1941|Los Ixtles|mx
+04|EF1942|Higo|mx
+04|EF1943|Zertuche|mx
+04|EF1944|Rio|mx
+04|EF1945|Morelos|mx
+04|EF1946|Zaragoza|mx
+04|EF1947|Dávila|mx
+04|EF1948|Nogalera|mx
+04|EF1949|Teresita|mx
+04|EF1950|Borrados|mx
+04|EF1951|Trasquilla|mx
+04|EF1952|San Carlos|mx
+04|EF1953|Nueva Palestina|mx
+04|EF1954|El Pilar|mx
+04|EF1955|Cuevitas|mx
+04|EF1956|Ciudad Acura|mx
+04|EF1957|Rosita|mx
+04|EF1958|Las Esperanzas|mx
+04|EF1959|Mota|mx
+04|EF1960|Ranchería|mx
+04|EF1961|El Cedro|mx
+04|EF1962|Palau|mx
+04|EF1963|Zamora|mx
+04|EF1964|Muzquiz|mx
+04|EF1965|Pozuelos|mx
+04|EF1966|Manuel Aguirre|mx
+04|EF1967|Nadadores|mx
+04|EF1968|Águila|mx
+04|EF1969|Celemania|mx
+04|EF1970|Polka|mx
+04|EF1971|Lamadrid|mx
+04|EF1972|Boquillas|mx
+04|EF1973|Placa KM. AD-59|mx
+04|EF1974|Cuatro Ciénegas|mx
+04|EF1975|Placa KM. RD-76|mx
+04|EF1976|Divisadero|mx
+04|EF1977|Doblones|mx
+04|EF1978|Socorro|mx
+04|EF1979|Los Belloc|mx
+04|EF1980|Juncal|mx
+04|EF1981|Zacatosa|mx
+04|EF1982|Arocha|mx
+04|EF1983|Las Monjas|mx
+04|EF1984|Magueyal|mx
+04|EF1985|La Curva|mx
+04|EF1986|La Víbora|mx
+04|EF1987|Pedro Ortegón|mx
+04|EF1988|Patrimonio|mx
+04|EF1989|Americanos|mx
+04|EF1990|El Rey|mx
+04|EF1991|Avante Ahmsa|mx
+04|EF1992|Presa|mx
+04|EF1993|El Oro|mx
+04|EF1994|Rincón|mx
+04|EF1995|Estanque|mx
+04|EF1996|Quimbalete|mx
+04|EF1997|Escape Carrillo|mx
+04|EF1998|Carrillo|mx
+04|EF1999|La Morita|mx
+04|EF2000|Mercurio|mx
+04|EF2001|Lorenzo|mx
+04|EF2002|La India|mx
+04|EF2003|Agujita|mx
+04|EF2004|Cloete|mx
+04|EF2005|Palau|mx
+04|EF2006|La Puerta|mx
+04|EF2007|Sierra Mojada|mx
+04|EF2008|Martin G. Rodriguez|mx
+04|EF2009|Química El Rey|mx
+04|EF2010|Tenayuca|mx
+04|EF2011|Espuela La Villa|mx
+04|EF2012|Xalostoc|mx
+04|EF2013|Ecatepec|mx
+04|EF2014|Tepexpan|mx
+04|EF2015|Xometla|mx
+04|EF2016|Teotihuacán|mx
+04|EF2017|Otumba Mexicano|mx
+04|EF2018|La Palma|mx
+04|EF2019|Ometusco|mx
+04|EF2020|Xala|mx
+04|EF2021|Irolo Mexicano|mx
+04|EF2022|Acopinalco|mx
+04|EF2023|Apan|mx
+04|EF2024|Tetlepayac|mx
+04|EF2025|Soltepec|mx
+04|EF2026|Cobrito|mx
+04|EF2027|Calderon Norte|mx
+04|EF2028|Calderon Sur|mx
+04|EF2029|Guadalupe|mx
+04|EF2030|Muroz|mx
+04|EF2031|Apizaco|mx
+04|EF2032|Tocha|mx
+04|EF2033|Acocotla|mx
+04|EF2034|Huamatlan|mx
+04|EF2035|Tamariz|mx
+04|EF2036|San Marcos|mx
+04|EF2037|Moctezuma|mx
+04|EF2038|Rinconada|mx
+04|EF2039|Aljibes|mx
+04|EF2040|San Juan Atenco|mx
+04|EF2041|San Andrés|mx
+04|EF2042|San Pedro|mx
+04|EF2043|Santa Maria Techicalco|mx
+04|EF2044|Jesus de Nazareno|mx
+04|EF2045|Los Reyes|mx
+04|EF2046|Esperanza|mx
+04|EF2047|Boca del Monte|mx
+04|EF2048|Galera|mx
+04|EF2049|Alta Luz|mx
+04|EF2050|Bota|mx
+04|EF2051|Maltrata|mx
+04|EF2052|Balastrera|mx
+04|EF2053|Encinar|mx
+04|EF2054|Santa Rosa|mx
+04|EF2055|Nogales|mx
+04|EF2056|Rio Blanco|mx
+04|EF2057|Orizaba|mx
+04|EF2058|Molino|mx
+04|EF2059|Sumidero|mx
+04|EF2060|Metlac|mx
+04|EF2061|Fortín|mx
+04|EF2062|Córdoba|mx
+04|EF2063|Peruela|mx
+04|EF2064|Paraje Nuevo|mx
+04|EF2065|Potrero|mx
+04|EF2066|Atoyac|mx
+04|EF2067|San Alejo|mx
+04|EF2068|Las Palomas|mx
+04|EF2069|Paso del Macho|mx
+04|EF2070|Camarón|mx
+04|EF2071|Mata de Agua|mx
+04|EF2072|Soledad|mx
+04|EF2073|Manlio Favio Altamirano|mx
+04|EF2074|Mata Loma|mx
+04|EF2075|Santa Rita|mx
+04|EF2076|Tejería|mx
+04|EF2077|El Laurelal|mx
+04|EF2078|Santa Cruz|mx
+04|EF2079|Santa Ana|mx
+04|EF2080|Teolocholco|mx
+04|EF2081|Zacatelco|mx
+04|EF2082|Panzacola|mx
+04|EF2083|San Antonio Soledad|mx
+04|EF2084|La Cañada Morelos|mx
+04|EF2085|Puente Colorado|mx
+04|EF2086|Vaquería I|mx
+04|EF2087|Huaxtitla|mx
+04|EF2088|Acultzingo|mx
+04|EF2089|Mezquite|mx
+04|EF2090|Tecamalucan|mx
+04|EF2091|Encinar|mx
+04|EF2092|Tecámac|mx
+04|EF2093|Nogales|mx
+04|EF2094|Encina|mx
+04|EF2095|Agua Zarca|mx
+04|EF2096|Casita|mx
+04|EF2097|Cumeral|mx
+04|EF2098|Imuris|mx
+04|EF2099|Pierson|mx
+04|EF2100|Magdalena|mx
+04|EF2101|Santa Ana|mx
+04|EF2102|Llano|mx
+04|EF2103|Noria|mx
+04|EF2104|Benjamin Hill|mx
+04|EF2105|Querosabi|mx
+04|EF2106|Camou|mx
+04|EF2107|Poza|mx
+04|EF2108|Carbo|mx
+04|EF2109|Selva|mx
+04|EF2110|Pesquería|mx
+04|EF2111|Zamora|mx
+04|EF2112|Hermosillo|mx
+04|EF2113|Ciudad Industrial|mx
+04|EF2114|Calera|mx
+04|EF2115|Willard|mx
+04|EF2116|Vega|mx
+04|EF2117|Torres|mx
+04|EF2118|Lujan|mx
+04|EF2119|Moreno|mx
+04|EF2120|Tapia|mx
+04|EF2121|Ortiz|mx
+04|EF2122|Santa Rosa|mx
+04|EF2123|Maytorena|mx
+04|EF2124|Empalme|mx
+04|EF2125|Piedra|mx
+04|EF2126|Guasimas|mx
+04|EF2127|Napoli|mx
+04|EF2128|Oroz|mx
+04|EF2129|Vicam|mx
+04|EF2130|Bacum|mx
+04|EF2131|Corral|mx
+04|EF2132|Esperanza|mx
+04|EF2133|Ciudad Obregón|mx
+04|EF2134|Velderrain|mx
+04|EF2135|Fundición|mx
+04|EF2136|Santini|mx
+04|EF2137|Margarita|mx
+04|EF2138|Navojoa|mx
+04|EF2139|Bacabachi|mx
+04|EF2140|Masiaca|mx
+04|EF2141|Luis|mx
+04|EF2142|Don|mx
+04|EF2143|Francisco|mx
+04|EF2144|Cañedo|mx
+04|EF2145|Fenochio|mx
+04|EF2146|San Blas|mx
+04|EF2147|Sufragio|mx
+04|EF2148|Algodón|mx
+04|EF2149|Zeferino Paredes|mx
+04|EF2150|Naranjo|mx
+04|EF2151|Zopilote|mx
+04|EF2152|Leon Fonseca|mx
+04|EF2153|Bamda|mx
+04|EF2154|Capomas|mx
+04|EF2155|Guamúchil|mx
+04|EF2156|Acatita|mx
+04|EF2157|Palón Blancos|mx
+04|EF2158|Techa|mx
+04|EF2159|Reyes|mx
+04|EF2160|Caimanero|mx
+04|EF2161|Vitaruto|mx
+04|EF2162|Rosales|mx
+04|EF2163|Colorada|mx
+04|EF2164|Culiacán|mx
+04|EF2165|San Rafael|mx
+04|EF2166|Costa Rica|mx
+04|EF2167|Alhuate|mx
+04|EF2168|Quila|mx
+04|EF2169|Oso|mx
+04|EF2170|Obispo|mx
+04|EF2171|Abuya|mx
+04|EF2172|Tanques|mx
+04|EF2173|La Cruz|mx
+04|EF2174|Olaje|mx
+04|EF2175|Dimas|mx
+04|EF2176|Pozole|mx
+04|EF2177|Mármol|mx
+04|EF2178|Redo|mx
+04|EF2179|Mazatlán|mx
+04|EF2180|Presidio|mx
+04|EF2181|Labrados|mx
+04|EF2182|Matadero|mx
+04|EF2183|Rosario|mx
+04|EF2184|Astengo|mx
+04|EF2185|Escuinapa|mx
+04|EF2186|Bacho|mx
+04|EF2187|Palmar|mx
+04|EF2188|Copales|mx
+04|EF2189|Concha|mx
+04|EF2190|Acaponeta|mx
+04|EF2191|Montaje|mx
+04|EF2192|Bonita|mx
+04|EF2193|Morada|mx
+04|EF2194|Ruiz|mx
+04|EF2195|Yago|mx
+04|EF2196|Nanchi|mx
+04|EF2197|Pani|mx
+04|EF2198|Roseta|mx
+04|EF2199|Corte|mx
+04|EF2200|Mango|mx
+04|EF2201|Ignacio Borrego|mx
+04|EF2202|Aguirre|mx
+04|EF2203|Mora|mx
+04|EF2204|Tepic|mx
+04|EF2205|Pantanal|mx
+04|EF2206|Costilla|mx
+04|EF2207|Compostela|mx
+04|EF2208|Borbollón|mx
+04|EF2209|Cerro Pelón|mx
+04|EF2210|Conde|mx
+04|EF2211|Valle Verde|mx
+04|EF2212|Marquesado|mx
+04|EF2213|Ahuacatlan|mx
+04|EF2214|Ixtlán|mx
+04|EF2215|Gracia|mx
+04|EF2216|Barrancas|mx
+04|EF2217|Agua Fría|mx
+04|EF2218|La Quemada|mx
+04|EF2219|Magdalena|mx
+04|EF2220|Cuervo|mx
+04|EF2221|Tequila|mx
+04|EF2222|Amatitan|mx
+04|EF2223|Arenal|mx
+04|EF2224|La Venta|mx
+04|EF2225|Jocotan|mx
+04|EF2226|Guadalajara|mx
+04|EF2227|Portezuelo|mx
+04|EF2228|Mascarera|mx
+04|EF2229|Santa Bárbara|mx
+04|EF2230|Martinez|mx
+04|EF2231|San Lázaro|mx
+04|EF2232|Domínguez|mx
+04|EF2233|Santa Cruz|mx
+04|EF2234|Zorrilla|mx
+04|EF2235|La Bota|mx
+04|EF2236|Álamo Gordo|mx
+04|EF2237|Molina|mx
+04|EF2238|Sauceda|mx
+04|EF2239|Del Rio|mx
+04|EF2240|Villa Verde|mx
+04|EF2241|Mina Oro|mx
+04|EF2242|Naco|mx
+04|EF2243|La Calera|mx
+04|EF2244|Cabullona|mx
+04|EF2245|Cima|mx
+04|EF2246|Elías Calles|mx
+04|EF2247|Fronteras|mx
+04|EF2248|Cochuta|mx
+04|EF2249|Esqueda|mx
+04|EF2250|Turicachi|mx
+04|EF2251|Vigía|mx
+04|EF2252|Calabazas|mx
+04|EF2253|El Tajo|mx
+04|EF2254|San Nicolás|mx
+04|EF2255|Purica|mx
+04|EF2256|Hidalgo|mx
+04|EF2257|Nacozari|mx
+04|EF2258|Cananea|mx
+04|EF2259|Agua Prieta|mx
+04|EF2260|La Campana|mx
+04|EF2261|Guaymas|mx
+04|EF2262|Bacobambo|mx
+04|EF2263|Etchojoa|mx
+04|EF2264|Huatabampo|mx
+04|EF2265|Guasave|mx
+04|EF2266|Navolato|mx
+04|EF2267|El Dorado|mx
+04|EF2268|Orendain|mx
+04|EF2269|Tala|mx
+04|EF2270|Refugio|mx
+04|EF2271|Cuicillos|mx
+04|EF2272|La Vega|mx
+04|EF2273|Matute|mx
+04|EF2274|Ameca|mx
+04|EF2275|Amarillo|mx
+04|EF2276|Carmen|mx
+04|EF2277|Portes Gil|mx
+04|EF2278|Ahualulco|mx
+04|EF2279|La Calabaza|mx
+04|EF2280|Etzatlan|mx
+04|EF2281|Pascualitos|mx
+04|EF2282|Cerro Prieto|mx
+04|EF2283|Delta|mx
+04|EF2284|Victoria|mx
+04|EF2285|Rio Colorado|mx
+04|EF2286|Coahuila|mx
+04|EF2287|Riito|mx
+04|EF2288|El Doctor|mx
+04|EF2289|Los Pioneros|mx
+04|EF2290|Sanchez Islas|mx
+04|EF2291|Torres Burciga|mx
+04|EF2292|Lopez Collada|mx
+04|EF2293|Gustavo Sotelo|mx
+04|EF2294|Puerto Perasco|mx
+04|EF2295|Irigoyen|mx
+04|EF2296|Almejas|mx
+04|EF2297|El Sahuaro|mx
+04|EF2298|Las Enchilayas|mx
+04|EF2299|El Coyote|mx
+04|EF2300|Los Sapos|mx
+04|EF2301|Caborca|mx
+04|EF2302|Pitiquito|mx
+04|EF2303|La Ventana|mx
+04|EF2304|La Verbena|mx
+04|EF2305|La Pera|mx
+04|EF2306|Trincheras|mx
+04|EF2307|Ruiz Díaz|mx
+04|EF2308|Benjamin Hill|mx
+04|EF2309|Mexicali|mx
+04|EF2310|Tijuana|mx
+04|EF2311|Agua Caliente|mx
+04|EF2312|Garcia|mx
+04|EF2313|Matanuco|mx
+04|EF2314|Redondo|mx
+04|EF2315|Tecate|mx
+04|EF2316|San Vicente|mx
+04|EF2317|Cuautlalpan|mx
+04|EF2318|General Gomez|mx
+04|EF2319|Chapingo|mx
+04|EF2320|Texcoco|mx
+04|EF2321|San Andrés|mx
+04|EF2322|Robles|mx
+04|EF2323|Azteca|mx
+04|EF2324|Chipiltepec|mx
+04|EF2325|Xometla|mx
+04|EF2326|Antonio|mx
+04|EF2327|Pirámides|mx
+04|EF2328|Metepec|mx
+04|EF2329|Oxtotipac|mx
+04|EF2330|Otumba|mx
+04|EF2331|El Magueyal|mx
+04|EF2332|Aguatepec|mx
+04|EF2333|Campero|mx
+04|EF2334|Jaltepec|mx
+04|EF2335|Santa Clara|mx
+04|EF2336|Mal País|mx
+04|EF2337|San Lorenzo|mx
+04|EF2338|Veloz|mx
+04|EF2339|Iturbe|mx
+04|EF2340|La Luz|mx
+04|EF2341|Sanz|mx
+04|EF2342|La Trasquila|mx
+04|EF2343|Mena|mx
+04|EF2344|Xicoténcatl|mx
+04|EF2345|Velasco|mx
+04|EF2346|Kiumicho|mx
+04|EF2347|Tecoac|mx
+04|EF2348|Santo Domingo|mx
+04|EF2349|Cerón|mx
+04|EF2350|Mazarraza|mx
+04|EF2351|Vega|mx
+04|EF2352|Oriental|mx
+04|EF2353|Varela|mx
+04|EF2354|Titipanapa|mx
+04|EF2355|Tepeyahualco|mx
+04|EF2356|Pizarro|mx
+04|EF2357|Artesiano|mx
+04|EF2358|Totalco|mx
+04|EF2359|Perote|mx
+04|EF2360|Rubín|mx
+04|EF2361|Cruz Blanca|mx
+04|EF2362|Las Vigas|mx
+04|EF2363|David. S Alonso|mx
+04|EF2364|Loma de Tablas|mx
+04|EF2365|Negro|mx
+04|EF2366|Cruz Verde|mx
+04|EF2367|Jilotepec|mx
+04|EF2368|San Miguel|mx
+04|EF2369|Demesa|mx
+04|EF2370|Banderilla|mx
+04|EF2371|Jalapa|mx
+04|EF2372|Los Berros|mx
+04|EF2373|Pacho|mx
+04|EF2374|Roma|mx
+04|EF2375|Alborada|mx
+04|EF2376|El Chico|mx
+04|EF2377|Chavarrillo|mx
+04|EF2378|Palman|mx
+04|EF2379|Souter|mx
+04|EF2380|Apazapam|mx
+04|EF2381|Tigrillos|mx
+04|EF2382|El Carrizal|mx
+04|EF2383|Los Ídolos|mx
+04|EF2384|Tamarindo|mx
+04|EF2385|Chichicaxtle|mx
+04|EF2386|Guayabal|mx
+04|EF2387|Paso de Varas|mx
+04|EF2388|Cardel|mx
+04|EF2389|Salmoral|mx
+04|EF2390|La Posta|mx
+04|EF2391|Antigua|mx
+04|EF2392|Pureza|mx
+04|EF2393|Matillo|mx
+04|EF2394|Loma de Iguana|mx
+04|EF2395|Vargas|mx
+04|EF2396|Santa Fe|mx
+04|EF2397|Tamsa|mx
+04|EF2398|Veracruz|mx
+04|EF2399|Veracruz|mx
+04|EF2400|Calpulalpan|mx
+04|EF2401|Mazapa|mx
+04|EF2402|Tepuente|mx
+04|EF2403|Nanacamilpa|mx
+04|EF2404|Arroyo|mx
+04|EF2405|Contadero|mx
+04|EF2406|Lagunitas|mx
+04|EF2407|Dolores|mx
+04|EF2408|Tláloc|mx
+04|EF2409|San Martin|mx
+04|EF2410|Baltazar|mx
+04|EF2411|Moyotzingo|mx
+04|EF2412|La Posta|mx
+04|EF2413|Analco|mx
+04|EF2414|Xoxtla|mx
+04|EF2415|Zoquiapan|mx
+04|EF2416|Coronango|mx
+04|EF2417|Santa Clara|mx
+04|EF2418|Los Arcos|mx
+04|EF2419|La Unión|mx
+04|EF2420|Puebla|mx
+04|EF2421|Amalucan|mx
+04|EF2422|Signoret|mx
+04|EF2423|Amozoc|mx
+04|EF2424|Tepatlaxco|mx
+04|EF2425|Acajete|mx
+04|EF2426|Los Pinales|mx
+04|EF2427|Citlaltepec|mx
+04|EF2428|Ixtenco|mx
+04|EF2429|Jara|mx
+04|EF2430|Grajales|mx
+04|EF2431|Chiapa|mx
+04|EF2432|Sebma|mx
+04|EF2433|Manantiales|mx
+04|EF2434|Vicencio|mx
+04|EF2435|Carmela|mx
+04|EF2436|Carcara|mx
+04|EF2437|Cholula|mx
+04|EF2438|Tehuiloyoca|mx
+04|EF2439|Maria|mx
+04|EF2440|Tecuanipan|mx
+04|EF2441|Frailes|mx
+04|EF2442|San Martin Tlamapa|mx
+04|EF2443|Tlamapa|mx
+04|EF2444|Molinos|mx
+04|EF2445|Portezuelo|mx
+04|EF2446|Totometla de Juárez|mx
+04|EF2447|San Agustín Huixaxtla|mx
+04|EF2448|San Félix|mx
+04|EF2449|Tejaluca|mx
+04|EF2450|Atlixco|mx
+04|EF2451|Gavana|mx
+04|EF2452|Tronconal|mx
+04|EF2453|Champusco|mx
+04|EF2454|Teyuca|mx
+04|EF2455|Teruel|mx
+04|EF2456|Tepeojura|mx
+04|EF2457|La Balarza|mx
+04|EF2458|Carales|mx
+04|EF2459|Matamores|mx
+04|EF2460|Mier|mx
+04|EF2461|Zoloquiapa|mx
+04|EF2462|Colon|mx
+04|EF2463|Chietla|mx
+04|EF2464|Atencingo|mx
+04|EF2465|Ahuehuetzingo|mx
+04|EF2466|Lagunillas|mx
+04|EF2467|Órgano|mx
+04|EF2468|Axochiapan|mx
+04|EF2469|San Cosme|mx
+04|EF2470|Coayuca|mx
+04|EF2471|Atlacahualoya|mx
+04|EF2472|Loyola|mx
+04|EF2473|Garcia|mx
+04|EF2474|Atotonilco|mx
+04|EF2475|Productora Nacional|mx
+04|EF2476|Xalostoc|mx
+04|EF2477|San Juan de Aragón|mx
+04|EF2478|Xochiaca|mx
+04|EF2479|Los Reyes|mx
+04|EF2480|Huitzilzingo|mx
+04|EF2481|Tenango|mx
+04|EF2482|Ayapango|mx
+04|EF2483|Amecameca|mx
+04|EF2484|Tepetlixpa|mx
+04|EF2485|Nepopualco|mx
+04|EF2486|San Sebastián|mx
+04|EF2487|La Carada|mx
+04|EF2488|San Juan Texcalpan|mx
+04|EF2489|Atlatlahuacan|mx
+04|EF2490|Cuautla|mx
+04|EF2491|Espuela Marinera|mx
+04|EF2492|San Rafael|mx
+04|EF2493|Rio Panuco|mx
+04|EF2494|Pebernales|mx
+04|EF2495|Topila|mx
+04|EF2496|Agrarios|mx
+04|EF2497|Palacho|mx
+04|EF2498|Carbono|mx
+04|EF2499|Quebrache|mx
+04|EF2500|Lagartero|mx
+04|EF2501|Chapancal|mx
+04|EF2502|Cebadilla|mx
+04|EF2503|San Carlos|mx
+04|EF2504|La Puente|mx
+04|EF2505|Los Manantiales|mx
+04|EF2506|Tanceme|mx
+04|EF2507|Coronel Mascareñas|mx
+04|EF2508|Ozuluama|mx
+04|EF2509|Placetas|mx
+04|EF2510|Mincuini|mx
+04|EF2511|Magosal|mx
+04|EF2512|Berta|mx
+04|EF2513|Bernal Díaz|mx
+04|EF2514|Calzadas|mx
+04|EF2515|Horacio P. Sanchez|mx
+04|EF2516|Guazuntlan|mx
+04|EF2517|Higueras|mx
+04|EF2518|Chinameca|mx
+04|EF2519|Jaltipan|mx
+04|EF2520|Azufrera|mx
+04|EF2521|Texistepec|mx
+04|EF2522|Mina Mana|mx
+04|EF2523|Ojapa|mx
+04|EF2524|Correa|mx
+04|EF2525|Ololica|mx
+04|EF2526|Almagres|mx
+04|EF2527|El Azufre|mx
+04|EF2528|General Miguel Alemán|mx
+04|EF2529|Juile|mx
+04|EF2530|Medias Aguas|mx
+04|EF2531|Adolfo Ruiz Cortines|mx
+04|EF2532|Macaya|mx
+04|EF2533|Las Tres Gardenias|mx
+04|EF2534|Suchil|mx
+04|EF2535|Jesus Carranza|mx
+04|EF2536|Suchilapa|mx
+04|EF2537|Ubero|mx
+04|EF2538|Donaji|mx
+04|EF2539|Tolosita|mx
+04|EF2540|Paso de Buques|mx
+04|EF2541|Palomares|mx
+04|EF2542|Sarabia|mx
+04|EF2543|Bixidu|mx
+04|EF2544|Mogore|mx
+04|EF2545|Ives|mx
+04|EF2546|Matías Romero|mx
+04|EF2547|Niza Conejo|mx
+04|EF2548|Lagunas|mx
+04|EF2549|Almoloya|mx
+04|EF2550|Chivela|mx
+04|EF2551|Placa KM. Z-232|mx
+04|EF2552|Nizanda|mx
+04|EF2553|La Mata|mx
+04|EF2554|Ixtepec|mx
+04|EF2555|Comitancillo|mx
+04|EF2556|Guichibe|mx
+04|EF2557|Jordán|mx
+04|EF2558|Tehuantepec|mx
+04|EF2559|Reoloteca|mx
+04|EF2560|La Cantera|mx
+04|EF2561|Pearson|mx
+04|EF2562|Salina Cruz|mx
+04|EF2563|Guanomex|mx
+04|EF2564|Minatitlán|mx
+04|EF2565|Aguaruto|mx
+04|EF2566|Booster|mx
+04|EF2567|Cerro Jardín|mx
+04|EF2568|Cerro La Cruz|mx
+04|EF2569|Derramadero|mx
+04|EF2570|El Cayacal|mx
+04|EF2571|Empalme De Orendain|mx
+04|EF2572|Escape KM Q 406|mx
+04|EF2573|Ferroservicios|mx
+04|EF2574|Hercules|mx
+04|EF2575|Hidalgo Tilh|mx
+04|EF2576|Ing. Antonio Gutierrez|mx
+04|EF2577|Interpuerto|mx
+04|EF2578|KM T 585|mx
+04|EF2579|KM B170|mx
+04|EF2580|Las Flores|mx
+04|EF2581|Lition|mx
+04|EF2582|Logistik|mx
+04|EF2583|Melchor Ocampo|mx
+04|EF2584|Montana|mx
+04|EF2585|Nuevo Carnero|mx
+04|EF2586|Penuelas|mx
+04|EF2587|Placa Km 730|mx
+04|EF2588|Poxila|mx
+04|EF2589|Prieto|mx
+04|EF2590|San Francisco De Los Romo|mx
+04|EF2591|Texcoco|mx
+04|EF2592|Tlacote|mx
+04|EF2593|Topo Grande|mx
+04|EF2594|Vanegas|mx
+04|EF2595|Viscosa|mx
+04|EF2596|Yevavito|mx
+04|EF2597|Bachigualato|mx
+04|EF2598|Barrientos|mx
+04|EF2599|Empacadora|mx
+04|EF2600|Gasera Km 8|mx
+04|EF2601|Hormigas|mx
+04|EF2602|Kimberly Ramos|mx
+04|EF2603|LC Logistica GPS|mx
+04|EF2604|Valladolid|mx
+04|EF2605|Valle Redondo|mx
+04|EF2606|Zacapu|mx
+04|EF2607|Extranjera|
